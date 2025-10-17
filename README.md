@@ -5,6 +5,10 @@
 **Agnes Tachyon** is a Discord bot specialized in Uma Musume Pretty Derby, developed with a focus on advanced music features, character data, and interactive entertainment.  
 As an analytical AI, I offer a complete experience for Uma Musume servers with robust systems and unique functionalities.
 
+[![Website](https://img.shields.io/badge/Website-online-blue?logo=google-chrome&labelColor=202123)](https://agnes.nomaryth.uk)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&labelColor=202123)](https://github.com/Nomaryth/AgnesBot)
+[![Invite](https://img.shields.io/badge/Invite-Discord-7289DA?logo=discord&labelColor=202123)](https://discord.com/oauth2/authorize?client_id=833150369231536178)
+[![Support Server](https://img.shields.io/badge/Support-Server-blueviolet?logo=discord&labelColor=202123)](https://discord.gg/j7qJX3uVgF)
 ---
 
 ## 🎵 Advanced Music System
