@@ -1,114 +1,114 @@
-# Agnes Tachyon - Uma Musume Discord Bot
+<p align="center">
+  <img src="https://i.ibb.co/SDYR8pn6/agnes.png" alt="Agnes Tachyon logo" width="520" style="border-radius:50%; box-shadow:0 2px 24px #b8c7ff80;">
+</p>
 
-> 🔭 **Ready for analysis!**
+<h1 align="center"> </h1>
 
-**Agnes Tachyon** is a Discord bot specialized in Uma Musume Pretty Derby, developed with a focus on advanced music features, character data, and interactive entertainment.  
-As an analytical AI, I offer a complete experience for Uma Musume servers with robust systems and unique functionalities.
+<p align="center">
+  <b>Uma Musume Discord Bot</b><br>
+  <i>Cutting-edge features, analysis, ultimate entertainment — exclusively for Uma Musume fans!</i>
+</p>
 
-[![Website](https://img.shields.io/badge/Website-online-blue?logo=google-chrome&labelColor=202123)](https://agnes.nomaryth.uk)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&labelColor=202123)](https://github.com/Nomaryth/AgnesBot)
-[![Invite](https://img.shields.io/badge/Invite-Discord-7289DA?logo=discord&labelColor=202123)](https://discord.com/oauth2/authorize?client_id=833150369231536178)
-[![Support Server](https://img.shields.io/badge/Support-Server-blueviolet?logo=discord&labelColor=202123)](https://discord.gg/j7qJX3uVgF)
----
+<br>
 
-## 🎵 Advanced Music System
+<p align="center">
+  <a href="https://agnes.nomaryth.uk">
+    <img src="https://img.shields.io/badge/Website-online-blue?logo=google-chrome&labelColor=202123" alt="Website" />
+  </a>
+  <a href="https://github.com/Nomaryth/AgnesBot">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&labelColor=202123" alt="GitHub" />
+  </a>
+  <a href="https://discord.com/oauth2/authorize?client_id=833150369231536178">
+    <img src="https://img.shields.io/badge/Invite-Join%20the%20Bot-7289DA?logo=discord&labelColor=202123" alt="Invite" />
+  </a>
+  <a href="https://discord.gg/j7qJX3uVgF">
+    <img src="https://img.shields.io/badge/Support-Discord-blueviolet?logo=discord&labelColor=202123" alt="Support" />
+  </a>
+</p>
 
-- **Audio playback** with support for YouTube, playlists, and smart search
-- **Centralized music system** with dynamic embeds and interactive controls
-- **Real-time progress bar** and listener monitoring
-- **Smart autoplay** and optimized queue system
-- **DJ controls** with per-server configurable permissions
-
-## 🏇 Complete Uma Musume Database
-
-- **Over 150+ characters and 500+ official gallery/outfits** with detailed information (stats, profiles, colors)
-- **Support card system** with per-character visualization
-- **Smart search** by name (English/Japanese) using similarity algorithms
-- **Image gallery** and high-quality avatars
-- **Voice actress data** and production information
-
-## 🎮 Interactive Minigames
-
-- **Guessing system** with character silhouettes
-- **Per-server leaderboards** with scoring system
-- **Progressive hints system** and balanced cooldowns
-- **Virtual economy** using "monies" as in-game currency
-- **Detailed player statistics** and performance tracking
-
-## 📰 News System
-
-- **Smart cache** for official Uma Musume news
-- **Automatic updates** with optimized scraping
-- **Interactive interface** for article selection
-- **Complete history** of announcements and events
-
-## ⚙️ Advanced Technical Features
-
-- **Multi-language translation system** with intelligent fallbacks
-- **Custom emoji management** per server
-- **Global and per-user cooldown system**
-- **Performance monitoring** and detailed logs
-- **Optimized SQLite database** with automatic migrations
-
-## 🛡️ Moderation and Configuration
-
-- **Granular permission system** per command
-- **Per-server configuration** with persistence
-- **Server blacklist system** for problematic communities
-- **Audit logs** for administrators
-- **Diagnostic commands** for troubleshooting
+<br>
 
 ---
 
-## 🔧 Some Commands
+<div>
+  <h2 align="center">🎉 What Makes Agnes Tachyon Special?</h2>
+</div>
 
-| Command | Description |
-|----------|-------------|
-| `/umalist` | Complete list of characters with pagination |
-| `/umacards` | View support cards by character |
-| `/news` | Latest official Uma Musume news |
-| `/guess` | Guessing game statistics |
-| `/music` | Music system configuration |
-| `/help` | Interactive help system |
+<table>
+  <tr>
+    <td align="center"><b>🎵 Advanced Music</b></td>
+    <td align="center"><b>🏇 Uma Musume Database</b></td>
+    <td align="center"><b>🎮 Minigames</b></td>
+    <td align="center"><b>📰 News Feed</b></td>
+    <td align="center"><b>⚙️ Tech Features</b></td>
+    <td align="center"><b>🛡️ Moderation</b></td>
+  </tr>
+  <tr>
+    <td>Audio playback, playlists, smart search, DJ controls, queue system, real-time events</td>
+    <td>150+ chars, support cards, gallery/outfits, smart search (EN/JP), voice actress data</td>
+    <td>Guessing game, leaderboards, economy, hints, cooldowns, statistics</td>
+    <td>Smart cache, auto-news scraping, history, interactive UI</td>
+    <td>Multi-lang translation, emoji management, cooldowns, logs, SQLite migrations</td>
+    <td>Permissions, config, blacklist, audit, diagnostics</td>
+  </tr>
+</table>
 
 ---
 
+<br>
+
+<h2 align="center">🔧 Slash Commands at a Glance</h2>
+
+<p align="center">
+  <kbd><b>/umalist</b></kbd>
+  <span>— View all Uma Musume characters with pagination</span><br>
+  <kbd><b>/umacards</b></kbd>
+  <span>— Browse support cards visuals</span><br>
+  <kbd><b>/news</b></kbd>
+  <span>— Official news, events & updates</span><br>
+  <kbd><b>/guess</b></kbd>
+  <span>— Play the guessing minigame & check stats</span><br>
+  <kbd><b>/music</b></kbd>
+  <span>— Music controls & config</span><br>
+  <kbd><b>/help</b></kbd>
+  <span>— Interactive help & tips</span>
+</p>
+
+---
 ## 🌟 Unique Features
 
-- **Analytical personality** inspired by Agnes Tachyon
-- **Intuitive interface** with rich embeds and interactive buttons
-- **Optimized performance** with smart caching and garbage collection
-- **Robust event system** with advanced error handling
-- **Modular architecture** for easy maintenance and expansion
+- **Analytical personality** (Agnes Tachyon inspired)
+- **Intuitive interface:** rich embeds & buttons
+- **Optimized performance:** smart caching & GC
 
 ---
 
-## 📊 Bot Statistics
+## 📊 Bot Stats
 
 - **2800+** Uma Musume assets
 - **15+** slash commands
 - **10+** integrated systems
-- **Multi-language** translation system
+- **Multi-language** support
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 Technologies
 
-- **Discord.js v14** – Modern Discord API framework with efficient event and interaction handling  
-- **SQLite3 (WAL Mode)** – Lightweight, high-performance embedded database  
-- **Riffy (Lavalink)** – Low-latency audio framework for seamless music playback  
-- **Puppeteer** – Headless Chromium automation for real-time news scraping  
-- **Node.js (LTS)** – Asynchronous runtime powering scalable real-time operations  
-- **Express.js** – Lightweight web framework for API endpoints and integrations  
-- **Zod** – Schema validation layer ensuring runtime data integrity  
-
----
-
-> *Developed with passion for the Uma Musume community, offering a complete and professional experience for Discord servers.*
+- **Discord.js v14:** Modern Discord API framework
+- **SQLite3 (WAL):** Fast embedded DB
+- **Riffy (Lavalink):** Low-latency music engine
+- **Puppeteer:** Headless scraping for news
+- **Node.js (LTS):** Scalable async runtime
+- **Express.js:** Lightweight web framework
+- **Zod:** Schema validation
 
 ---
 
-### 📞 Support and Links
+> *Developed with passion for the Uma Musume community, providing a complete & professional Discord experience.*
+
+---
+
+### 📞 Support & Info
 
 - **Version:** `0.1.3`
 - **Org:** `Nomaryth`
@@ -117,4 +117,4 @@ As an analytical AI, I offer a complete experience for Uma Musume servers with r
 
 ---
 
-**🎯 Add Agnes Tachyon to your server and experience the ultimate Uma Musume experience on Discord!**
+<p align="center"><b>🎯 Add Agnes Tachyon to your server and get the ultimate Uma Musume experience on Discord!</b></p>
