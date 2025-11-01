@@ -1,3 +1,4 @@
+<!-- TAGS: uma musume bot, uma musume discord bot, music bot, agnes tachyon, agnes bot, anime bot, musume bot -->
 <p align="center">
   <img src="https://i.ibb.co/SDYR8pn6/agnes.png" alt="Agnes Tachyon logo" width="520" style="border-radius:50%; box-shadow:0 2px 24px #b8c7ff80;">
 </p>
@@ -95,9 +96,9 @@
 ## 🚀 Technologies
 
 - **Discord.js v14:** Modern Discord API framework
-- **SQLite3 (WAL):** Fast embedded DB
+- **PostgreSQL:** Large Scale DB
 - **Riffy (Lavalink):** Low-latency music engine
-- **Puppeteer:** Headless scraping for news
+- **Puppeteer:** Headless scraping
 - **Node.js (LTS):** Scalable async runtime
 - **Express.js:** Lightweight web framework
 - **Zod:** Schema validation
