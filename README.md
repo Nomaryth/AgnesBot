@@ -42,15 +42,13 @@
     <td align="center"><b>🎮 Minigames</b></td>
     <td align="center"><b>📰 News Feed</b></td>
     <td align="center"><b>⚙️ Tech Features</b></td>
-    <td align="center"><b>🛡️ Moderation</b></td>
   </tr>
   <tr>
     <td>Audio playback, playlists, smart search, DJ controls, queue system, real-time events</td>
     <td>150+ chars, support cards, gallery/outfits, smart search (EN/JP), voice actress data</td>
-    <td>Guessing game, leaderboards, economy, hints, cooldowns, statistics</td>
-    <td>Smart cache, auto-news scraping, history, interactive UI</td>
-    <td>Multi-lang translation, emoji management, cooldowns, logs, SQLite migrations</td>
-    <td>Permissions, config, blacklist, audit, diagnostics</td>
+    <td>Guessing game, leaderboards, economy, hints, statistics</td>
+    <td>Smart cache, auto-news, history, interactive UI</td>
+    <td>Multi-lang translation, emoji management, Permissions, config, custom prefix</td>
   </tr>
 </table>
 
