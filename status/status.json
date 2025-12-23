@@ -1,55 +1,62 @@
 {
-  "timestamp": "2025-12-23T15:49:17-03:00",
-  "uptime": 19321,
+  "timestamp": "2025-12-23T15:50:09-03:00",
+  "uptime": 1,
   "discord": {
-    "status": "operational",
-    "ping": 123,
+    "status": "connecting",
+    "ping": -1,
     "guilds": 228,
-    "users": 5611,
+    "users": 35,
     "shards": 1,
     "currentShard": 0,
-    "ready": true,
-    "readyAt": "2025-12-23T10:27:19-03:00"
+    "ready": false,
+    "readyAt": null
   },
   "system": {
-    "uptime": 19323.264799345,
+    "uptime": 3.211792404,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
-    "pid": 2030562,
+    "pid": 2041746,
     "memory": {
-      "rss": 252968960,
-      "heapUsed": 99757160,
-      "heapTotal": 106512384,
-      "external": 4904657,
-      "arrayBuffers": 4976560
+      "rss": 251551744,
+      "heapUsed": 66252504,
+      "heapTotal": 202969088,
+      "external": 4589654,
+      "arrayBuffers": 4651356
     },
     "cpu": {
-      "user": 209599394,
-      "system": 31740440
+      "user": 2361923,
+      "system": 376171
     }
   },
   "music": {
+    "available": true,
     "players": {
       "active": 0,
-      "total": 0
+      "paused": 0,
+      "total": 0,
+      "details": []
     },
     "nodes": {
       "total": 1,
       "connected": 0,
+      "healthy": false,
       "nodes": [
         {
           "name": "Primary Lavalink",
-          "state": "unknown",
+          "state": "DISCONNECTED",
           "connected": false,
           "stats": null
         }
       ]
+    },
+    "queue": {
+      "totalTracks": 0
     }
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 3,
     "type": "postgresql",
     "critical": false
   },
@@ -63,17 +70,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 19321
+    "uptime": 1
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2025-12-23T18:49:17.837Z",
-    "saoPauloTime": "2025-12-23T15:49:17-03:00",
-    "readableTime": "23/12/2025, 15:49:17 BRT",
-    "current": "2025-12-23T15:49:17-03:00"
+    "utcTime": "2025-12-23T18:50:09.691Z",
+    "saoPauloTime": "2025-12-23T15:50:09-03:00",
+    "readableTime": "23/12/2025, 15:50:09 BRT",
+    "current": "2025-12-23T15:50:09-03:00"
   },
-  "lastUpdated": "2025-12-23T15:49:17-03:00",
-  "overallStatus": "operational"
+  "lastUpdated": "2025-12-23T15:50:09-03:00",
+  "overallStatus": "offline"
 }
