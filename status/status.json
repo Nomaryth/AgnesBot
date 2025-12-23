@@ -1,15 +1,68 @@
 {
-  "timestamp": "2025-12-23T11:51:42.548Z",
-  "overallStatus": "operational",
+  "timestamp": "2025-12-23T12:04:27.201Z",
+  "uptime": 0,
   "discord": {
-    "status": "operational",
-    "ping": 52,
-    "guilds": 150,
-    "users": 9500
+    "status": "connecting",
+    "ping": null,
+    "guilds": 0,
+    "users": 0,
+    "shards": 1,
+    "currentShard": 0,
+    "ready": false,
+    "readyAt": null
   },
-  "uptime": 7200,
-  "_test": {
-    "scenario": "recent-heartbeat-simulation",
-    "note": "Simulando heartbeat recente para teste sem downtime"
-  }
+  "system": {
+    "uptime": 2.36815829,
+    "platform": "linux",
+    "arch": "x64",
+    "nodeVersion": "v24.11.0",
+    "pid": 2027215,
+    "memory": {
+      "rss": 210751488,
+      "heapUsed": 79284600,
+      "heapTotal": 195891200,
+      "external": 4814293,
+      "arrayBuffers": 4880424
+    },
+    "cpu": {
+      "user": 2114344,
+      "system": 347449
+    }
+  },
+  "music": {
+    "players": {
+      "active": 0,
+      "total": 0
+    },
+    "nodes": {
+      "total": 1,
+      "connected": 0,
+      "nodes": [
+        {
+          "name": "Primary Lavalink",
+          "state": "unknown",
+          "connected": false,
+          "stats": null
+        }
+      ]
+    }
+  },
+  "database": {
+    "status": "error",
+    "error": "DatabaseManager.connection.query is not a function"
+  },
+  "version": {
+    "agnes": "1.5.0",
+    "discordJs": "14.25.1",
+    "node": "v24.11.0"
+  },
+  "performance": {
+    "commands": 0,
+    "messages": 0,
+    "interactions": 0,
+    "errors": 0,
+    "uptime": 0
+  },
+  "lastUpdated": "2025-12-23T12:04:27.212Z",
+  "overallStatus": "degraded"
 }
