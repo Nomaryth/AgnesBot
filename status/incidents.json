@@ -1,6 +1,29 @@
 {
   "incidents": [
     {
+      "id": "inc_downtime_mjiiylz9_wq4h3j",
+      "status": "resolved",
+      "impact": "critical",
+      "title": "Bot was offline",
+      "startedAt": "2025-12-23T11:46:50.132Z",
+      "resolvedAt": "2025-12-23T11:51:53.332Z",
+      "duration": "5m 3s",
+      "lastUpdated": "2025-12-23T11:51:53.332Z",
+      "postMortem": true,
+      "updates": [
+        {
+          "timestamp": "2025-12-23T11:46:50.132Z",
+          "status": "investigating",
+          "message": "Bot went offline (detected retroactively)"
+        },
+        {
+          "timestamp": "2025-12-23T11:51:53.332Z",
+          "status": "resolved",
+          "message": "Bot came back online"
+        }
+      ]
+    },
+    {
       "id": "inc_mjiigz50_0e817c54",
       "status": "investigating",
       "impact": "minor",
@@ -16,5 +39,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-12-23T11:38:17.749Z"
+  "lastUpdated": "2025-12-23T11:51:53.332Z"
 }
