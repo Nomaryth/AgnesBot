@@ -1,108 +1,15 @@
 {
-  "timestamp": "2025-12-23T11:38:07.531Z",
-  "uptime": 0,
+  "timestamp": "2025-12-23T11:46:50.132Z",
+  "overallStatus": "operational",
   "discord": {
     "status": "operational",
     "ping": 45,
     "guilds": 150,
-    "users": 9505,
-    "shards": 1,
-    "currentShard": 0,
-    "ready": true,
-    "readyAt": "2025-12-22T11:38:07.530Z"
+    "users": 9500
   },
-  "system": {
-    "uptime": 0.0813169,
-    "platform": "win32",
-    "arch": "x64",
-    "nodeVersion": "v20.19.6",
-    "pid": 17412,
-    "memory": {
-      "rss": 39305216,
-      "heapUsed": 8174576,
-      "heapTotal": 11231232,
-      "external": 1950216,
-      "arrayBuffers": 16659
-    },
-    "cpu": {
-      "user": 31000,
-      "system": 62000
-    }
-  },
-  "music": {
-    "players": {
-      "active": 5,
-      "total": 12
-    },
-    "nodes": {
-      "total": 2,
-      "connected": 2,
-      "nodes": [
-        {
-          "name": "Primary Lavalink",
-          "state": "CONNECTED",
-          "connected": true,
-          "stats": {
-            "players": 12,
-            "playingPlayers": 5,
-            "uptime": 86400000,
-            "memory": {
-              "used": 268435456,
-              "free": 805306368,
-              "allocated": 1073741824
-            },
-            "cpu": {
-              "cores": 4,
-              "systemLoad": 0.15,
-              "lavalinkLoad": 0.08
-            }
-          }
-        },
-        {
-          "name": "Fallback Lavalink",
-          "state": "CONNECTED",
-          "connected": true,
-          "stats": {
-            "players": 0,
-            "playingPlayers": 0,
-            "uptime": 86400000,
-            "memory": {
-              "used": 134217728,
-              "free": 939524096,
-              "allocated": 1073741824
-            },
-            "cpu": {
-              "cores": 4,
-              "systemLoad": 0.05,
-              "lavalinkLoad": 0.02
-            }
-          }
-        }
-      ]
-    }
-  },
-  "database": {
-    "status": "error",
-    "error": "DatabaseManager.connection.query is not a function"
-  },
-  "version": {
-    "bot": "1.5.0",
-    "discordJs": "14.25.1",
-    "node": "v20.19.6"
-  },
-  "performance": {
-    "commands": 0,
-    "messages": 0,
-    "interactions": 0,
-    "errors": 0,
-    "uptime": 1
-  },
+  "uptime": 3600,
   "_test": {
-    "timestamp": "2025-12-23T11:38:08.562Z",
-    "scenario": "incident-resolved",
-    "version": "2.0.0",
-    "note": "Simulação de resolução de incidente"
-  },
-  "lastUpdated": "2025-12-23T11:38:16.185Z",
-  "overallStatus": "degraded"
+    "scenario": "old-heartbeat-simulation",
+    "note": "Simulando heartbeat antigo para teste de downtime"
+  }
 }
