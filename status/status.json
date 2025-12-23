@@ -1,32 +1,32 @@
 {
-  "timestamp": "2025-12-23T12:15:27.203Z",
-  "uptime": 660,
+  "timestamp": "2025-12-23T09:16:11-03:00",
+  "uptime": 0,
   "discord": {
     "status": "operational",
-    "ping": 120,
-    "guilds": 228,
-    "users": 47,
+    "ping": 45,
+    "guilds": 220,
+    "users": 43775,
     "shards": 1,
     "currentShard": 0,
     "ready": true,
-    "readyAt": "2025-12-23T12:04:28.742Z"
+    "readyAt": "2025-12-23T07:16:11-03:00"
   },
   "system": {
-    "uptime": 662.369257308,
-    "platform": "linux",
+    "uptime": 0.1084638,
+    "platform": "win32",
     "arch": "x64",
-    "nodeVersion": "v24.11.0",
-    "pid": 2027215,
+    "nodeVersion": "v20.19.6",
+    "pid": 16884,
     "memory": {
-      "rss": 234364928,
-      "heapUsed": 78249072,
-      "heapTotal": 85237760,
-      "external": 5855860,
-      "arrayBuffers": 5916494
+      "rss": 38060032,
+      "heapUsed": 4995304,
+      "heapTotal": 6529024,
+      "external": 1950216,
+      "arrayBuffers": 16659
     },
     "cpu": {
-      "user": 10201976,
-      "system": 1760166
+      "user": 62000,
+      "system": 62000
     }
   },
   "music": {
@@ -35,16 +35,9 @@
       "total": 0
     },
     "nodes": {
-      "total": 1,
+      "total": 0,
       "connected": 0,
-      "nodes": [
-        {
-          "name": "Primary Lavalink",
-          "state": "unknown",
-          "connected": false,
-          "stats": null
-        }
-      ]
+      "nodes": []
     }
   },
   "database": {
@@ -54,15 +47,29 @@
   "version": {
     "agnes": "1.5.0",
     "discordJs": "14.25.1",
-    "node": "v24.11.0"
+    "node": "v20.19.6"
   },
   "performance": {
     "commands": 0,
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 660
+    "uptime": 1
   },
-  "lastUpdated": "2025-12-23T12:15:27.205Z",
+  "timezone": {
+    "timezone": "America/Sao_Paulo",
+    "utcOffset": -3,
+    "enabled": true,
+    "utcTime": "2025-12-23T12:16:12.441Z",
+    "saoPauloTime": "2025-12-23T09:16:12-03:00",
+    "readableTime": "23/12/2025, 09:16:12 BRT",
+    "current": "2025-12-23T09:16:12-03:00"
+  },
+  "_test": {
+    "timestamp": "2025-12-23T09:16:11-03:00",
+    "scenario": "timezone-and-users-test",
+    "note": "Teste de timezone UTC-3 e contagem correta de usuários"
+  },
+  "lastUpdated": "2025-12-23T09:16:12-03:00",
   "overallStatus": "degraded"
 }
