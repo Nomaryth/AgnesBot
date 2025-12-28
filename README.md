@@ -91,26 +91,14 @@
 
 ---
 
-## 🚀 Technologies
-
-- **Discord.js v14:** Modern Discord API framework
-- **PostgreSQL:** Large Scale DB
-- **Riffy (Lavalink):** Low-latency music engine
-- **Puppeteer:** Headless scraping
-- **Node.js (LTS):** Scalable async runtime
-- **Express.js:** Lightweight web framework
-- **Zod:** Schema validation
-
----
-
 > *Developed with passion for the Uma Musume community, providing a complete & professional Discord experience.*
 
 ---
 
 ### 📞 Support & Info
 
-- **Version:** `0.1.3`
-- **Org:** `Nomaryth`
+- **Version:** `0.1.4`
+- **Org:** `Nomaryth, Inc`
 - **Developer:** linwaruyt
 - **Support Server:** [Discord Server](https://discord.gg/j7qJX3uVgF)
 
