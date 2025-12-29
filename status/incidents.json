@@ -1,6 +1,29 @@
 {
   "incidents": [
     {
+      "id": "inc_downtime_mjqyeiam_gy1fg6",
+      "status": "resolved",
+      "impact": "critical",
+      "title": "Agnes was offline",
+      "startedAt": "2025-12-28T19:48:10.000Z",
+      "resolvedAt": "2025-12-29T09:26:17.881Z",
+      "duration": "13h 38m",
+      "lastUpdated": "2025-12-29T06:26:18-03:00",
+      "postMortem": true,
+      "updates": [
+        {
+          "timestamp": "2025-12-28T19:48:10.000Z",
+          "status": "investigating",
+          "message": "Agnes went offline (detected retroactively)"
+        },
+        {
+          "timestamp": "2025-12-29T09:26:17.881Z",
+          "status": "resolved",
+          "message": "Agnes came back online"
+        }
+      ]
+    },
+    {
       "id": "inc_mjoyqont_431a817b",
       "status": "resolved",
       "impact": "major",
@@ -585,5 +608,5 @@
       "duration": "1h 42m"
     }
   ],
-  "lastUpdated": "2025-12-28T16:48:16-03:00"
+  "lastUpdated": "2025-12-29T06:26:18-03:00"
 }
