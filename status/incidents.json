@@ -1,6 +1,21 @@
 {
   "incidents": [
     {
+      "id": "inc_mjso3dq8_7481611d",
+      "status": "investigating",
+      "impact": "major",
+      "title": "Agnes is offline",
+      "startedAt": "2025-12-30T11:13:15-03:00",
+      "lastUpdated": "2025-12-30T11:13:15-03:00",
+      "updates": [
+        {
+          "timestamp": "2025-12-30T11:13:15-03:00",
+          "status": "investigating",
+          "message": "Incident detected: Agnes is offline"
+        }
+      ]
+    },
+    {
       "id": "inc_mjsmol11_8213e41d",
       "status": "resolved",
       "impact": "major",
@@ -856,30 +871,7 @@
       ],
       "resolvedAt": "2025-12-23T10:28:22-03:00",
       "duration": "0m"
-    },
-    {
-      "id": "inc_downtime_mjiiylz9_wq4h3j",
-      "status": "resolved",
-      "impact": "critical",
-      "title": "Bot was offline",
-      "startedAt": "2025-12-23T11:46:50.132Z",
-      "resolvedAt": "2025-12-23T11:51:53.332Z",
-      "duration": "5m 3s",
-      "lastUpdated": "2025-12-23T11:51:53.332Z",
-      "postMortem": true,
-      "updates": [
-        {
-          "timestamp": "2025-12-23T11:46:50.132Z",
-          "status": "investigating",
-          "message": "Bot went offline (detected retroactively)"
-        },
-        {
-          "timestamp": "2025-12-23T11:51:53.332Z",
-          "status": "resolved",
-          "message": "Bot came back online"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2025-12-30T11:12:45-03:00"
+  "lastUpdated": "2025-12-30T11:13:15-03:00"
 }
