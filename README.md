@@ -97,7 +97,7 @@
 
 ### 📞 Support & Info
 
-- **Version:** `0.1.4`
+- **Version:** `0.1.6`
 - **Org:** `Nomaryth, Inc`
 - **Developer:** linwaruyt
 - **Support Server:** [Discord Server](https://discord.gg/j7qJX3uVgF)
