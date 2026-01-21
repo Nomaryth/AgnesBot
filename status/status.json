@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-21T19:36:25-03:00",
-  "uptime": 783,
+  "timestamp": "2026-01-21T19:37:25-03:00",
+  "uptime": 843,
   "discord": {
     "status": "operational",
-    "ping": 125,
+    "ping": 121,
     "guilds": 324,
     "users": 7971,
     "membersTotal": 10986,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-21T19:23:26-03:00"
   },
   "system": {
-    "uptime": 787.597321667,
+    "uptime": 847.597651432,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3415742,
     "memory": {
-      "rss": 249643008,
-      "heapUsed": 97163832,
-      "heapTotal": 101728256,
-      "external": 6007859,
-      "arrayBuffers": 5951005
+      "rss": 249675776,
+      "heapUsed": 96358416,
+      "heapTotal": 101466112,
+      "external": 5628572,
+      "arrayBuffers": 5571718
     },
     "cpu": {
-      "user": 16865454,
-      "system": 2440242
+      "user": 17808848,
+      "system": 2579037
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Lord X - I Miss The Quiet (Official HQ Video) (Pro",
+            "duration": 243000,
+            "author": "churgney gurgney",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58155,
+          "lastStatsAgoMs": 58219,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 310,
-            "playingPlayers": 54,
-            "uptime": 7891001000,
-            "uptimeFormatted": "91d 7h 56m",
+            "players": 308,
+            "playingPlayers": 50,
+            "uptime": 7891061000,
+            "uptimeFormatted": "91d 7h 57m",
             "memory": {
-              "used": 36739664,
-              "free": 41080272,
+              "used": 33617616,
+              "free": 44202320,
               "allocated": 77819936,
-              "reservable": 41080272,
-              "usedPercent": "47.21"
+              "reservable": 44202320,
+              "usedPercent": "43.20"
             },
             "cpu": {
               "cores": 256,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 2999,
-              "nulled": 2,
-              "deficit": -1
+              "sent": 2998,
+              "nulled": 11,
+              "deficit": -10
             }
           }
         },
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58180,
+          "lastStatsAgoMs": 58182,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 7096,
             "playingPlayers": 272,
-            "uptime": 1951053497,
-            "uptimeFormatted": "22d 13h 57m",
+            "uptime": 1951113496,
+            "uptimeFormatted": "22d 13h 58m",
             "memory": {
-              "used": 703540816,
-              "free": 124834224,
+              "used": 703133488,
+              "free": 125241552,
               "allocated": 828375040,
               "reservable": 2147483648,
-              "usedPercent": "84.93"
+              "usedPercent": "84.88"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.45156041388518026,
-              "lavalinkLoad": 0.3218423330448099,
-              "systemLoadPercent": "45.16",
-              "lavalinkLoadPercent": "32.18"
+              "systemLoad": 0.43097022737741303,
+              "lavalinkLoad": 0.30367842876165113,
+              "systemLoadPercent": "43.10",
+              "lavalinkLoadPercent": "30.37"
             },
             "frameStats": null
           }
@@ -111,26 +128,26 @@
           "name": "Node 3",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58109,
+          "lastStatsAgoMs": 58110,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 428,
             "playingPlayers": 0,
-            "uptime": 378100327,
-            "uptimeFormatted": "4d 9h 1m",
+            "uptime": 378160327,
+            "uptimeFormatted": "4d 9h 2m",
             "memory": {
-              "used": 187594080,
-              "free": 273779360,
+              "used": 155832840,
+              "free": 305540600,
               "allocated": 461373440,
               "reservable": 1409286144,
-              "usedPercent": "40.66"
+              "usedPercent": "33.78"
             },
             "cpu": {
               "cores": 12,
-              "systemLoad": 0.16287524098044615,
-              "lavalinkLoad": 0.0015681439664309042,
-              "systemLoadPercent": "16.29",
-              "lavalinkLoadPercent": "0.16"
+              "systemLoad": 0.14034989188733818,
+              "lavalinkLoad": 0.0029248479630917296,
+              "systemLoadPercent": "14.03",
+              "lavalinkLoadPercent": "0.29"
             },
             "frameStats": null
           }
@@ -139,8 +156,8 @@
           "name": "Node 4",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 778494,
-          "lastStatsAgo": "12m 58s",
+          "lastStatsAgoMs": 838495,
+          "lastStatsAgo": "13m 58s",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -175,7 +192,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -189,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 783
+    "uptime": 843
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-21T22:36:25.268Z",
-    "saoPauloTime": "2026-01-21T19:36:25-03:00",
-    "readableTime": "21/01/2026, 19:36:25 BRT",
-    "current": "2026-01-21T19:36:25-03:00"
+    "utcTime": "2026-01-21T22:37:25.268Z",
+    "saoPauloTime": "2026-01-21T19:37:25-03:00",
+    "readableTime": "21/01/2026, 19:37:25 BRT",
+    "current": "2026-01-21T19:37:25-03:00"
   },
-  "lastUpdated": "2026-01-21T19:36:25-03:00",
+  "lastUpdated": "2026-01-21T19:37:25-03:00",
   "overallStatus": "operational"
 }
