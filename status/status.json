@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-22T13:36:17-03:00",
-  "uptime": 59763,
+  "timestamp": "2026-01-22T13:37:17-03:00",
+  "uptime": 59823,
   "discord": {
     "status": "operational",
-    "ping": 121,
+    "ping": 126,
     "guilds": 327,
     "users": 7869,
     "membersTotal": 11102,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-21T21:00:18-03:00"
   },
   "system": {
-    "uptime": 59770.858854239,
+    "uptime": 59830.859429627,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3418721,
     "memory": {
-      "rss": 347209728,
-      "heapUsed": 164285712,
-      "heapTotal": 176414720,
-      "external": 5562221,
-      "arrayBuffers": 5503476
+      "rss": 348266496,
+      "heapUsed": 167828824,
+      "heapTotal": 178782208,
+      "external": 6134025,
+      "arrayBuffers": 6077171
     },
     "cpu": {
-      "user": 869778260,
-      "system": 117730494
+      "user": 870458781,
+      "system": 117897514
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Laços de Redenção",
+            "duration": 323000,
+            "author": "Henrique Mendonça",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58518,
+          "lastStatsAgoMs": 58519,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 266,
-            "playingPlayers": 41,
-            "uptime": 7955793000,
-            "uptimeFormatted": "92d 1h 56m",
+            "players": 269,
+            "playingPlayers": 45,
+            "uptime": 7955853000,
+            "uptimeFormatted": "92d 1h 57m",
             "memory": {
-              "used": 39250280,
-              "free": 42763960,
+              "used": 35266752,
+              "free": 46747488,
               "allocated": 82014240,
-              "reservable": 42763960,
-              "usedPercent": "47.86"
+              "reservable": 46747488,
+              "usedPercent": "43.00"
             },
             "cpu": {
               "cores": 256,
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57881,
+          "lastStatsAgoMs": 57812,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 7704,
-            "playingPlayers": 292,
-            "uptime": 2015845717,
-            "uptimeFormatted": "23d 7h 57m",
+            "players": 7712,
+            "playingPlayers": 300,
+            "uptime": 2015905783,
+            "uptimeFormatted": "23d 7h 58m",
             "memory": {
-              "used": 603538864,
-              "free": 224836176,
+              "used": 291616592,
+              "free": 536758448,
               "allocated": 828375040,
               "reservable": 2147483648,
-              "usedPercent": "72.86"
+              "usedPercent": "35.20"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.5047389354320048,
-              "lavalinkLoad": 0.3961891918889222,
-              "systemLoadPercent": "50.47",
-              "lavalinkLoadPercent": "39.62"
+              "systemLoad": 0.46401995602908847,
+              "lavalinkLoad": 0.3542034587317983,
+              "systemLoadPercent": "46.40",
+              "lavalinkLoadPercent": "35.42"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 53698440,
-          "lastStatsAgo": "14h 54m",
+          "lastStatsAgoMs": 53758441,
+          "lastStatsAgo": "14h 55m",
           "stats": {
             "players": 440,
             "playingPlayers": 5,
@@ -139,8 +156,8 @@
           "name": "Node 4",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 59758827,
-          "lastStatsAgo": "16h 35m",
+          "lastStatsAgoMs": 59818828,
+          "lastStatsAgo": "16h 36m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -175,7 +192,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -189,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 59763
+    "uptime": 59823
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-22T16:36:17.183Z",
-    "saoPauloTime": "2026-01-22T13:36:17-03:00",
-    "readableTime": "22/01/2026, 13:36:17 BRT",
-    "current": "2026-01-22T13:36:17-03:00"
+    "utcTime": "2026-01-22T16:37:17.184Z",
+    "saoPauloTime": "2026-01-22T13:37:17-03:00",
+    "readableTime": "22/01/2026, 13:37:17 BRT",
+    "current": "2026-01-22T13:37:17-03:00"
   },
-  "lastUpdated": "2026-01-22T13:36:17-03:00",
+  "lastUpdated": "2026-01-22T13:37:17-03:00",
   "overallStatus": "operational"
 }
