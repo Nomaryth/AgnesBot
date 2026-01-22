@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-21T22:37:17-03:00",
-  "uptime": 5823,
+  "timestamp": "2026-01-21T22:38:17-03:00",
+  "uptime": 5883,
   "discord": {
     "status": "operational",
-    "ping": 122,
+    "ping": 120,
     "guilds": 324,
     "users": 7928,
     "membersTotal": 10994,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-21T21:00:18-03:00"
   },
   "system": {
-    "uptime": 5830.734230685,
+    "uptime": 5890.734245179,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3418721,
     "memory": {
       "rss": 263241728,
-      "heapUsed": 105870056,
-      "heapTotal": 113287168,
-      "external": 6045248,
-      "arrayBuffers": 5988394
+      "heapUsed": 108144752,
+      "heapTotal": 112500736,
+      "external": 6596756,
+      "arrayBuffers": 6538943
     },
     "cpu": {
-      "user": 88184345,
-      "system": 11562140
+      "user": 88931913,
+      "system": 11659316
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "track",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Spagonia Night  Sonic Unleashed Music Extended [Mu",
+            "duration": 1799000,
+            "author": "Official VGM",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58336,
+          "lastStatsAgoMs": 58393,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 310,
             "playingPlayers": 46,
-            "uptime": 7901853000,
-            "uptimeFormatted": "91d 10h 57m",
+            "uptime": 7901913000,
+            "uptimeFormatted": "91d 10h 58m",
             "memory": {
-              "used": 45311616,
-              "free": 32508320,
+              "used": 26361600,
+              "free": 51458336,
               "allocated": 77819936,
-              "reservable": 32508320,
-              "usedPercent": "58.23"
+              "reservable": 51458336,
+              "usedPercent": "33.88"
             },
             "cpu": {
               "cores": 256,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 3000,
-              "nulled": 0,
-              "deficit": 0
+              "sent": 2993,
+              "nulled": 70,
+              "deficit": -64
             }
           }
         },
@@ -86,23 +103,23 @@
           "lastStatsAgoMs": 57756,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 6992,
-            "playingPlayers": 228,
-            "uptime": 1961905715,
-            "uptimeFormatted": "22d 16h 58m",
+            "players": 7024,
+            "playingPlayers": 244,
+            "uptime": 1961965715,
+            "uptimeFormatted": "22d 16h 59m",
             "memory": {
-              "used": 290537392,
-              "free": 537837648,
+              "used": 671170776,
+              "free": 157204264,
               "allocated": 828375040,
               "reservable": 2147483648,
-              "usedPercent": "35.07"
+              "usedPercent": "81.02"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.41060304275967285,
-              "lavalinkLoad": 0.28719083918644517,
-              "systemLoadPercent": "41.06",
-              "lavalinkLoadPercent": "28.72"
+              "systemLoad": 0.3994658527279664,
+              "lavalinkLoad": 0.2784535910681553,
+              "systemLoadPercent": "39.95",
+              "lavalinkLoadPercent": "27.85"
             },
             "frameStats": null
           }
@@ -111,26 +128,26 @@
           "name": "Node 3",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58316,
+          "lastStatsAgoMs": 58315,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 442,
             "playingPlayers": 7,
-            "uptime": 388951914,
-            "uptimeFormatted": "4d 12h 2m",
+            "uptime": 389011914,
+            "uptimeFormatted": "4d 12h 3m",
             "memory": {
-              "used": 176064528,
-              "free": 308377584,
+              "used": 247542760,
+              "free": 236899352,
               "allocated": 484442112,
               "reservable": 1409286144,
-              "usedPercent": "36.34"
+              "usedPercent": "51.10"
             },
             "cpu": {
               "cores": 12,
-              "systemLoad": 0.03210774272839,
-              "lavalinkLoad": 0.006811650408201825,
-              "systemLoadPercent": "3.21",
-              "lavalinkLoadPercent": "0.68"
+              "systemLoad": 0.027436378398051457,
+              "lavalinkLoad": 0.007013080210066217,
+              "systemLoadPercent": "2.74",
+              "lavalinkLoadPercent": "0.70"
             },
             "frameStats": null
           }
@@ -139,8 +156,8 @@
           "name": "Node 4",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 5818703,
-          "lastStatsAgo": "1h 36m",
+          "lastStatsAgoMs": 5878703,
+          "lastStatsAgo": "1h 37m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -189,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 5823
+    "uptime": 5883
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-22T01:37:17.059Z",
-    "saoPauloTime": "2026-01-21T22:37:17-03:00",
-    "readableTime": "21/01/2026, 22:37:17 BRT",
-    "current": "2026-01-21T22:37:17-03:00"
+    "utcTime": "2026-01-22T01:38:17.059Z",
+    "saoPauloTime": "2026-01-21T22:38:17-03:00",
+    "readableTime": "21/01/2026, 22:38:17 BRT",
+    "current": "2026-01-21T22:38:17-03:00"
   },
-  "lastUpdated": "2026-01-21T22:37:17-03:00",
+  "lastUpdated": "2026-01-21T22:38:17-03:00",
   "overallStatus": "operational"
 }
