@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-22T20:37:17-03:00",
-  "uptime": 85024,
+  "timestamp": "2026-01-22T20:38:17-03:00",
+  "uptime": 85084,
   "discord": {
     "status": "operational",
-    "ping": 124,
+    "ping": 125,
     "guilds": 327,
     "users": 7845,
     "membersTotal": 11116,
@@ -17,29 +17,29 @@
     "readyAt": "2026-01-21T21:00:18-03:00"
   },
   "system": {
-    "uptime": 85030.914227568,
+    "uptime": 85090.91397113,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3418721,
     "memory": {
       "rss": 372183040,
-      "heapUsed": 187197000,
+      "heapUsed": 189933112,
       "heapTotal": 199221248,
-      "external": 6230138,
-      "arrayBuffers": 6173284
+      "external": 6853255,
+      "arrayBuffers": 6796366
     },
     "cpu": {
-      "user": 1266495036,
-      "system": 169846269
+      "user": 1267182029,
+      "system": 170009128
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 2,
+      "active": 3,
       "paused": 0,
-      "total": 2,
+      "total": 3,
       "details": [
         {
           "playing": true,
@@ -72,6 +72,22 @@
             "author": "HyperTunes",
             "isStream": false
           }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 1,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Ocean Man (From \"The SpongeBob SquarePants Movie\")",
+            "duration": 126000,
+            "author": "Geek Music",
+            "isStream": false
+          }
         }
       ]
     },
@@ -84,19 +100,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58529,
+          "lastStatsAgoMs": 58530,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 285,
-            "playingPlayers": 31,
-            "uptime": 7981053000,
-            "uptimeFormatted": "92d 8h 57m",
+            "players": 287,
+            "playingPlayers": 30,
+            "uptime": 7981113000,
+            "uptimeFormatted": "92d 8h 58m",
             "memory": {
-              "used": 41069144,
-              "free": 40945096,
+              "used": 36067968,
+              "free": 45946272,
               "allocated": 82014240,
-              "reservable": 40945096,
-              "usedPercent": "50.08"
+              "reservable": 45946272,
+              "usedPercent": "43.98"
             },
             "cpu": {
               "cores": 256,
@@ -106,9 +122,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 2999,
-              "nulled": 0,
-              "deficit": 0
+              "sent": 2980,
+              "nulled": 211,
+              "deficit": -191
             }
           }
         },
@@ -116,26 +132,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57930,
+          "lastStatsAgoMs": 57933,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 7520,
-            "playingPlayers": 280,
-            "uptime": 2041105720,
-            "uptimeFormatted": "23d 14h 58m",
+            "players": 7504,
+            "playingPlayers": 276,
+            "uptime": 2041165716,
+            "uptimeFormatted": "23d 14h 59m",
             "memory": {
-              "used": 750101600,
-              "free": 78273440,
+              "used": 338632000,
+              "free": 489743040,
               "allocated": 828375040,
               "reservable": 2147483648,
-              "usedPercent": "90.55"
+              "usedPercent": "40.88"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.3756421501065029,
-              "lavalinkLoad": 0.262390307140008,
-              "systemLoadPercent": "37.56",
-              "lavalinkLoadPercent": "26.24"
+              "systemLoad": 0.4102907341560343,
+              "lavalinkLoad": 0.292500083202982,
+              "systemLoadPercent": "41.03",
+              "lavalinkLoadPercent": "29.25"
             },
             "frameStats": null
           }
@@ -144,8 +160,8 @@
           "name": "Node 3",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 78958496,
-          "lastStatsAgo": "21h 55m",
+          "lastStatsAgoMs": 79018495,
+          "lastStatsAgo": "21h 56m",
           "stats": {
             "players": 440,
             "playingPlayers": 5,
@@ -172,8 +188,8 @@
           "name": "Node 4",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 85018883,
-          "lastStatsAgo": "23h 36m",
+          "lastStatsAgoMs": 85078882,
+          "lastStatsAgo": "23h 37m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -203,12 +219,12 @@
       ]
     },
     "queue": {
-      "totalTracks": 2
+      "totalTracks": 3
     }
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -222,17 +238,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 85024
+    "uptime": 85084
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-22T23:37:17.239Z",
-    "saoPauloTime": "2026-01-22T20:37:17-03:00",
-    "readableTime": "22/01/2026, 20:37:17 BRT",
-    "current": "2026-01-22T20:37:17-03:00"
+    "utcTime": "2026-01-22T23:38:17.238Z",
+    "saoPauloTime": "2026-01-22T20:38:17-03:00",
+    "readableTime": "22/01/2026, 20:38:17 BRT",
+    "current": "2026-01-22T20:38:17-03:00"
   },
-  "lastUpdated": "2026-01-22T20:37:17-03:00",
+  "lastUpdated": "2026-01-22T20:38:17-03:00",
   "overallStatus": "operational"
 }
