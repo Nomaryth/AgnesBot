@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-24T03:58:13-03:00",
-  "uptime": 25084,
+  "timestamp": "2026-01-24T03:59:13-03:00",
+  "uptime": 25144,
   "discord": {
     "status": "operational",
-    "ping": 123,
+    "ping": 121,
     "guilds": 326,
     "users": 7917,
     "membersTotal": 11136,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-23T21:00:14-03:00"
   },
   "system": {
-    "uptime": 25089.222450158,
+    "uptime": 25149.222354904,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3507599,
     "memory": {
       "rss": 301555712,
-      "heapUsed": 138208904,
-      "heapTotal": 145379328,
-      "external": 6036943,
-      "arrayBuffers": 6057958
+      "heapUsed": 140479640,
+      "heapTotal": 145903616,
+      "external": 6620149,
+      "arrayBuffers": 6641164
     },
     "cpu": {
-      "user": 379165875,
-      "system": 52895324
+      "user": 379936702,
+      "system": 53026835
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Já Que Me Ensinou a Beber",
+            "duration": 159000,
+            "author": "Os Barões da Pisadinha",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58147,
+          "lastStatsAgoMs": 58144,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 341,
-            "playingPlayers": 58,
-            "uptime": 8093909000,
-            "uptimeFormatted": "93d 16h 18m",
+            "playingPlayers": 53,
+            "uptime": 8093969000,
+            "uptimeFormatted": "93d 16h 19m",
             "memory": {
-              "used": 29022760,
-              "free": 57447928,
+              "used": 55688888,
+              "free": 30781800,
               "allocated": 86470688,
-              "reservable": 57447928,
-              "usedPercent": "33.56"
+              "reservable": 30781800,
+              "usedPercent": "64.40"
             },
             "cpu": {
               "cores": 256,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 3000,
-              "nulled": 0,
-              "deficit": 0
+              "sent": 2998,
+              "nulled": 19,
+              "deficit": -17
             }
           }
         },
@@ -86,23 +103,23 @@
           "lastStatsAgoMs": 56881,
           "lastStatsAgo": "56s",
           "stats": {
-            "players": 7344,
+            "players": 7328,
             "playingPlayers": 220,
-            "uptime": 2153963032,
-            "uptimeFormatted": "24d 22h 19m",
+            "uptime": 2154023031,
+            "uptimeFormatted": "24d 22h 20m",
             "memory": {
-              "used": 424659544,
-              "free": 403715496,
+              "used": 359065232,
+              "free": 469309808,
               "allocated": 828375040,
               "reservable": 2147483648,
-              "usedPercent": "51.26"
+              "usedPercent": "43.35"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.35648362762864005,
-              "lavalinkLoad": 0.2462607015556814,
-              "systemLoadPercent": "35.65",
-              "lavalinkLoadPercent": "24.63"
+              "systemLoad": 0.37209204845537996,
+              "lavalinkLoad": 0.2545102020437373,
+              "systemLoadPercent": "37.21",
+              "lavalinkLoadPercent": "25.45"
             },
             "frameStats": null
           }
@@ -116,21 +133,21 @@
           "stats": {
             "players": 164,
             "playingPlayers": 6,
-            "uptime": 45005097,
-            "uptimeFormatted": "12h 30m",
+            "uptime": 45065097,
+            "uptimeFormatted": "12h 31m",
             "memory": {
-              "used": 376250032,
-              "free": 171106640,
+              "used": 204507120,
+              "free": 342849552,
               "allocated": 547356672,
               "reservable": 1409286144,
-              "usedPercent": "68.74"
+              "usedPercent": "37.36"
             },
             "cpu": {
               "cores": 12,
-              "systemLoad": 0.12287455069212533,
-              "lavalinkLoad": 0.009072872112383971,
-              "systemLoadPercent": "12.29",
-              "lavalinkLoadPercent": "0.91"
+              "systemLoad": 0.12377033007300504,
+              "lavalinkLoad": 0.008282808203293244,
+              "systemLoadPercent": "12.38",
+              "lavalinkLoadPercent": "0.83"
             },
             "frameStats": null
           }
@@ -139,8 +156,8 @@
           "name": "Node 4",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 25078560,
-          "lastStatsAgo": "6h 57m",
+          "lastStatsAgoMs": 25138560,
+          "lastStatsAgo": "6h 58m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -175,7 +192,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -189,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 25084
+    "uptime": 25144
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-24T06:58:13.498Z",
-    "saoPauloTime": "2026-01-24T03:58:13-03:00",
-    "readableTime": "24/01/2026, 03:58:13 BRT",
-    "current": "2026-01-24T03:58:13-03:00"
+    "utcTime": "2026-01-24T06:59:13.499Z",
+    "saoPauloTime": "2026-01-24T03:59:13-03:00",
+    "readableTime": "24/01/2026, 03:59:13 BRT",
+    "current": "2026-01-24T03:59:13-03:00"
   },
-  "lastUpdated": "2026-01-24T03:58:13-03:00",
+  "lastUpdated": "2026-01-24T03:59:13-03:00",
   "overallStatus": "operational"
 }
