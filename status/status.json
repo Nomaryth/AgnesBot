@@ -1,60 +1,198 @@
 {
-  "timestamp": "2026-01-25T11:18:54-03:00",
-  "uptime": 4,
+  "timestamp": "2026-01-25T11:19:54-03:00",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 123,
+    "guilds": 330,
+    "users": 8235,
+    "membersTotal": 11331,
+    "uniqueUsersEstimated": 8235,
+    "botsTotal": 350,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-01-25T11:18:56-03:00"
   },
   "system": {
-    "uptime": 8.185206591,
+    "uptime": 68.186533839,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3578840,
     "memory": {
-      "rss": 240025600,
-      "heapUsed": 67845496,
-      "heapTotal": 204742656,
-      "external": 4668089,
-      "arrayBuffers": 4594199
+      "rss": 267689984,
+      "heapUsed": 101977096,
+      "heapTotal": 136503296,
+      "external": 5111130,
+      "arrayBuffers": 5052982
     },
     "cpu": {
-      "user": 2683738,
-      "system": 392139
+      "user": 6032729,
+      "system": 877488
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 19,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "NEFFEX - Control (Official Lyric Video) [Copyright",
+            "duration": 252000,
+            "author": "NEFFEX",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 4,
+      "connected": 3,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58030,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 402,
+            "playingPlayers": 45,
+            "uptime": 8206811000,
+            "uptimeFormatted": "94d 23h 40m",
+            "memory": {
+              "used": 14704944,
+              "free": 76222192,
+              "allocated": 90927136,
+              "reservable": 76222192,
+              "usedPercent": "16.17"
+            },
+            "cpu": {
+              "cores": 256,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 2999,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58120,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 7824,
+            "playingPlayers": 264,
+            "uptime": 2266863224,
+            "uptimeFormatted": "26d 5h 41m",
+            "memory": {
+              "used": 341363552,
+              "free": 462894240,
+              "allocated": 804257792,
+              "reservable": 2147483648,
+              "usedPercent": "42.44"
+            },
+            "cpu": {
+              "cores": 8,
+              "systemLoad": 0.44959762812367643,
+              "lavalinkLoad": 0.31981772219265564,
+              "systemLoadPercent": "44.96",
+              "lavalinkLoadPercent": "31.98"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 3",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58045,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 236,
+            "playingPlayers": 19,
+            "uptime": 157906651,
+            "uptimeFormatted": "1d 19h 51m",
+            "memory": {
+              "used": 287856808,
+              "free": 148350808,
+              "allocated": 436207616,
+              "reservable": 1409286144,
+              "usedPercent": "65.99"
+            },
+            "cpu": {
+              "cores": 12,
+              "systemLoad": 0.2597322057787174,
+              "lavalinkLoad": 0.02712783994574432,
+              "systemLoadPercent": "25.97",
+              "lavalinkLoadPercent": "2.71"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 4",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58431,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        }
+      ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 19
     }
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": true,
-    "utcTime": "2026-01-25T14:18:54.930Z",
-    "saoPauloTime": "2026-01-25T11:18:54-03:00",
-    "readableTime": "25/01/2026, 11:18:54 BRT",
-    "current": "2026-01-25T11:18:54-03:00"
+    "utcTime": "2026-01-25T14:19:54.928Z",
+    "saoPauloTime": "2026-01-25T11:19:54-03:00",
+    "readableTime": "25/01/2026, 11:19:54 BRT",
+    "current": "2026-01-25T11:19:54-03:00"
   },
-  "lastUpdated": "2026-01-25T11:18:54-03:00",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-01-25T11:19:54-03:00",
+  "overallStatus": "operational"
 }
