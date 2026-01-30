@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-30T21:49:57.022Z",
-  "uptime": 5344,
+  "timestamp": "2026-01-30T21:50:57.022Z",
+  "uptime": 5404,
   "discord": {
     "status": "operational",
-    "ping": 127,
+    "ping": 119,
     "guilds": 340,
     "users": 8351,
     "membersTotal": 11620,
@@ -17,40 +17,45 @@
     "readyAt": "2026-01-30T17:20:58-03:00"
   },
   "system": {
-    "uptime": 5345.764206918,
+    "uptime": 5405.764285164,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3812363,
     "memory": {
       "rss": 277278720,
-      "heapUsed": 106831744,
-      "heapTotal": 112144384,
-      "external": 6360623,
-      "arrayBuffers": 6356411
+      "heapUsed": 104070712,
+      "heapTotal": 113455104,
+      "external": 5110033,
+      "arrayBuffers": 5053179
     },
     "cpu": {
-      "user": 73610947,
-      "system": 11278075
+      "user": 74573725,
+      "system": 11382235
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
       "total": 1,
       "details": [
         {
-          "playing": false,
+          "playing": true,
           "paused": false,
-          "queueSize": 0,
+          "queueSize": 1,
           "volume": 100,
           "loop": "none",
           "connected": true,
           "voiceChannel": true,
           "textChannel": false,
-          "currentTrack": null
+          "currentTrack": {
+            "title": "Ven Porque Te Necesito",
+            "duration": 183000,
+            "author": "Los Temerarios",
+            "isStream": false
+          }
         }
       ]
     },
@@ -63,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 2862119,
-          "lastStatsAgo": "47m 42s",
+          "lastStatsAgoMs": 2922119,
+          "lastStatsAgo": "48m 42s",
           "stats": {
             "players": 517,
             "playingPlayers": 52,
@@ -95,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58336,
+          "lastStatsAgoMs": 58320,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 6720,
-            "playingPlayers": 260,
-            "uptime": 2725865100,
-            "uptimeFormatted": "31d 13h 11m",
+            "players": 6712,
+            "playingPlayers": 248,
+            "uptime": 2725925100,
+            "uptimeFormatted": "31d 13h 12m",
             "memory": {
-              "used": 426277080,
-              "free": 352814888,
+              "used": 698789760,
+              "free": 80302208,
               "allocated": 779091968,
               "reservable": 2147483648,
-              "usedPercent": "54.71"
+              "usedPercent": "89.69"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.344937380598599,
-              "lavalinkLoad": 0.2687489629998341,
-              "systemLoadPercent": "34.49",
-              "lavalinkLoadPercent": "26.87"
+              "systemLoad": 0.3281621897313839,
+              "lavalinkLoad": 0.25658812973547784,
+              "systemLoadPercent": "32.82",
+              "lavalinkLoadPercent": "25.66"
             },
             "frameStats": null
           }
@@ -123,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 5338809,
-          "lastStatsAgo": "1h 28m",
+          "lastStatsAgoMs": 5398809,
+          "lastStatsAgo": "1h 29m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -155,39 +160,39 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 18091,
+          "lastStatsAgoMs": 18086,
           "lastStatsAgo": "18s",
           "stats": {
             "players": 7,
-            "playingPlayers": 2,
-            "uptime": 291997365,
-            "uptimeFormatted": "3d 9h 6m",
+            "playingPlayers": 3,
+            "uptime": 292057370,
+            "uptimeFormatted": "3d 9h 7m",
             "memory": {
-              "used": 43619400,
-              "free": 406048768,
-              "allocated": 52178944,
+              "used": 42384528,
+              "free": 406085632,
+              "allocated": 52441088,
               "reservable": 1008209920,
-              "usedPercent": "83.60"
+              "usedPercent": "80.82"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.06,
+              "systemLoad": 0.18,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "6.00",
+              "systemLoadPercent": "18.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 14525,
+              "sent": 15954,
               "nulled": 0,
               "deficit": 0,
-              "expected": 14525
+              "expected": 15954
             }
           }
         }
       ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 1
     }
   },
   "database": {
@@ -206,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 5344
+    "uptime": 5404
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-01-30T21:49:57.028Z",
-    "saoPauloTime": "2026-01-30T18:49:57-03:00",
-    "readableTime": "30/01/2026, 18:49:57 BRT",
-    "current": "2026-01-30T21:49:57.028Z"
+    "utcTime": "2026-01-30T21:50:57.026Z",
+    "saoPauloTime": "2026-01-30T18:50:57-03:00",
+    "readableTime": "30/01/2026, 18:50:57 BRT",
+    "current": "2026-01-30T21:50:57.027Z"
   },
-  "lastUpdated": "2026-01-30T21:49:57.028Z",
+  "lastUpdated": "2026-01-30T21:50:57.027Z",
   "overallStatus": "operational"
 }
