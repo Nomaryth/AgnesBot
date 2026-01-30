@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-30T22:58:30.899Z",
-  "uptime": 3423,
+  "timestamp": "2026-01-30T22:59:30.899Z",
+  "uptime": 3483,
   "discord": {
     "status": "operational",
-    "ping": 122,
+    "ping": 121,
     "guilds": 340,
     "users": 8386,
     "membersTotal": 11622,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-30T19:01:32-03:00"
   },
   "system": {
-    "uptime": 3425.165887569,
+    "uptime": 3485.166496204,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.11.0",
     "pid": 3816268,
     "memory": {
-      "rss": 254668800,
-      "heapUsed": 105925368,
-      "heapTotal": 110833664,
-      "external": 6208332,
-      "arrayBuffers": 6151478
+      "rss": 255184896,
+      "heapUsed": 103401200,
+      "heapTotal": 110047232,
+      "external": 5200118,
+      "arrayBuffers": 5143264
     },
     "cpu": {
-      "user": 53198075,
-      "system": 7356863
+      "user": 54206379,
+      "system": 7558416
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Pantalones Rotos (Bob Esponja)",
+            "duration": 83000,
+            "author": "Inheres",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 3417986,
-          "lastStatsAgo": "56m 57s",
+          "lastStatsAgoMs": 3477986,
+          "lastStatsAgo": "57m 57s",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57671,
+          "lastStatsAgoMs": 57672,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 6504,
-            "playingPlayers": 252,
-            "uptime": 2729979644,
-            "uptimeFormatted": "31d 14h 19m",
+            "players": 6520,
+            "playingPlayers": 256,
+            "uptime": 2730039642,
+            "uptimeFormatted": "31d 14h 20m",
             "memory": {
-              "used": 276993872,
-              "free": 502098096,
+              "used": 695013480,
+              "free": 84078488,
               "allocated": 779091968,
               "reservable": 2147483648,
-              "usedPercent": "35.55"
+              "usedPercent": "89.21"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.420045615813482,
-              "lavalinkLoad": 0.3093238695058149,
-              "systemLoadPercent": "42.00",
-              "lavalinkLoadPercent": "30.93"
+              "systemLoad": 0.450163330262166,
+              "lavalinkLoad": 0.33276493095990684,
+              "systemLoadPercent": "45.02",
+              "lavalinkLoadPercent": "33.28"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 3417984,
-          "lastStatsAgo": "56m 57s",
+          "lastStatsAgoMs": 3477984,
+          "lastStatsAgo": "57m 57s",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,19 +160,19 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 11702,
+          "lastStatsAgoMs": 11699,
           "lastStatsAgo": "11s",
           "stats": {
-            "players": 6,
-            "playingPlayers": 2,
-            "uptime": 296117630,
-            "uptimeFormatted": "3d 10h 15m",
+            "players": 7,
+            "playingPlayers": 3,
+            "uptime": 296177633,
+            "uptimeFormatted": "3d 10h 16m",
             "memory": {
-              "used": 44879392,
-              "free": 419147776,
+              "used": 45452800,
+              "free": 410918912,
               "allocated": 52703232,
               "reservable": 1008209920,
-              "usedPercent": "85.15"
+              "usedPercent": "86.24"
             },
             "cpu": {
               "cores": 1,
@@ -165,10 +182,10 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 14525,
+              "sent": 16234,
               "nulled": 0,
               "deficit": 0,
-              "expected": 14525
+              "expected": 16234
             }
           }
         }
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3423
+    "uptime": 3483
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-01-30T22:58:30.903Z",
-    "saoPauloTime": "2026-01-30T19:58:30-03:00",
-    "readableTime": "30/01/2026, 19:58:30 BRT",
-    "current": "2026-01-30T22:58:30.903Z"
+    "utcTime": "2026-01-30T22:59:30.904Z",
+    "saoPauloTime": "2026-01-30T19:59:30-03:00",
+    "readableTime": "30/01/2026, 19:59:30 BRT",
+    "current": "2026-01-30T22:59:30.904Z"
   },
-  "lastUpdated": "2026-01-30T22:58:30.903Z",
+  "lastUpdated": "2026-01-30T22:59:30.904Z",
   "overallStatus": "operational"
 }
