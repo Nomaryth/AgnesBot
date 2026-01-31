@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-31T05:27:51.429Z",
-  "uptime": 16323,
+  "timestamp": "2026-01-31T05:28:51.428Z",
+  "uptime": 16383,
   "discord": {
     "status": "operational",
-    "ping": 123,
+    "ping": 128,
     "guilds": 340,
     "users": 8356,
     "membersTotal": 11640,
@@ -17,30 +17,47 @@
     "readyAt": "2026-01-30T21:55:52-03:00"
   },
   "system": {
-    "uptime": 16325.211154993,
+    "uptime": 16385.210485971,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3850559,
     "memory": {
-      "rss": 307097600,
-      "heapUsed": 136528184,
-      "heapTotal": 146915328,
-      "external": 5599813,
-      "arrayBuffers": 5521521
+      "rss": 308060160,
+      "heapUsed": 134578088,
+      "heapTotal": 149708800,
+      "external": 5549151,
+      "arrayBuffers": 5470859
     },
     "cpu": {
-      "user": 312818101,
-      "system": 38596063
+      "user": 314230564,
+      "system": 38783729
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Knew Better / Forever Boy",
+            "duration": 300000,
+            "author": "Ariana Grande",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 16318597,
-          "lastStatsAgo": "4h 31m",
+          "lastStatsAgoMs": 16378597,
+          "lastStatsAgo": "4h 32m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57880,
+          "lastStatsAgoMs": 57882,
           "lastStatsAgo": "57s",
           "stats": {
             "players": 6336,
             "playingPlayers": 284,
-            "uptime": 2753339964,
-            "uptimeFormatted": "31d 20h 48m",
+            "uptime": 2753399963,
+            "uptimeFormatted": "31d 20h 49m",
             "memory": {
-              "used": 337617360,
-              "free": 441474608,
+              "used": 498333568,
+              "free": 280758400,
               "allocated": 779091968,
               "reservable": 2147483648,
-              "usedPercent": "43.33"
+              "usedPercent": "63.96"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.47758723151371085,
-              "lavalinkLoad": 0.3761655011655012,
-              "systemLoadPercent": "47.76",
-              "lavalinkLoadPercent": "37.62"
+              "systemLoad": 0.42135164928347324,
+              "lavalinkLoad": 0.31839504940612834,
+              "systemLoadPercent": "42.14",
+              "lavalinkLoadPercent": "31.84"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 16318596,
-          "lastStatsAgo": "4h 31m",
+          "lastStatsAgoMs": 16378596,
+          "lastStatsAgo": "4h 32m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,25 +160,25 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 10724,
+          "lastStatsAgoMs": 10721,
           "lastStatsAgo": "10s",
           "stats": {
             "players": 10,
             "playingPlayers": 2,
-            "uptime": 319479139,
-            "uptimeFormatted": "3d 16h 44m",
+            "uptime": 319539142,
+            "uptimeFormatted": "3d 16h 45m",
             "memory": {
-              "used": 46776152,
-              "free": 375734272,
+              "used": 46915560,
+              "free": 375750656,
               "allocated": 55894016,
               "reservable": 1008209920,
-              "usedPercent": "83.69"
+              "usedPercent": "83.94"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.23,
+              "systemLoad": 0.08,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "23.00",
+              "systemLoadPercent": "8.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 16323
+    "uptime": 16383
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-01-31T05:27:51.432Z",
-    "saoPauloTime": "2026-01-31T02:27:51-03:00",
-    "readableTime": "31/01/2026, 02:27:51 BRT",
-    "current": "2026-01-31T05:27:51.433Z"
+    "utcTime": "2026-01-31T05:28:51.432Z",
+    "saoPauloTime": "2026-01-31T02:28:51-03:00",
+    "readableTime": "31/01/2026, 02:28:51 BRT",
+    "current": "2026-01-31T05:28:51.433Z"
   },
-  "lastUpdated": "2026-01-31T05:27:51.433Z",
+  "lastUpdated": "2026-01-31T05:28:51.433Z",
   "overallStatus": "operational"
 }
