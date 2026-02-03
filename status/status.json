@@ -1,52 +1,195 @@
 {
-  "timestamp": "2026-02-03T00:27:14.640Z",
-  "uptime": 3,
+  "timestamp": "2026-02-03T00:28:14.640Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 122,
+    "guilds": 346,
+    "users": 8703,
+    "membersTotal": 11973,
+    "uniqueUsersEstimated": 8703,
+    "botsTotal": 368,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-02-02T21:27:16-03:00"
   },
   "system": {
-    "uptime": 5.11509254,
+    "uptime": 65.115778716,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3990532,
     "memory": {
-      "rss": 213454848,
-      "heapUsed": 87940944,
-      "heapTotal": 200531968,
-      "external": 5113301,
-      "arrayBuffers": 822987
+      "rss": 244101120,
+      "heapUsed": 95287928,
+      "heapTotal": 100978688,
+      "external": 4873038,
+      "arrayBuffers": 598947
     },
     "cpu": {
-      "user": 2238498,
-      "system": 390673
+      "user": 5304610,
+      "system": 850214
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Your Name Is The Only Word I Can’t Say",
+            "duration": 42896000,
+            "author": "Dark Desire Lofi",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 4,
+      "connected": 3,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 57746,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 145,
+            "playingPlayers": 36,
+            "uptime": 8934511000,
+            "uptimeFormatted": "103d 9h 48m",
+            "memory": {
+              "used": 10015456,
+              "free": 19828016,
+              "allocated": 29843472,
+              "reservable": 19828016,
+              "usedPercent": "33.56"
+            },
+            "cpu": {
+              "cores": 256,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 2830,
+              "nulled": 1748,
+              "deficit": -1578
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58061,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 5424,
+            "playingPlayers": 220,
+            "uptime": 2994562994,
+            "uptimeFormatted": "34d 15h 49m",
+            "memory": {
+              "used": 568022688,
+              "free": 296003936,
+              "allocated": 864026624,
+              "reservable": 2147483648,
+              "usedPercent": "65.74"
+            },
+            "cpu": {
+              "cores": 8,
+              "systemLoad": 0.3619423343266043,
+              "lavalinkLoad": 0.25508759658939517,
+              "systemLoadPercent": "36.19",
+              "lavalinkLoadPercent": "25.51"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 3",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58528,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 4",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 24083,
+          "lastStatsAgo": "24s",
+          "stats": {
+            "players": 17,
+            "playingPlayers": 5,
+            "uptime": 560688975,
+            "uptimeFormatted": "6d 11h 44m",
+            "memory": {
+              "used": 45444056,
+              "free": 298782720,
+              "allocated": 67092480,
+              "reservable": 1008209920,
+              "usedPercent": "67.73"
+            },
+            "cpu": {
+              "cores": 1,
+              "systemLoad": 0.8,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "80.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 89357,
+              "nulled": 0,
+              "deficit": 0,
+              "expected": 89357
+            }
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-03T00:27:14.648Z",
-    "saoPauloTime": "2026-02-02T21:27:14-03:00",
-    "readableTime": "02/02/2026, 21:27:14 BRT",
-    "current": "2026-02-03T00:27:14.649Z"
+    "utcTime": "2026-02-03T00:28:14.644Z",
+    "saoPauloTime": "2026-02-02T21:28:14-03:00",
+    "readableTime": "02/02/2026, 21:28:14 BRT",
+    "current": "2026-02-03T00:28:14.644Z"
   },
-  "lastUpdated": "2026-02-03T00:27:14.649Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-02-03T00:28:14.644Z",
+  "overallStatus": "operational"
 }
