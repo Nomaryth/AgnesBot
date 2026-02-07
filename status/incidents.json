@@ -1,6 +1,21 @@
 {
   "incidents": [
     {
+      "id": "inc_mlc11ai1_c400f800",
+      "status": "investigating",
+      "impact": "major",
+      "title": "Agnes is offline",
+      "startedAt": "2026-02-07T08:02:53.161Z",
+      "lastUpdated": "2026-02-07T08:02:53.161Z",
+      "updates": [
+        {
+          "timestamp": "2026-02-07T08:02:53.161Z",
+          "status": "investigating",
+          "message": "Incident detected: Agnes is offline"
+        }
+      ]
+    },
+    {
       "id": "inc_mlc0ukty_9cdd46fe",
       "status": "resolved",
       "impact": "major",
@@ -838,30 +853,7 @@
       ],
       "resolvedAt": "2026-01-30T20:21:59.461Z",
       "duration": "1m"
-    },
-    {
-      "id": "inc_downtime_ml1bnxef_odpdqc",
-      "status": "resolved",
-      "impact": "critical",
-      "title": "Agnes was offline",
-      "startedAt": "2026-01-27T23:21:58.000Z",
-      "resolvedAt": "2026-01-30T20:14:57.220Z",
-      "duration": "2d 20h 52m",
-      "lastUpdated": "2026-01-30T20:14:57.495Z",
-      "postMortem": true,
-      "updates": [
-        {
-          "timestamp": "2026-01-27T23:21:58.000Z",
-          "status": "investigating",
-          "message": "Agnes went offline (detected retroactively)"
-        },
-        {
-          "timestamp": "2026-01-30T20:14:57.220Z",
-          "status": "resolved",
-          "message": "Agnes came back online"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-02-07T08:02:39.965Z"
+  "lastUpdated": "2026-02-07T08:02:53.161Z"
 }
