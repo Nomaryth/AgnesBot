@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-08T03:20:30.472Z",
-  "uptime": 51243,
+  "timestamp": "2026-02-08T03:21:30.471Z",
+  "uptime": 51303,
   "discord": {
     "status": "operational",
-    "ping": 23,
+    "ping": 15,
     "guilds": 361,
     "users": 8674,
     "membersTotal": 12216,
@@ -17,32 +17,32 @@
     "readyAt": "2026-02-07T10:06:31-03:00"
   },
   "system": {
-    "uptime": 51245.217219999,
+    "uptime": 51305.216994661,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 104566,
     "memory": {
-      "rss": 385785856,
-      "heapUsed": 179062072,
-      "heapTotal": 186073088,
-      "external": 7526822,
-      "arrayBuffers": 3419525
+      "rss": 384425984,
+      "heapUsed": 174402344,
+      "heapTotal": 186286080,
+      "external": 8075543,
+      "arrayBuffers": 3974280
     },
     "cpu": {
-      "user": 881208846,
-      "system": 130722227
+      "user": 882519560,
+      "system": 130792804
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
       "total": 1,
       "details": [
         {
-          "playing": false,
+          "playing": true,
           "paused": false,
           "queueSize": 0,
           "volume": 100,
@@ -50,7 +50,12 @@
           "connected": true,
           "voiceChannel": true,
           "textChannel": false,
-          "currentTrack": null
+          "currentTrack": {
+            "title": "うまぴょい伝説 - Umapyoi Legend",
+            "duration": 270000,
+            "author": "Special Week (CV: Azumi Waki),",
+            "isStream": false
+          }
         }
       ]
     },
@@ -63,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 14397961,
-          "lastStatsAgo": "3h 59m",
+          "lastStatsAgoMs": 14457960,
+          "lastStatsAgo": "4h 0m",
           "stats": {
             "players": 300,
             "playingPlayers": 9,
@@ -95,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58437,
+          "lastStatsAgoMs": 58436,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 5968,
             "playingPlayers": 16,
-            "uptime": 3436898513,
-            "uptimeFormatted": "39d 18h 41m",
+            "uptime": 3436958514,
+            "uptimeFormatted": "39d 18h 42m",
             "memory": {
-              "used": 1074443768,
-              "free": 154487304,
-              "allocated": 1228931072,
+              "used": 1047719880,
+              "free": 196939832,
+              "allocated": 1244659712,
               "reservable": 2147483648,
-              "usedPercent": "87.43"
+              "usedPercent": "84.18"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.16349313337265145,
-              "lavalinkLoad": 0.06984449402284307,
-              "systemLoadPercent": "16.35",
-              "lavalinkLoadPercent": "6.98"
+              "systemLoad": 0.18607094821788836,
+              "lavalinkLoad": 0.09203118233001299,
+              "systemLoadPercent": "18.61",
+              "lavalinkLoadPercent": "9.20"
             },
             "frameStats": null
           }
@@ -123,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 51238522,
-          "lastStatsAgo": "14h 13m",
+          "lastStatsAgoMs": 51298521,
+          "lastStatsAgo": "14h 14m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -155,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 26176,
+          "lastStatsAgoMs": 26194,
           "lastStatsAgo": "26s",
           "stats": {
             "players": 13,
             "playingPlayers": 8,
-            "uptime": 1003022754,
-            "uptimeFormatted": "11d 14h 37m",
+            "uptime": 1003082760,
+            "uptimeFormatted": "11d 14h 38m",
             "memory": {
-              "used": 58004424,
-              "free": 319225856,
-              "allocated": 68788224,
+              "used": 59595544,
+              "free": 303120384,
+              "allocated": 70885376,
               "reservable": 1008209920,
-              "usedPercent": "84.32"
+              "usedPercent": "84.07"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.15,
+              "systemLoad": 0.4,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "15.00",
+              "systemLoadPercent": "40.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 25616,
+              "sent": 31595,
               "nulled": 0,
               "deficit": 0,
-              "expected": 25616
+              "expected": 31595
             }
           }
         }
@@ -192,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -206,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 51243
+    "uptime": 51303
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-08T03:20:30.477Z",
-    "saoPauloTime": "2026-02-08T00:20:30-03:00",
-    "readableTime": "08/02/2026, 00:20:30 BRT",
-    "current": "2026-02-08T03:20:30.477Z"
+    "utcTime": "2026-02-08T03:21:30.476Z",
+    "saoPauloTime": "2026-02-08T00:21:30-03:00",
+    "readableTime": "08/02/2026, 00:21:30 BRT",
+    "current": "2026-02-08T03:21:30.477Z"
   },
-  "lastUpdated": "2026-02-08T03:20:30.477Z",
+  "lastUpdated": "2026-02-08T03:21:30.477Z",
   "overallStatus": "operational"
 }
