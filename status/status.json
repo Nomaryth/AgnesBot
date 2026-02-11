@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-11T12:26:42.637Z",
-  "uptime": 84303,
+  "timestamp": "2026-02-11T12:27:42.636Z",
+  "uptime": 84363,
   "discord": {
     "status": "operational",
-    "ping": 15,
+    "ping": 19,
     "guilds": 375,
     "users": 8520,
     "membersTotal": 12108,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-10T10:01:43-03:00"
   },
   "system": {
-    "uptime": 84305.345895289,
+    "uptime": 84365.345359477,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 376826,
     "memory": {
-      "rss": 519012352,
-      "heapUsed": 198621088,
-      "heapTotal": 211001344,
-      "external": 6531443,
-      "arrayBuffers": 2842818
+      "rss": 520384512,
+      "heapUsed": 203046240,
+      "heapTotal": 212635648,
+      "external": 7985959,
+      "arrayBuffers": 4545565
     },
     "cpu": {
-      "user": 1425150043,
-      "system": 197729421
+      "user": 1426042045,
+      "system": 197845835
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "track",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Breaking My Own Heart To Save Yours",
+            "duration": 12813000,
+            "author": "Dark Desire Lofi",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 10135,
+          "lastStatsAgoMs": 10087,
           "lastStatsAgo": "10s",
           "stats": {
             "players": 476,
-            "playingPlayers": 66,
-            "uptime": 9668867000,
-            "uptimeFormatted": "111d 21h 47m",
+            "playingPlayers": 68,
+            "uptime": 9668927000,
+            "uptimeFormatted": "111d 21h 48m",
             "memory": {
-              "used": 10068816,
-              "free": 41532608,
+              "used": 13165248,
+              "free": 38436176,
               "allocated": 51601424,
-              "reservable": 41532608,
-              "usedPercent": "19.51"
+              "reservable": 38436176,
+              "usedPercent": "25.51"
             },
             "cpu": {
               "cores": 256,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 2933,
-              "nulled": 568,
-              "deficit": -501
+              "sent": 2932,
+              "nulled": 680,
+              "deficit": -612
             }
           }
         },
@@ -86,23 +103,23 @@
           "lastStatsAgoMs": 58271,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 5672,
-            "playingPlayers": 180,
-            "uptime": 273707353,
-            "uptimeFormatted": "3d 4h 1m",
+            "players": 5664,
+            "playingPlayers": 184,
+            "uptime": 273767353,
+            "uptimeFormatted": "3d 4h 2m",
             "memory": {
-              "used": 665694912,
-              "free": 353520960,
+              "used": 817512976,
+              "free": 201702896,
               "allocated": 1019215872,
               "reservable": 2147483648,
-              "usedPercent": "65.31"
+              "usedPercent": "80.21"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.24273200457026786,
-              "lavalinkLoad": 0.1681916486441524,
-              "systemLoadPercent": "24.27",
-              "lavalinkLoadPercent": "16.82"
+              "systemLoad": 0.2467818428184282,
+              "lavalinkLoad": 0.16949575636545183,
+              "systemLoadPercent": "24.68",
+              "lavalinkLoadPercent": "16.95"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 84298651,
-          "lastStatsAgo": "23h 24m",
+          "lastStatsAgoMs": 84358650,
+          "lastStatsAgo": "23h 25m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 10098,
+          "lastStatsAgoMs": 10096,
           "lastStatsAgo": "10s",
           "stats": {
-            "players": 17,
-            "playingPlayers": 0,
-            "uptime": 91658008,
-            "uptimeFormatted": "1d 1h 27m",
+            "players": 18,
+            "playingPlayers": 1,
+            "uptime": 91718011,
+            "uptimeFormatted": "1d 1h 28m",
             "memory": {
-              "used": 73821656,
-              "free": 253317120,
-              "allocated": 83398656,
+              "used": 73157576,
+              "free": 224849920,
+              "allocated": 84447232,
               "reservable": 1008209920,
-              "usedPercent": "88.52"
+              "usedPercent": "86.63"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.08,
+              "systemLoad": 0.03,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "8.00",
+              "systemLoadPercent": "3.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 0,
+              "sent": 1775,
               "nulled": 0,
               "deficit": 0,
-              "expected": 0
+              "expected": 1775
             }
           }
         }
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 84303
+    "uptime": 84363
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-11T12:26:42.642Z",
-    "saoPauloTime": "2026-02-11T09:26:42-03:00",
-    "readableTime": "11/02/2026, 09:26:42 BRT",
-    "current": "2026-02-11T12:26:42.642Z"
+    "utcTime": "2026-02-11T12:27:42.642Z",
+    "saoPauloTime": "2026-02-11T09:27:42-03:00",
+    "readableTime": "11/02/2026, 09:27:42 BRT",
+    "current": "2026-02-11T12:27:42.642Z"
   },
-  "lastUpdated": "2026-02-11T12:26:42.642Z",
+  "lastUpdated": "2026-02-11T12:27:42.642Z",
   "overallStatus": "operational"
 }
