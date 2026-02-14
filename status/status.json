@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-14T13:30:10.819Z",
-  "uptime": 43803,
+  "timestamp": "2026-02-14T13:31:10.819Z",
+  "uptime": 43863,
   "discord": {
     "status": "operational",
-    "ping": 15,
+    "ping": 27,
     "guilds": 379,
     "users": 8700,
     "membersTotal": 12239,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-13T22:20:12-03:00"
   },
   "system": {
-    "uptime": 43805.083673452,
+    "uptime": 43865.083950952,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 691077,
     "memory": {
-      "rss": 385527808,
-      "heapUsed": 174078288,
-      "heapTotal": 181805056,
-      "external": 6807593,
-      "arrayBuffers": 2534869
+      "rss": 382808064,
+      "heapUsed": 167888088,
+      "heapTotal": 176967680,
+      "external": 6677046,
+      "arrayBuffers": 2404322
     },
     "cpu": {
-      "user": 791179087,
-      "system": 100734341
+      "user": 792445321,
+      "system": 100868404
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 49,
+          "volume": 100,
+          "loop": "track",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Blxck Rosé | Goku Black | Dragon Ball Super | Hira",
+            "duration": 254000,
+            "author": "Hiray",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58569,
+          "lastStatsAgoMs": 58570,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 463,
             "playingPlayers": 62,
-            "uptime": 9931826000,
-            "uptimeFormatted": "114d 22h 50m",
+            "uptime": 9931886000,
+            "uptimeFormatted": "114d 22h 51m",
             "memory": {
-              "used": 20282968,
-              "free": 39707064,
+              "used": 24625664,
+              "free": 35364368,
               "allocated": 59990032,
-              "reservable": 39707064,
-              "usedPercent": "33.81"
+              "reservable": 35364368,
+              "usedPercent": "41.05"
             },
             "cpu": {
               "cores": 256,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 2997,
-              "nulled": 28,
-              "deficit": -26
+              "sent": 2991,
+              "nulled": 100,
+              "deficit": -91
             }
           }
         },
@@ -83,8 +100,8 @@
           "name": "Node 2",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 8158623,
-          "lastStatsAgo": "2h 15m",
+          "lastStatsAgoMs": 8218623,
+          "lastStatsAgo": "2h 16m",
           "stats": {
             "players": 7160,
             "playingPlayers": 32,
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 43798697,
-          "lastStatsAgo": "12h 9m",
+          "lastStatsAgoMs": 43858697,
+          "lastStatsAgo": "12h 10m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,25 +160,25 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 20909,
+          "lastStatsAgoMs": 20906,
           "lastStatsAgo": "20s",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
-            "uptime": 73885524,
-            "uptimeFormatted": "20h 31m",
+            "uptime": 73945526,
+            "uptimeFormatted": "20h 32m",
             "memory": {
-              "used": 62336008,
-              "free": 330321920,
-              "allocated": 74747904,
+              "used": 62790880,
+              "free": 291807232,
+              "allocated": 75272192,
               "reservable": 1008201728,
-              "usedPercent": "83.39"
+              "usedPercent": "83.42"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.02,
+              "systemLoad": 0,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "2.00",
+              "systemLoadPercent": "0.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": null
@@ -170,12 +187,12 @@
       ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 49
     }
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -189,17 +206,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 43803
+    "uptime": 43863
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-14T13:30:10.823Z",
-    "saoPauloTime": "2026-02-14T10:30:10-03:00",
-    "readableTime": "14/02/2026, 10:30:10 BRT",
-    "current": "2026-02-14T13:30:10.824Z"
+    "utcTime": "2026-02-14T13:31:10.824Z",
+    "saoPauloTime": "2026-02-14T10:31:10-03:00",
+    "readableTime": "14/02/2026, 10:31:10 BRT",
+    "current": "2026-02-14T13:31:10.824Z"
   },
-  "lastUpdated": "2026-02-14T13:30:10.824Z",
+  "lastUpdated": "2026-02-14T13:31:10.825Z",
   "overallStatus": "operational"
 }
