@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-17T13:11:39.856Z",
-  "uptime": 46083,
+  "timestamp": "2026-02-17T13:12:39.857Z",
+  "uptime": 46143,
   "discord": {
     "status": "operational",
-    "ping": 21,
+    "ping": 18,
     "guilds": 385,
     "users": 8819,
     "membersTotal": 12381,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-16T21:23:41-03:00"
   },
   "system": {
-    "uptime": 46084.99053452,
+    "uptime": 46144.99113501,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 957075,
     "memory": {
-      "rss": 398131200,
-      "heapUsed": 172774592,
-      "heapTotal": 183455744,
-      "external": 6575990,
-      "arrayBuffers": 2940194
+      "rss": 399839232,
+      "heapUsed": 176587520,
+      "heapTotal": 185221120,
+      "external": 7680015,
+      "arrayBuffers": 4002073
     },
     "cpu": {
-      "user": 795357381,
-      "system": 101069381
+      "user": 796011452,
+      "system": 101217566
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "オペラ劇場・『嗚呼それが我が宿命』",
+            "duration": 150000,
+            "author": "Release - Topic",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58404,
+          "lastStatsAgoMs": 58405,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 468,
-            "playingPlayers": 46,
-            "uptime": 10189916000,
-            "uptimeFormatted": "117d 22h 31m",
+            "players": 466,
+            "playingPlayers": 43,
+            "uptime": 10189976000,
+            "uptimeFormatted": "117d 22h 32m",
             "memory": {
-              "used": 20714184,
-              "free": 52448584,
+              "used": 23886824,
+              "free": 49275944,
               "allocated": 73162768,
-              "reservable": 52448584,
-              "usedPercent": "28.31"
+              "reservable": 49275944,
+              "usedPercent": "32.65"
             },
             "cpu": {
               "cores": 256,
@@ -86,23 +103,23 @@
           "lastStatsAgoMs": 58269,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 4992,
-            "playingPlayers": 168,
-            "uptime": 183173661,
-            "uptimeFormatted": "2d 2h 52m",
+            "players": 5000,
+            "playingPlayers": 172,
+            "uptime": 183233662,
+            "uptimeFormatted": "2d 2h 53m",
             "memory": {
-              "used": 206687536,
-              "free": 384709328,
+              "used": 236495968,
+              "free": 354900896,
               "allocated": 591396864,
               "reservable": 2147483648,
-              "usedPercent": "34.95"
+              "usedPercent": "39.99"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.20521753908905507,
-              "lavalinkLoad": 0.13984179850124895,
-              "systemLoadPercent": "20.52",
-              "lavalinkLoadPercent": "13.98"
+              "systemLoad": 0.208053119945518,
+              "lavalinkLoad": 0.1430865759078654,
+              "systemLoadPercent": "20.81",
+              "lavalinkLoadPercent": "14.31"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 46078477,
-          "lastStatsAgo": "12h 47m",
+          "lastStatsAgoMs": 46138477,
+          "lastStatsAgo": "12h 48m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 71,
+          "lastStatsAgoMs": 59,
           "lastStatsAgo": "0s",
           "stats": {
-            "players": 21,
-            "playingPlayers": 0,
-            "uptime": 205391601,
-            "uptimeFormatted": "2d 9h 3m",
+            "players": 22,
+            "playingPlayers": 1,
+            "uptime": 205451610,
+            "uptimeFormatted": "2d 9h 4m",
             "memory": {
-              "used": 78031504,
-              "free": 227409920,
-              "allocated": 88875008,
+              "used": 67977792,
+              "free": 237486080,
+              "allocated": 80355328,
               "reservable": 1008201728,
-              "usedPercent": "87.80"
+              "usedPercent": "84.60"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.02,
+              "systemLoad": 0.19,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "2.00",
+              "systemLoadPercent": "19.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 0,
+              "sent": 1325,
               "nulled": 0,
               "deficit": 0,
-              "expected": 0
+              "expected": 1325
             }
           }
         }
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 46083
+    "uptime": 46143
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-17T13:11:39.860Z",
-    "saoPauloTime": "2026-02-17T10:11:39-03:00",
-    "readableTime": "17/02/2026, 10:11:39 BRT",
-    "current": "2026-02-17T13:11:39.861Z"
+    "utcTime": "2026-02-17T13:12:39.861Z",
+    "saoPauloTime": "2026-02-17T10:12:39-03:00",
+    "readableTime": "17/02/2026, 10:12:39 BRT",
+    "current": "2026-02-17T13:12:39.862Z"
   },
-  "lastUpdated": "2026-02-17T13:11:39.861Z",
+  "lastUpdated": "2026-02-17T13:12:39.862Z",
   "overallStatus": "operational"
 }
