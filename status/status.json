@@ -1,55 +1,198 @@
 {
-  "timestamp": "2026-02-22T22:47:05.312Z",
-  "uptime": 3,
+  "timestamp": "2026-02-22T22:48:05.313Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": null,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 17,
+    "guilds": 405,
+    "users": 10038,
+    "membersTotal": 13822,
+    "uniqueUsersEstimated": 10038,
+    "botsTotal": 437,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-02-22T19:47:06-03:00"
   },
   "system": {
-    "uptime": 4.417756536,
+    "uptime": 64.419044906,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1490362,
     "memory": {
-      "rss": 233824256,
-      "heapUsed": 97831632,
-      "heapTotal": 212316160,
-      "external": 5218549,
-      "arrayBuffers": 917770
+      "rss": 256552960,
+      "heapUsed": 106543856,
+      "heapTotal": 109174784,
+      "external": 4893761,
+      "arrayBuffers": 598864
     },
     "cpu": {
-      "user": 1931496,
-      "system": 384391
+      "user": 4487321,
+      "system": 845696
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 24,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Blxck - Agente do Caos (Shadow) [English Subtitles",
+            "duration": 288000,
+            "author": "Blxck",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 4,
+      "connected": 3,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58337,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 133,
+            "playingPlayers": 37,
+            "uptime": 10656501000,
+            "uptimeFormatted": "123d 8h 8m",
+            "memory": {
+              "used": 14485656,
+              "free": 36853624,
+              "allocated": 51339280,
+              "reservable": 36853624,
+              "usedPercent": "28.22"
+            },
+            "cpu": {
+              "cores": 256,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 2996,
+              "nulled": 49,
+              "deficit": -45
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58308,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 6768,
+            "playingPlayers": 268,
+            "uptime": 649759074,
+            "uptimeFormatted": "7d 12h 29m",
+            "memory": {
+              "used": 324458984,
+              "free": 406398488,
+              "allocated": 730857472,
+              "reservable": 2147483648,
+              "usedPercent": "44.39"
+            },
+            "cpu": {
+              "cores": 8,
+              "systemLoad": 0.23568291330860092,
+              "lavalinkLoad": 0.17085791420857915,
+              "systemLoadPercent": "23.57",
+              "lavalinkLoadPercent": "17.09"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 3",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58394,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 4",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 26657,
+          "lastStatsAgo": "26s",
+          "stats": {
+            "players": 16,
+            "playingPlayers": 13,
+            "uptime": 20629953,
+            "uptimeFormatted": "5h 43m",
+            "memory": {
+              "used": 83256056,
+              "free": 182652928,
+              "allocated": 101298176,
+              "reservable": 1008201728,
+              "usedPercent": "82.19"
+            },
+            "cpu": {
+              "cores": 1,
+              "systemLoad": 0.43,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "43.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 729099,
+              "nulled": 0,
+              "deficit": 0,
+              "expected": 729099
+            }
+          }
+        }
+      ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 24
     }
   },
   "database": {
@@ -68,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-22T22:47:05.316Z",
-    "saoPauloTime": "2026-02-22T19:47:05-03:00",
-    "readableTime": "22/02/2026, 19:47:05 BRT",
-    "current": "2026-02-22T22:47:05.318Z"
+    "utcTime": "2026-02-22T22:48:05.316Z",
+    "saoPauloTime": "2026-02-22T19:48:05-03:00",
+    "readableTime": "22/02/2026, 19:48:05 BRT",
+    "current": "2026-02-22T22:48:05.317Z"
   },
-  "lastUpdated": "2026-02-22T22:47:05.318Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-02-22T22:48:05.317Z",
+  "overallStatus": "operational"
 }
