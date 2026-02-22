@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-22T04:01:04.853Z",
-  "uptime": 88863,
+  "timestamp": "2026-02-22T04:02:04.854Z",
+  "uptime": 88923,
   "discord": {
     "status": "operational",
-    "ping": 16,
+    "ping": 19,
     "guilds": 397,
     "users": 9043,
     "membersTotal": 12905,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-21T00:20:06-03:00"
   },
   "system": {
-    "uptime": 88865.048393636,
+    "uptime": 88925.048931789,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1326122,
     "memory": {
-      "rss": 472072192,
-      "heapUsed": 212721096,
-      "heapTotal": 220839936,
-      "external": 7953862,
-      "arrayBuffers": 3746832
+      "rss": 468283392,
+      "heapUsed": 202320168,
+      "heapTotal": 218341376,
+      "external": 5188873,
+      "arrayBuffers": 899803
     },
     "cpu": {
-      "user": 1326904998,
-      "system": 166127865
+      "user": 1328092117,
+      "system": 166269490
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": false,
+          "currentTrack": {
+            "title": "Ayatul Kursi Full - Beautiful Recitation",
+            "duration": 68000,
+            "author": "Omar Hisham Al Arabi",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 4536148,
-          "lastStatsAgo": "1h 15m",
+          "lastStatsAgoMs": 4596149,
+          "lastStatsAgo": "1h 16m",
           "stats": {
             "players": 148,
             "playingPlayers": 55,
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58417,
+          "lastStatsAgoMs": 58419,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 6512,
-            "playingPlayers": 212,
-            "uptime": 582138513,
-            "uptimeFormatted": "6d 17h 42m",
+            "players": 6504,
+            "playingPlayers": 204,
+            "uptime": 582198512,
+            "uptimeFormatted": "6d 17h 43m",
             "memory": {
-              "used": 234030768,
-              "free": 483195216,
+              "used": 358239280,
+              "free": 358986704,
               "allocated": 717225984,
               "reservable": 2147483648,
-              "usedPercent": "32.63"
+              "usedPercent": "49.95"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.26074633915918755,
-              "lavalinkLoad": 0.1916450259688374,
-              "systemLoadPercent": "26.07",
-              "lavalinkLoadPercent": "19.16"
+              "systemLoad": 0.2660534832226197,
+              "lavalinkLoad": 0.19650564409030544,
+              "systemLoadPercent": "26.61",
+              "lavalinkLoadPercent": "19.65"
             },
             "frameStats": null
           }
@@ -111,7 +128,7 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 88858682,
+          "lastStatsAgoMs": 88918683,
           "lastStatsAgo": "1d 0h",
           "stats": {
             "players": 0,
@@ -143,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 26582,
+          "lastStatsAgoMs": 26576,
           "lastStatsAgo": "26s",
           "stats": {
             "players": 16,
             "playingPlayers": 16,
-            "uptime": 604330091,
-            "uptimeFormatted": "6d 23h 52m",
+            "uptime": 604390099,
+            "uptimeFormatted": "6d 23h 53m",
             "memory": {
-              "used": 89377608,
-              "free": 67547136,
-              "allocated": 121528320,
+              "used": 80478440,
+              "free": 63143936,
+              "allocated": 120741888,
               "reservable": 1008201728,
-              "usedPercent": "73.54"
+              "usedPercent": "66.65"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.5,
+              "systemLoad": 0.76,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "50.00",
+              "systemLoadPercent": "76.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 55589,
+              "sent": 66234,
               "nulled": 0,
               "deficit": 0,
-              "expected": 55589
+              "expected": 66234
             }
           }
         }
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 88863
+    "uptime": 88923
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-22T04:01:04.859Z",
-    "saoPauloTime": "2026-02-22T01:01:04-03:00",
-    "readableTime": "22/02/2026, 01:01:04 BRT",
-    "current": "2026-02-22T04:01:04.860Z"
+    "utcTime": "2026-02-22T04:02:04.860Z",
+    "saoPauloTime": "2026-02-22T01:02:04-03:00",
+    "readableTime": "22/02/2026, 01:02:04 BRT",
+    "current": "2026-02-22T04:02:04.860Z"
   },
-  "lastUpdated": "2026-02-22T04:01:04.860Z",
+  "lastUpdated": "2026-02-22T04:02:04.860Z",
   "overallStatus": "operational"
 }
