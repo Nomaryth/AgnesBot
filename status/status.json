@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-27T00:41:19.463Z",
-  "uptime": 44883,
+  "timestamp": "2026-02-27T00:42:19.463Z",
+  "uptime": 44943,
   "discord": {
     "status": "operational",
-    "ping": 16,
+    "ping": 15,
     "guilds": 421,
     "users": 10139,
     "membersTotal": 14201,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-26T09:13:21-03:00"
   },
   "system": {
-    "uptime": 44885.40854747,
+    "uptime": 44945.408928824,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1816987,
     "memory": {
-      "rss": 616001536,
-      "heapUsed": 172831168,
-      "heapTotal": 184872960,
-      "external": 5679724,
-      "arrayBuffers": 1397608
+      "rss": 617533440,
+      "heapUsed": 176495640,
+      "heapTotal": 186662912,
+      "external": 6739710,
+      "arrayBuffers": 2457594
     },
     "cpu": {
-      "user": 908220691,
-      "system": 128206520
+      "user": 908934962,
+      "system": 128376384
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 24,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Canned Heat (Remastered 2006)",
+            "duration": 229000,
+            "author": "Jamiroquai Official",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 44878434,
-          "lastStatsAgo": "12h 27m",
+          "lastStatsAgoMs": 44938435,
+          "lastStatsAgo": "12h 28m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -86,23 +103,23 @@
           "lastStatsAgoMs": 57930,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 5288,
-            "playingPlayers": 188,
-            "uptime": 220799807,
-            "uptimeFormatted": "2d 13h 19m",
+            "players": 5304,
+            "playingPlayers": 184,
+            "uptime": 220859808,
+            "uptimeFormatted": "2d 13h 20m",
             "memory": {
-              "used": 359758848,
-              "free": 320766976,
+              "used": 372727144,
+              "free": 307798680,
               "allocated": 680525824,
               "reservable": 2147483648,
-              "usedPercent": "52.86"
+              "usedPercent": "54.77"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.25594381927405024,
-              "lavalinkLoad": 0.16698235470042866,
-              "systemLoadPercent": "25.59",
-              "lavalinkLoadPercent": "16.70"
+              "systemLoad": 0.24777032192304424,
+              "lavalinkLoad": 0.166047511161458,
+              "systemLoadPercent": "24.78",
+              "lavalinkLoadPercent": "16.60"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 44878433,
-          "lastStatsAgo": "12h 27m",
+          "lastStatsAgoMs": 44938434,
+          "lastStatsAgo": "12h 28m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,44 +160,44 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 5446,
-          "lastStatsAgo": "5s",
+          "lastStatsAgoMs": 442,
+          "lastStatsAgo": "0s",
           "stats": {
-            "players": 27,
-            "playingPlayers": 13,
-            "uptime": 373044659,
-            "uptimeFormatted": "4d 7h 37m",
+            "players": 28,
+            "playingPlayers": 14,
+            "uptime": 373109663,
+            "uptimeFormatted": "4d 7h 38m",
             "memory": {
-              "used": 88657784,
-              "free": 163737600,
-              "allocated": 98897920,
+              "used": 90855208,
+              "free": 164982784,
+              "allocated": 101257216,
               "reservable": 1008201728,
-              "usedPercent": "89.65"
+              "usedPercent": "89.73"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.2,
+              "systemLoad": 0.33,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "20.00",
+              "systemLoadPercent": "33.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 338494,
+              "sent": 346151,
               "nulled": 0,
               "deficit": 0,
-              "expected": 338494
+              "expected": 346151
             }
           }
         }
       ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 24
     }
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 44883
+    "uptime": 44943
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-27T00:41:19.470Z",
-    "saoPauloTime": "2026-02-26T21:41:19-03:00",
-    "readableTime": "26/02/2026, 21:41:19 BRT",
-    "current": "2026-02-27T00:41:19.471Z"
+    "utcTime": "2026-02-27T00:42:19.469Z",
+    "saoPauloTime": "2026-02-26T21:42:19-03:00",
+    "readableTime": "26/02/2026, 21:42:19 BRT",
+    "current": "2026-02-27T00:42:19.469Z"
   },
-  "lastUpdated": "2026-02-27T00:41:19.471Z",
+  "lastUpdated": "2026-02-27T00:42:19.469Z",
   "overallStatus": "operational"
 }
