@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-27T03:00:19.479Z",
-  "uptime": 53223,
+  "timestamp": "2026-02-27T03:01:19.479Z",
+  "uptime": 53283,
   "discord": {
     "status": "operational",
-    "ping": 22,
+    "ping": 15,
     "guilds": 421,
     "users": 10128,
     "membersTotal": 14203,
@@ -17,30 +17,47 @@
     "readyAt": "2026-02-26T09:13:21-03:00"
   },
   "system": {
-    "uptime": 53225.424790427,
+    "uptime": 53285.424870422,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1816987,
     "memory": {
-      "rss": 523812864,
-      "heapUsed": 187600344,
-      "heapTotal": 196456448,
-      "external": 8024089,
-      "arrayBuffers": 4385533
+      "rss": 522792960,
+      "heapUsed": 183279568,
+      "heapTotal": 195956736,
+      "external": 6494932,
+      "arrayBuffers": 2459752
     },
     "cpu": {
-      "user": 1042553700,
-      "system": 146893426
+      "user": 1043964459,
+      "system": 147125732
     }
   },
   "music": {
     "available": true,
     "players": {
       "active": 0,
-      "paused": 0,
-      "total": 0,
-      "details": []
+      "paused": 1,
+      "total": 1,
+      "details": [
+        {
+          "playing": false,
+          "paused": true,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "ASMR NAMORADA: O AMOR É INTERESTELAR",
+            "duration": 783000,
+            "author": "Mii Reis",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 53218450,
-          "lastStatsAgo": "14h 46m",
+          "lastStatsAgoMs": 53278450,
+          "lastStatsAgo": "14h 47m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -83,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57947,
+          "lastStatsAgoMs": 57946,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 5376,
-            "playingPlayers": 208,
-            "uptime": 229139808,
-            "uptimeFormatted": "2d 15h 38m",
+            "players": 5384,
+            "playingPlayers": 204,
+            "uptime": 229199808,
+            "uptimeFormatted": "2d 15h 39m",
             "memory": {
-              "used": 631280832,
-              "free": 49244992,
+              "used": 293153576,
+              "free": 387372248,
               "allocated": 680525824,
               "reservable": 2147483648,
-              "usedPercent": "92.76"
+              "usedPercent": "43.08"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.23044297832233743,
-              "lavalinkLoad": 0.15715095157150952,
-              "systemLoadPercent": "23.04",
-              "lavalinkLoadPercent": "15.72"
+              "systemLoad": 0.2655391483516483,
+              "lavalinkLoad": 0.18602578624733476,
+              "systemLoadPercent": "26.55",
+              "lavalinkLoadPercent": "18.60"
             },
             "frameStats": null
           }
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 53218449,
-          "lastStatsAgo": "14h 46m",
+          "lastStatsAgoMs": 53278449,
+          "lastStatsAgo": "14h 47m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 4895,
+          "lastStatsAgoMs": 4894,
           "lastStatsAgo": "4s",
           "stats": {
             "players": 4,
-            "playingPlayers": 4,
-            "uptime": 381385226,
-            "uptimeFormatted": "4d 9h 56m",
+            "playingPlayers": 3,
+            "uptime": 381445229,
+            "uptimeFormatted": "4d 9h 57m",
             "memory": {
-              "used": 88206960,
-              "free": 222019584,
-              "allocated": 95449088,
+              "used": 88832440,
+              "free": 213651456,
+              "allocated": 95973376,
               "reservable": 1008201728,
-              "usedPercent": "92.41"
+              "usedPercent": "92.56"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.17,
+              "systemLoad": 0.09,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "17.00",
+              "systemLoadPercent": "9.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 26475,
+              "sent": 25732,
               "nulled": 0,
               "deficit": 0,
-              "expected": 26475
+              "expected": 25732
             }
           }
         }
@@ -180,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 53223
+    "uptime": 53283
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-02-27T03:00:19.485Z",
-    "saoPauloTime": "2026-02-27T00:00:19-03:00",
-    "readableTime": "27/02/2026, 00:00:19 BRT",
-    "current": "2026-02-27T03:00:19.485Z"
+    "utcTime": "2026-02-27T03:01:19.485Z",
+    "saoPauloTime": "2026-02-27T00:01:19-03:00",
+    "readableTime": "27/02/2026, 00:01:19 BRT",
+    "current": "2026-02-27T03:01:19.485Z"
   },
-  "lastUpdated": "2026-02-27T03:00:19.485Z",
+  "lastUpdated": "2026-02-27T03:01:19.485Z",
   "overallStatus": "operational"
 }
