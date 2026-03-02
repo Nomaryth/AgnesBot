@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-02T12:56:09.799Z",
-  "uptime": 14823,
+  "timestamp": "2026-03-02T12:57:09.800Z",
+  "uptime": 14883,
   "discord": {
     "status": "operational",
-    "ping": 17,
+    "ping": 16,
     "guilds": 430,
     "users": 10491,
     "membersTotal": 14587,
@@ -17,40 +17,45 @@
     "readyAt": "2026-03-02T05:49:11-03:00"
   },
   "system": {
-    "uptime": 14824.509646477,
+    "uptime": 14884.510986072,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 2163706,
     "memory": {
-      "rss": 564404224,
-      "heapUsed": 187745608,
-      "heapTotal": 282140672,
-      "external": 7929808,
-      "arrayBuffers": 3861802
+      "rss": 563929088,
+      "heapUsed": 162172080,
+      "heapTotal": 282693632,
+      "external": 5556634,
+      "arrayBuffers": 1321066
     },
     "cpu": {
-      "user": 347256953,
-      "system": 43647259
+      "user": 348878985,
+      "system": 43773994
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
       "total": 1,
       "details": [
         {
-          "playing": false,
+          "playing": true,
           "paused": false,
           "queueSize": 0,
           "volume": 100,
-          "loop": "none",
+          "loop": "track",
           "connected": true,
           "voiceChannel": true,
           "textChannel": true,
-          "currentTrack": null
+          "currentTrack": {
+            "title": "Limbus Company OST - Canto IX Boss 1 Battle Theme ",
+            "duration": 200000,
+            "author": "Lunartique",
+            "isStream": false
+          }
         }
       ]
     },
@@ -63,8 +68,8 @@
           "name": "Node 1",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 14818343,
-          "lastStatsAgo": "4h 6m",
+          "lastStatsAgoMs": 14878345,
+          "lastStatsAgo": "4h 7m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -95,26 +100,26 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58025,
+          "lastStatsAgoMs": 58029,
           "lastStatsAgo": "58s",
           "stats": {
-            "players": 7504,
+            "players": 7376,
             "playingPlayers": 232,
-            "uptime": 524090049,
-            "uptimeFormatted": "6d 1h 34m",
+            "uptime": 524150047,
+            "uptimeFormatted": "6d 1h 35m",
             "memory": {
-              "used": 560824344,
-              "free": 135430120,
+              "used": 631409072,
+              "free": 64845392,
               "allocated": 696254464,
               "reservable": 2147483648,
-              "usedPercent": "80.55"
+              "usedPercent": "90.69"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.4913876605601179,
-              "lavalinkLoad": 0.29438661833660335,
-              "systemLoadPercent": "49.14",
-              "lavalinkLoadPercent": "29.44"
+              "systemLoad": 0.459725935828877,
+              "lavalinkLoad": 0.2618274196235216,
+              "systemLoadPercent": "45.97",
+              "lavalinkLoadPercent": "26.18"
             },
             "frameStats": null
           }
@@ -123,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 14818342,
-          "lastStatsAgo": "4h 6m",
+          "lastStatsAgoMs": 14878344,
+          "lastStatsAgo": "4h 7m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -155,25 +160,25 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 18125,
+          "lastStatsAgoMs": 18118,
           "lastStatsAgo": "18s",
           "stats": {
             "players": 2,
             "playingPlayers": 0,
-            "uptime": 676322313,
-            "uptimeFormatted": "7d 19h 52m",
+            "uptime": 676382320,
+            "uptimeFormatted": "7d 19h 53m",
             "memory": {
-              "used": 88451896,
-              "free": 144777216,
-              "allocated": 96296960,
+              "used": 88196512,
+              "free": 143286272,
+              "allocated": 94986240,
               "reservable": 1008201728,
-              "usedPercent": "91.85"
+              "usedPercent": "92.85"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.07,
+              "systemLoad": 0.08,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "7.00",
+              "systemLoadPercent": "8.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
@@ -192,7 +197,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -206,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 14823
+    "uptime": 14883
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-02T12:56:09.803Z",
-    "saoPauloTime": "2026-03-02T09:56:09-03:00",
-    "readableTime": "02/03/2026, 09:56:09 BRT",
-    "current": "2026-03-02T12:56:09.804Z"
+    "utcTime": "2026-03-02T12:57:09.805Z",
+    "saoPauloTime": "2026-03-02T09:57:09-03:00",
+    "readableTime": "02/03/2026, 09:57:09 BRT",
+    "current": "2026-03-02T12:57:09.805Z"
   },
-  "lastUpdated": "2026-03-02T12:56:09.804Z",
+  "lastUpdated": "2026-03-02T12:57:09.805Z",
   "overallStatus": "operational"
 }
