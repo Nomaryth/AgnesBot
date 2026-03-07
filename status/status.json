@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-07T05:10:43.306Z",
-  "uptime": 30183,
+  "timestamp": "2026-03-07T05:11:43.306Z",
+  "uptime": 30243,
   "discord": {
     "status": "operational",
-    "ping": 16,
+    "ping": 24,
     "guilds": 443,
     "users": 10662,
     "membersTotal": 14955,
@@ -17,30 +17,47 @@
     "readyAt": "2026-03-06T17:47:45-03:00"
   },
   "system": {
-    "uptime": 30184.600021606,
+    "uptime": 30244.600978769,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 2568450,
     "memory": {
-      "rss": 485081088,
-      "heapUsed": 178008608,
-      "heapTotal": 316071936,
-      "external": 6153447,
-      "arrayBuffers": 1871331
+      "rss": 484913152,
+      "heapUsed": 191089352,
+      "heapTotal": 314552320,
+      "external": 6097424,
+      "arrayBuffers": 2003197
     },
     "cpu": {
-      "user": 619855838,
-      "system": 72288400
+      "user": 621536968,
+      "system": 72416670
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Red Sun in the Sky",
+            "duration": 239000,
+            "author": "Mao Ze Dong",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 4,
@@ -51,19 +68,19 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 58109,
+          "lastStatsAgoMs": 58112,
           "lastStatsAgo": "58s",
           "stats": {
             "players": 429,
-            "playingPlayers": 71,
-            "uptime": 11716259000,
-            "uptimeFormatted": "135d 14h 30m",
+            "playingPlayers": 70,
+            "uptime": 11716319000,
+            "uptimeFormatted": "135d 14h 31m",
             "memory": {
-              "used": 17379728,
-              "free": 132630424,
+              "used": 14062632,
+              "free": 135947520,
               "allocated": 150010152,
-              "reservable": 132630424,
-              "usedPercent": "11.59"
+              "reservable": 135947520,
+              "usedPercent": "9.37"
             },
             "cpu": {
               "cores": 2,
@@ -73,9 +90,9 @@
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 2805,
-              "nulled": 198,
-              "deficit": -3
+              "sent": 2831,
+              "nulled": 170,
+              "deficit": -2
             }
           }
         },
@@ -83,8 +100,8 @@
           "name": "Node 2",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 19557747,
-          "lastStatsAgo": "5h 25m",
+          "lastStatsAgoMs": 19617748,
+          "lastStatsAgo": "5h 26m",
           "stats": {
             "players": 284,
             "playingPlayers": 16,
@@ -111,8 +128,8 @@
           "name": "Node 3",
           "state": "DISCONNECTED",
           "connected": false,
-          "lastStatsAgoMs": 30178241,
-          "lastStatsAgo": "8h 22m",
+          "lastStatsAgoMs": 30238242,
+          "lastStatsAgo": "8h 23m",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
@@ -143,32 +160,32 @@
           "name": "Node 4",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 11711,
+          "lastStatsAgoMs": 11746,
           "lastStatsAgo": "11s",
           "stats": {
-            "players": 9,
-            "playingPlayers": 3,
-            "uptime": 209906955,
-            "uptimeFormatted": "2d 10h 18m",
+            "players": 10,
+            "playingPlayers": 4,
+            "uptime": 209966960,
+            "uptimeFormatted": "2d 10h 19m",
             "memory": {
-              "used": 126254784,
-              "free": 117624832,
-              "allocated": 133398528,
+              "used": 130884552,
+              "free": 116994048,
+              "allocated": 138002432,
               "reservable": 1008201728,
-              "usedPercent": "94.64"
+              "usedPercent": "94.84"
             },
             "cpu": {
               "cores": 1,
-              "systemLoad": 0.7,
+              "systemLoad": 0.37,
               "lavalinkLoad": 0,
-              "systemLoadPercent": "70.00",
+              "systemLoadPercent": "37.00",
               "lavalinkLoadPercent": "0.00"
             },
             "frameStats": {
-              "sent": 15946,
+              "sent": 23790,
               "nulled": 0,
               "deficit": 0,
-              "expected": 15946
+              "expected": 23790
             }
           }
         }
@@ -194,17 +211,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 30183
+    "uptime": 30243
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-07T05:10:43.311Z",
-    "saoPauloTime": "2026-03-07T02:10:43-03:00",
-    "readableTime": "07/03/2026, 02:10:43 BRT",
-    "current": "2026-03-07T05:10:43.311Z"
+    "utcTime": "2026-03-07T05:11:43.312Z",
+    "saoPauloTime": "2026-03-07T02:11:43-03:00",
+    "readableTime": "07/03/2026, 02:11:43 BRT",
+    "current": "2026-03-07T05:11:43.312Z"
   },
-  "lastUpdated": "2026-03-07T05:10:43.311Z",
+  "lastUpdated": "2026-03-07T05:11:43.312Z",
   "overallStatus": "operational"
 }
