@@ -1,203 +1,60 @@
 {
-  "timestamp": "2026-03-14T01:00:44.541Z",
-  "uptime": 619984,
+  "timestamp": "2026-03-14T01:01:13.091Z",
+  "uptime": 3,
   "discord": {
-    "status": "operational",
-    "ping": 16,
-    "guilds": 467,
-    "users": 10790,
-    "membersTotal": 15723,
-    "uniqueUsersEstimated": 10790,
-    "botsTotal": 1336,
+    "status": "connecting",
+    "ping": -1,
+    "guilds": 0,
+    "users": 0,
+    "membersTotal": 0,
+    "uniqueUsersEstimated": 0,
+    "botsTotal": 0,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": true,
-    "readyAt": "2026-03-06T17:47:45-03:00"
+    "ready": false,
+    "readyAt": null
   },
   "system": {
-    "uptime": 619985.843187032,
+    "uptime": 4.479673758,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
-    "pid": 2568450,
+    "pid": 3211461,
     "memory": {
-      "rss": 853258240,
-      "heapUsed": 429408536,
-      "heapTotal": 486268928,
-      "external": 5572265,
-      "arrayBuffers": 1354776
+      "rss": 234459136,
+      "heapUsed": 98094528,
+      "heapTotal": 212824064,
+      "external": 5185208,
+      "arrayBuffers": 887555
     },
     "cpu": {
-      "user": 10956509345,
-      "system": 1282359394
+      "user": 2148904,
+      "system": 302914
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 1,
+      "active": 0,
       "paused": 0,
-      "total": 1,
-      "details": [
-        {
-          "playing": true,
-          "paused": false,
-          "queueSize": 1,
-          "volume": 100,
-          "loop": "none",
-          "connected": true,
-          "voiceChannel": true,
-          "textChannel": true,
-          "currentTrack": {
-            "title": "ループザルーム - Looping the Rooms (feat. HATSUNE MIKU)",
-            "duration": 135000,
-            "author": "rusino",
-            "isStream": false
-          }
-        }
-      ]
+      "total": 0,
+      "details": []
     },
     "nodes": {
-      "total": 4,
+      "total": 0,
       "connected": 0,
       "healthy": false,
-      "nodes": [
-        {
-          "name": "Node 1",
-          "state": "DISCONNECTED",
-          "connected": false,
-          "lastStatsAgoMs": 383549725,
-          "lastStatsAgo": "4d 10h",
-          "stats": {
-            "players": 514,
-            "playingPlayers": 69,
-            "uptime": 11922569000,
-            "uptimeFormatted": "137d 23h 49m",
-            "memory": {
-              "used": 15710000,
-              "free": 134300152,
-              "allocated": 150010152,
-              "reservable": 134300152,
-              "usedPercent": "10.47"
-            },
-            "cpu": {
-              "cores": 2,
-              "systemLoad": 0,
-              "lavalinkLoad": 0,
-              "systemLoadPercent": "0.00",
-              "lavalinkLoadPercent": "0.00"
-            },
-            "frameStats": {
-              "sent": 2991,
-              "nulled": 9,
-              "deficit": -1
-            }
-          }
-        },
-        {
-          "name": "Node 2",
-          "state": "DISCONNECTED",
-          "connected": false,
-          "lastStatsAgoMs": 609358990,
-          "lastStatsAgo": "7d 1h",
-          "stats": {
-            "players": 284,
-            "playingPlayers": 16,
-            "uptime": 38007658,
-            "uptimeFormatted": "10h 33m",
-            "memory": {
-              "used": 375196104,
-              "free": 618853944,
-              "allocated": 994050048,
-              "reservable": 2147483648,
-              "usedPercent": "37.74"
-            },
-            "cpu": {
-              "cores": 8,
-              "systemLoad": 0.31065063159716216,
-              "lavalinkLoad": 0.16899204155705772,
-              "systemLoadPercent": "31.07",
-              "lavalinkLoadPercent": "16.90"
-            },
-            "frameStats": null
-          }
-        },
-        {
-          "name": "Node 3",
-          "state": "DISCONNECTED",
-          "connected": false,
-          "lastStatsAgoMs": 619979484,
-          "lastStatsAgo": "7d 4h",
-          "stats": {
-            "players": 0,
-            "playingPlayers": 0,
-            "uptime": 0,
-            "uptimeFormatted": "0s",
-            "memory": {
-              "used": 0,
-              "free": 0,
-              "allocated": 0,
-              "reservable": 0,
-              "usedPercent": 0
-            },
-            "cpu": {
-              "cores": 0,
-              "systemLoad": 0,
-              "lavalinkLoad": 0,
-              "systemLoadPercent": "0.00",
-              "lavalinkLoadPercent": "0.00"
-            },
-            "frameStats": {
-              "sent": 0,
-              "nulled": 0,
-              "deficit": 0
-            }
-          }
-        },
-        {
-          "name": "Node 4",
-          "state": "DISCONNECTED",
-          "connected": false,
-          "lastStatsAgoMs": 505067177,
-          "lastStatsAgo": "5d 20h",
-          "stats": {
-            "players": 6,
-            "playingPlayers": 0,
-            "uptime": 294031782,
-            "uptimeFormatted": "3d 9h 40m",
-            "memory": {
-              "used": 155586088,
-              "free": 3956736,
-              "allocated": 181415936,
-              "reservable": 1008201728,
-              "usedPercent": "85.76"
-            },
-            "cpu": {
-              "cores": 1,
-              "systemLoad": 1.37,
-              "lavalinkLoad": 0,
-              "systemLoadPercent": "137.00",
-              "lavalinkLoadPercent": "0.00"
-            },
-            "frameStats": {
-              "sent": 0,
-              "nulled": 0,
-              "deficit": 0,
-              "expected": 0
-            }
-          }
-        }
-      ]
+      "nodes": []
     },
     "queue": {
-      "totalTracks": 1
+      "totalTracks": 0
     }
   },
   "database": {
     "status": "connected",
-    "latency": 0,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -211,17 +68,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 619984
+    "uptime": 3
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-14T01:00:44.554Z",
-    "saoPauloTime": "2026-03-13T22:00:44-03:00",
-    "readableTime": "13/03/2026, 22:00:44 BRT",
-    "current": "2026-03-14T01:00:44.554Z"
+    "utcTime": "2026-03-14T01:01:13.097Z",
+    "saoPauloTime": "2026-03-13T22:01:13-03:00",
+    "readableTime": "13/03/2026, 22:01:13 BRT",
+    "current": "2026-03-14T01:01:13.098Z"
   },
-  "lastUpdated": "2026-03-14T01:00:44.556Z",
-  "overallStatus": "operational"
+  "lastUpdated": "2026-03-14T01:01:13.099Z",
+  "overallStatus": "offline"
 }
