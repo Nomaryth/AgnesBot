@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-16T10:06:15.115Z",
-  "uptime": 3,
+  "timestamp": "2026-03-16T10:07:15.116Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 18,
+    "guilds": 476,
+    "users": 11766,
+    "membersTotal": 16197,
+    "uniqueUsersEstimated": 11766,
+    "botsTotal": 509,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-16T07:06:15-03:00"
   },
   "system": {
-    "uptime": 5.062922594,
+    "uptime": 65.06424606,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3436660,
     "memory": {
-      "rss": 235184128,
-      "heapUsed": 99016160,
-      "heapTotal": 212574208,
-      "external": 5191930,
-      "arrayBuffers": 894277
+      "rss": 279875584,
+      "heapUsed": 111506632,
+      "heapTotal": 115720192,
+      "external": 4906513,
+      "arrayBuffers": 617240
     },
     "cpu": {
-      "user": 2192605,
-      "system": 360162
+      "user": 5452226,
+      "system": 825829
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": false,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "The 15 Most Popular Gaming Backsongs II Best NEFFE",
+            "duration": 3340000,
+            "author": "Haz Gaming",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59014,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 35,
+            "playingPlayers": 4,
+            "uptime": 828106314,
+            "uptimeFormatted": "9d 14h 1m",
+            "memory": {
+              "used": 624824160,
+              "free": 104984736,
+              "allocated": 729808896,
+              "reservable": 6304038912,
+              "usedPercent": "85.61"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.3407832898172324,
+              "lavalinkLoad": 0.07916238238968677,
+              "systemLoadPercent": "34.08",
+              "lavalinkLoadPercent": "7.92"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58382,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 49,
+            "playingPlayers": 15,
+            "uptime": 105153735,
+            "uptimeFormatted": "1d 5h 12m",
+            "memory": {
+              "used": 136428520,
+              "free": 122094616,
+              "allocated": 258523136,
+              "reservable": 506855424,
+              "usedPercent": "52.77"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.2024762614038354,
+              "lavalinkLoad": 0.17232426818978386,
+              "systemLoadPercent": "20.25",
+              "lavalinkLoadPercent": "17.23"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +128,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-16T10:06:15.120Z",
-    "saoPauloTime": "2026-03-16T07:06:15-03:00",
-    "readableTime": "16/03/2026, 07:06:15 BRT",
-    "current": "2026-03-16T10:06:15.122Z"
+    "utcTime": "2026-03-16T10:07:15.120Z",
+    "saoPauloTime": "2026-03-16T07:07:15-03:00",
+    "readableTime": "16/03/2026, 07:07:15 BRT",
+    "current": "2026-03-16T10:07:15.120Z"
   },
-  "lastUpdated": "2026-03-16T10:06:15.122Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-16T10:07:15.120Z",
+  "overallStatus": "operational"
 }
