@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-16T09:14:53.284Z",
-  "uptime": 3,
+  "timestamp": "2026-03-16T09:15:53.285Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 15,
+    "guilds": 476,
+    "users": 11769,
+    "membersTotal": 16199,
+    "uniqueUsersEstimated": 11769,
+    "botsTotal": 506,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-16T06:14:55-03:00"
   },
   "system": {
-    "uptime": 4.531264957,
+    "uptime": 64.533352754,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3430742,
     "memory": {
-      "rss": 234967040,
-      "heapUsed": 98284472,
-      "heapTotal": 213348352,
-      "external": 5182199,
-      "arrayBuffers": 884546
+      "rss": 288878592,
+      "heapUsed": 110248352,
+      "heapTotal": 115445760,
+      "external": 4909372,
+      "arrayBuffers": 618051
     },
     "cpu": {
-      "user": 2147527,
-      "system": 305354
+      "user": 5776085,
+      "system": 798760
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": false,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "【ウマ娘】うまぴょい伝説 (パート分け/Color Coded/Lyrics)【Umapyoi Le",
+            "duration": 272000,
+            "author": "🐈Kogane Music",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 57543,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 38202,
+            "uptimeFormatted": "38s",
+            "memory": {
+              "used": 313430392,
+              "free": 223440520,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "58.38"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 56778,
+          "lastStatsAgo": "56s",
+          "stats": {
+            "players": 49,
+            "playingPlayers": 27,
+            "uptime": 102073502,
+            "uptimeFormatted": "1d 4h 21m",
+            "memory": {
+              "used": 136625320,
+              "free": 121897816,
+              "allocated": 258523136,
+              "reservable": 506855424,
+              "usedPercent": "52.85"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.3693142660234321,
+              "lavalinkLoad": 0.23576058701589286,
+              "systemLoadPercent": "36.93",
+              "lavalinkLoadPercent": "23.58"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +128,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-16T09:14:53.290Z",
-    "saoPauloTime": "2026-03-16T06:14:53-03:00",
-    "readableTime": "16/03/2026, 06:14:53 BRT",
-    "current": "2026-03-16T09:14:53.291Z"
+    "utcTime": "2026-03-16T09:15:53.289Z",
+    "saoPauloTime": "2026-03-16T06:15:53-03:00",
+    "readableTime": "16/03/2026, 06:15:53 BRT",
+    "current": "2026-03-16T09:15:53.290Z"
   },
-  "lastUpdated": "2026-03-16T09:14:53.292Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-16T09:15:53.290Z",
+  "overallStatus": "operational"
 }
