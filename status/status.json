@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-16T11:13:18.222Z",
-  "uptime": 3,
+  "timestamp": "2026-03-16T11:14:18.223Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 23,
+    "guilds": 476,
+    "users": 11772,
+    "membersTotal": 16204,
+    "uniqueUsersEstimated": 11772,
+    "botsTotal": 507,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-16T08:13:18-03:00"
   },
   "system": {
-    "uptime": 4.538977085,
+    "uptime": 64.540279184,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3442343,
     "memory": {
-      "rss": 235483136,
-      "heapUsed": 98545296,
-      "heapTotal": 213622784,
-      "external": 5182274,
-      "arrayBuffers": 884621
+      "rss": 277856256,
+      "heapUsed": 112327632,
+      "heapTotal": 115720192,
+      "external": 4972605,
+      "arrayBuffers": 683332
     },
     "cpu": {
-      "user": 2143150,
-      "system": 324598
+      "user": 5428228,
+      "system": 828630
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "NEFFEX - Grateful [Copyright Free] No.54",
+            "duration": 182000,
+            "author": "NEFFEX",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59068,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 36,
+            "playingPlayers": 5,
+            "uptime": 832129369,
+            "uptimeFormatted": "9d 15h 8m",
+            "memory": {
+              "used": 512402512,
+              "free": 217406384,
+              "allocated": 729808896,
+              "reservable": 6304038912,
+              "usedPercent": "70.21"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.32787138661307774,
+              "lavalinkLoad": 0.07924707200655094,
+              "systemLoadPercent": "32.79",
+              "lavalinkLoadPercent": "7.92"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58382,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 52,
+            "playingPlayers": 14,
+            "uptime": 109176833,
+            "uptimeFormatted": "1d 6h 19m",
+            "memory": {
+              "used": 169076672,
+              "free": 89446464,
+              "allocated": 258523136,
+              "reservable": 506855424,
+              "usedPercent": "65.40"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.35658704919142026,
+              "lavalinkLoad": 0.2068696330991413,
+              "systemLoadPercent": "35.66",
+              "lavalinkLoadPercent": "20.69"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +128,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-16T11:13:18.228Z",
-    "saoPauloTime": "2026-03-16T08:13:18-03:00",
-    "readableTime": "16/03/2026, 08:13:18 BRT",
-    "current": "2026-03-16T11:13:18.230Z"
+    "utcTime": "2026-03-16T11:14:18.227Z",
+    "saoPauloTime": "2026-03-16T08:14:18-03:00",
+    "readableTime": "16/03/2026, 08:14:18 BRT",
+    "current": "2026-03-16T11:14:18.227Z"
   },
-  "lastUpdated": "2026-03-16T11:13:18.230Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-16T11:14:18.227Z",
+  "overallStatus": "operational"
 }
