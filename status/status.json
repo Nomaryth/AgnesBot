@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-17T10:52:42.967Z",
-  "uptime": 3,
+  "timestamp": "2026-03-17T10:53:42.968Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 25,
+    "guilds": 475,
+    "users": 11848,
+    "membersTotal": 16305,
+    "uniqueUsersEstimated": 11848,
+    "botsTotal": 507,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-17T07:52:43-03:00"
   },
   "system": {
-    "uptime": 5.055511867,
+    "uptime": 65.057044691,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3532910,
     "memory": {
-      "rss": 244576256,
-      "heapUsed": 98584112,
-      "heapTotal": 216240128,
-      "external": 5186767,
-      "arrayBuffers": 889306
+      "rss": 283291648,
+      "heapUsed": 111932712,
+      "heapTotal": 114405376,
+      "external": 5737764,
+      "arrayBuffers": 2604631
     },
     "cpu": {
-      "user": 2213923,
-      "system": 288355
+      "user": 6497160,
+      "system": 723251
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "NEFFEX - Rumors (Lyrics)",
+            "duration": 248000,
+            "author": "Taj Tracks",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59098,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 90944995,
+            "uptimeFormatted": "1d 1h 15m",
+            "memory": {
+              "used": 287791520,
+              "free": 249079392,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "53.61"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.032695223654283546,
+              "lavalinkLoad": 0.0004723665564478035,
+              "systemLoadPercent": "3.27",
+              "lavalinkLoadPercent": "0.05"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58858,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 43,
+            "playingPlayers": 2,
+            "uptime": 917294331,
+            "uptimeFormatted": "10d 14h 48m",
+            "memory": {
+              "used": 416612000,
+              "free": 229310816,
+              "allocated": 645922816,
+              "reservable": 6304038912,
+              "usedPercent": "64.50"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.24842784197796292,
+              "lavalinkLoad": 0.03511847661892318,
+              "systemLoadPercent": "24.84",
+              "lavalinkLoadPercent": "3.51"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +128,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-17T10:52:42.972Z",
-    "saoPauloTime": "2026-03-17T07:52:42-03:00",
-    "readableTime": "17/03/2026, 07:52:42 BRT",
-    "current": "2026-03-17T10:52:42.973Z"
+    "utcTime": "2026-03-17T10:53:42.972Z",
+    "saoPauloTime": "2026-03-17T07:53:42-03:00",
+    "readableTime": "17/03/2026, 07:53:42 BRT",
+    "current": "2026-03-17T10:53:42.973Z"
   },
-  "lastUpdated": "2026-03-17T10:52:42.974Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-17T10:53:42.973Z",
+  "overallStatus": "operational"
 }
