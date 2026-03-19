@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-19T07:49:27.104Z",
-  "uptime": 3,
+  "timestamp": "2026-03-19T07:50:27.104Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 18,
+    "guilds": 485,
+    "users": 12104,
+    "membersTotal": 16643,
+    "uniqueUsersEstimated": 12104,
+    "botsTotal": 504,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-19T04:49:27-03:00"
   },
   "system": {
-    "uptime": 5.538405777,
+    "uptime": 65.539702529,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3733151,
     "memory": {
-      "rss": 244457472,
-      "heapUsed": 101969920,
-      "heapTotal": 214929408,
-      "external": 4912972,
-      "arrayBuffers": 615511
+      "rss": 341860352,
+      "heapUsed": 111882912,
+      "heapTotal": 115736576,
+      "external": 4871627,
+      "arrayBuffers": 1006152
     },
     "cpu": {
-      "user": 2526869,
-      "system": 387189
+      "user": 6336249,
+      "system": 890419
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Falling For The Lies Behind Your Eyes",
+            "duration": 42900000,
+            "author": "Dark Desire Lofi",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58769,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 10436,
+            "uptimeFormatted": "10s",
+            "memory": {
+              "used": 43566456,
+              "free": 493304456,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "8.11"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59016,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 46,
+            "playingPlayers": 3,
+            "uptime": 1079098308,
+            "uptimeFormatted": "12d 11h 44m",
+            "memory": {
+              "used": 362960904,
+              "free": 282961912,
+              "allocated": 645922816,
+              "reservable": 6304038912,
+              "usedPercent": "56.19"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.26916685131841345,
+              "lavalinkLoad": 0.06046136330978988,
+              "systemLoadPercent": "26.92",
+              "lavalinkLoadPercent": "6.05"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-19T07:49:27.108Z",
-    "saoPauloTime": "2026-03-19T04:49:27-03:00",
-    "readableTime": "19/03/2026, 04:49:27 BRT",
-    "current": "2026-03-19T07:49:27.110Z"
+    "utcTime": "2026-03-19T07:50:27.108Z",
+    "saoPauloTime": "2026-03-19T04:50:27-03:00",
+    "readableTime": "19/03/2026, 04:50:27 BRT",
+    "current": "2026-03-19T07:50:27.109Z"
   },
-  "lastUpdated": "2026-03-19T07:49:27.110Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-19T07:50:27.109Z",
+  "overallStatus": "operational"
 }
