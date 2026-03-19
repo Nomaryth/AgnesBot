@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-03-19T07:39:54.210Z",
-  "uptime": 3,
+  "timestamp": "2026-03-19T07:40:54.210Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 20,
+    "guilds": 485,
+    "users": 12103,
+    "membersTotal": 16643,
+    "uniqueUsersEstimated": 12103,
+    "botsTotal": 505,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-19T04:39:54-03:00"
   },
   "system": {
-    "uptime": 5.300390332,
+    "uptime": 65.301361298,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 3731656,
     "memory": {
-      "rss": 242397184,
-      "heapUsed": 100467152,
-      "heapTotal": 214929408,
-      "external": 5124832,
-      "arrayBuffers": 827371
+      "rss": 323874816,
+      "heapUsed": 113212392,
+      "heapTotal": 115576832,
+      "external": 6055844,
+      "arrayBuffers": 2292297
     },
     "cpu": {
-      "user": 2399500,
-      "system": 273680
+      "user": 6212558,
+      "system": 680018
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "NEFFEX - ASHES [Copyright Free] No.245",
+            "duration": 153000,
+            "author": "NEFFEX",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58874,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 13529,
+            "uptimeFormatted": "13s",
+            "memory": {
+              "used": 32017696,
+              "free": 504853216,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "5.96"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59045,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 46,
+            "playingPlayers": 3,
+            "uptime": 1078525382,
+            "uptimeFormatted": "12d 11h 35m",
+            "memory": {
+              "used": 278267304,
+              "free": 367655512,
+              "allocated": 645922816,
+              "reservable": 6304038912,
+              "usedPercent": "43.08"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.1856959962756052,
+              "lavalinkLoad": 0.044771808203350666,
+              "systemLoadPercent": "18.57",
+              "lavalinkLoadPercent": "4.48"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-19T07:39:54.216Z",
-    "saoPauloTime": "2026-03-19T04:39:54-03:00",
-    "readableTime": "19/03/2026, 04:39:54 BRT",
-    "current": "2026-03-19T07:39:54.218Z"
+    "utcTime": "2026-03-19T07:40:54.214Z",
+    "saoPauloTime": "2026-03-19T04:40:54-03:00",
+    "readableTime": "19/03/2026, 04:40:54 BRT",
+    "current": "2026-03-19T07:40:54.215Z"
   },
-  "lastUpdated": "2026-03-19T07:39:54.218Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-19T07:40:54.215Z",
+  "overallStatus": "operational"
 }
