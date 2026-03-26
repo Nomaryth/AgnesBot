@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-03-26T19:54:06.968Z",
-  "uptime": 3,
+  "timestamp": "2026-03-26T19:55:06.968Z",
+  "uptime": 63,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 17,
+    "guilds": 509,
+    "users": 12899,
+    "membersTotal": 17724,
+    "uniqueUsersEstimated": 12899,
+    "botsTotal": 525,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-26T16:54:07-03:00"
   },
   "system": {
-    "uptime": 5.178133958,
+    "uptime": 65.17945445,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 230887,
     "memory": {
-      "rss": 232734720,
-      "heapUsed": 67154280,
-      "heapTotal": 203350016,
-      "external": 4320282,
-      "arrayBuffers": 343282
+      "rss": 234684416,
+      "heapUsed": 105153672,
+      "heapTotal": 108916736,
+      "external": 4917113,
+      "arrayBuffers": 960785
     },
     "cpu": {
-      "user": 1995156,
-      "system": 305681
+      "user": 5198138,
+      "system": 677678
     }
   },
   "music": {
@@ -43,10 +43,71 @@
       "details": []
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59051,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 93293325,
+            "uptimeFormatted": "1d 1h 54m",
+            "memory": {
+              "used": 199202880,
+              "free": 337668032,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "37.10"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.01673483014773391,
+              "lavalinkLoad": 0.000375,
+              "systemLoadPercent": "1.67",
+              "lavalinkLoadPercent": "0.04"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 59122,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +129,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3
+    "uptime": 63
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-26T19:54:06.972Z",
-    "saoPauloTime": "2026-03-26T16:54:06-03:00",
-    "readableTime": "26/03/2026, 16:54:06 BRT",
-    "current": "2026-03-26T19:54:06.974Z"
+    "utcTime": "2026-03-26T19:55:06.972Z",
+    "saoPauloTime": "2026-03-26T16:55:06-03:00",
+    "readableTime": "26/03/2026, 16:55:06 BRT",
+    "current": "2026-03-26T19:55:06.973Z"
   },
-  "lastUpdated": "2026-03-26T19:54:06.974Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-26T19:55:06.973Z",
+  "overallStatus": "operational"
 }
