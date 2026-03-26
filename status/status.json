@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-03-26T19:01:50.212Z",
-  "uptime": 4,
+  "timestamp": "2026-03-26T19:02:50.212Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": null,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 31,
+    "guilds": 509,
+    "users": 12900,
+    "membersTotal": 17724,
+    "uniqueUsersEstimated": 12900,
+    "botsTotal": 523,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-03-26T16:01:51-03:00"
   },
   "system": {
-    "uptime": 5.281169934,
+    "uptime": 65.282243465,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 227153,
     "memory": {
-      "rss": 230400000,
-      "heapUsed": 66722552,
-      "heapTotal": 202559488,
-      "external": 4303373,
-      "arrayBuffers": 328877
+      "rss": 231899136,
+      "heapUsed": 105946256,
+      "heapTotal": 110747648,
+      "external": 4919383,
+      "arrayBuffers": 977752
     },
     "cpu": {
-      "user": 1899118,
-      "system": 389036
+      "user": 4921608,
+      "system": 771849
     }
   },
   "music": {
@@ -43,10 +43,71 @@
       "details": []
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58863,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 90156757,
+            "uptimeFormatted": "1d 1h 2m",
+            "memory": {
+              "used": 189881856,
+              "free": 346989056,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "35.37"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.023466533049396634,
+              "lavalinkLoad": 0.000375,
+              "systemLoadPercent": "2.35",
+              "lavalinkLoadPercent": "0.04"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58938,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +129,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-03-26T19:01:50.217Z",
-    "saoPauloTime": "2026-03-26T16:01:50-03:00",
-    "readableTime": "26/03/2026, 16:01:50 BRT",
-    "current": "2026-03-26T19:01:50.219Z"
+    "utcTime": "2026-03-26T19:02:50.216Z",
+    "saoPauloTime": "2026-03-26T16:02:50-03:00",
+    "readableTime": "26/03/2026, 16:02:50 BRT",
+    "current": "2026-03-26T19:02:50.217Z"
   },
-  "lastUpdated": "2026-03-26T19:01:50.219Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-03-26T19:02:50.217Z",
+  "overallStatus": "operational"
 }
