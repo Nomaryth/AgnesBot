@@ -1,55 +1,129 @@
 {
-  "timestamp": "2026-04-06T07:28:00.623Z",
-  "uptime": 4,
+  "timestamp": "2026-04-06T07:29:00.623Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 16,
+    "guilds": 547,
+    "users": 14365,
+    "membersTotal": 19732,
+    "uniqueUsersEstimated": 14365,
+    "botsTotal": 578,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-06T04:28:01-03:00"
   },
   "system": {
-    "uptime": 5.441866648,
+    "uptime": 65.443755106,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1199370,
     "memory": {
-      "rss": 239935488,
-      "heapUsed": 69848272,
-      "heapTotal": 202895360,
-      "external": 4322095,
-      "arrayBuffers": 345095
+      "rss": 370638848,
+      "heapUsed": 104752760,
+      "heapTotal": 112394240,
+      "external": 7522084,
+      "arrayBuffers": 6250846
     },
     "cpu": {
-      "user": 1988417,
-      "system": 336895
+      "user": 9654929,
+      "system": 951809
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 25,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "The Coffin of Andy and Leyley Tua sina slowed",
+            "duration": 297718,
+            "author": "Soldado do BOPE",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58988,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 181102871,
+            "uptimeFormatted": "2d 2h 18m",
+            "memory": {
+              "used": 255540488,
+              "free": 281330424,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "47.60"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.09951825557809331,
+              "lavalinkLoad": 0.0005699521240215822,
+              "systemLoadPercent": "9.95",
+              "lavalinkLoadPercent": "0.06"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58828,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 55,
+            "playingPlayers": 7,
+            "uptime": 2633012019,
+            "uptimeFormatted": "30d 11h 23m",
+            "memory": {
+              "used": 1022433944,
+              "free": 781116776,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "56.69"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.15132446362219826,
+              "lavalinkLoad": 0.061045995382702896,
+              "systemLoadPercent": "15.13",
+              "lavalinkLoadPercent": "6.10"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 25
     }
   },
   "database": {
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-06T07:28:00.628Z",
-    "saoPauloTime": "2026-04-06T04:28:00-03:00",
-    "readableTime": "06/04/2026, 04:28:00 BRT",
-    "current": "2026-04-06T07:28:00.629Z"
+    "utcTime": "2026-04-06T07:29:00.629Z",
+    "saoPauloTime": "2026-04-06T04:29:00-03:00",
+    "readableTime": "06/04/2026, 04:29:00 BRT",
+    "current": "2026-04-06T07:29:00.630Z"
   },
-  "lastUpdated": "2026-04-06T07:28:00.630Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-06T07:29:00.630Z",
+  "overallStatus": "operational"
 }
