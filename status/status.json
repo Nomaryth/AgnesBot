@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-04-06T07:24:32.477Z",
-  "uptime": 4,
+  "timestamp": "2026-04-06T07:25:32.478Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 15,
+    "guilds": 547,
+    "users": 14364,
+    "membersTotal": 19732,
+    "uniqueUsersEstimated": 14364,
+    "botsTotal": 580,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-06T04:24:34-03:00"
   },
   "system": {
-    "uptime": 5.446164926,
+    "uptime": 65.448420722,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1198743,
     "memory": {
-      "rss": 240238592,
-      "heapUsed": 69798088,
-      "heapTotal": 202366976,
-      "external": 4338271,
-      "arrayBuffers": 361271
+      "rss": 354127872,
+      "heapUsed": 111587640,
+      "heapTotal": 114675712,
+      "external": 20257344,
+      "arrayBuffers": 31101828
     },
     "cpu": {
-      "user": 2101360,
-      "system": 259133
+      "user": 15956189,
+      "system": 1127250
     }
   },
   "music": {
@@ -39,14 +39,88 @@
     "players": {
       "active": 0,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": false,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Frankenstein (Junji ito) - PART BY PART | Chrono",
+            "duration": 215000,
+            "author": "Chrono",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58354,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 180895386,
+            "uptimeFormatted": "2d 2h 14m",
+            "memory": {
+              "used": 171517552,
+              "free": 365353360,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "31.95"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.03580342151835549,
+              "lavalinkLoad": 0.00040749796251018743,
+              "systemLoadPercent": "3.58",
+              "lavalinkLoadPercent": "0.04"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58133,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 56,
+            "playingPlayers": 7,
+            "uptime": 2632804568,
+            "uptimeFormatted": "30d 11h 20m",
+            "memory": {
+              "used": 515535920,
+              "free": 1288014800,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "28.58"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.17928920846348795,
+              "lavalinkLoad": 0.07211906480327188,
+              "systemLoadPercent": "17.93",
+              "lavalinkLoadPercent": "7.21"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-06T07:24:32.482Z",
-    "saoPauloTime": "2026-04-06T04:24:32-03:00",
-    "readableTime": "06/04/2026, 04:24:32 BRT",
-    "current": "2026-04-06T07:24:32.483Z"
+    "utcTime": "2026-04-06T07:25:32.482Z",
+    "saoPauloTime": "2026-04-06T04:25:32-03:00",
+    "readableTime": "06/04/2026, 04:25:32 BRT",
+    "current": "2026-04-06T07:25:32.483Z"
   },
-  "lastUpdated": "2026-04-06T07:24:32.484Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-06T07:25:32.483Z",
+  "overallStatus": "operational"
 }
