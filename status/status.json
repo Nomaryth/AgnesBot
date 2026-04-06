@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-04-06T06:54:22.665Z",
-  "uptime": 5,
+  "timestamp": "2026-04-06T06:55:22.665Z",
+  "uptime": 65,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 15,
+    "guilds": 547,
+    "users": 14364,
+    "membersTotal": 19731,
+    "uniqueUsersEstimated": 14364,
+    "botsTotal": 579,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-06T03:54:23-03:00"
   },
   "system": {
-    "uptime": 6.487842708,
+    "uptime": 66.490042627,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1195610,
     "memory": {
-      "rss": 240238592,
-      "heapUsed": 69757208,
-      "heapTotal": 202878976,
-      "external": 4320790,
-      "arrayBuffers": 343790
+      "rss": 243093504,
+      "heapUsed": 100139312,
+      "heapTotal": 105562112,
+      "external": 4253964,
+      "arrayBuffers": 293063
     },
     "cpu": {
-      "user": 2111688,
-      "system": 332876
+      "user": 7869452,
+      "system": 865411
     }
   },
   "music": {
@@ -39,17 +39,91 @@
     "players": {
       "active": 0,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": false,
+          "paused": false,
+          "queueSize": 27,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Anny - Alma de Piche",
+            "duration": 277000,
+            "author": "Anny",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 59002,
+          "lastStatsAgo": "59s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 179084934,
+            "uptimeFormatted": "2d 1h 44m",
+            "memory": {
+              "used": 366480768,
+              "free": 170390144,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "68.26"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0.06965899154765375,
+              "lavalinkLoad": 0.0005833236112731454,
+              "systemLoadPercent": "6.97",
+              "lavalinkLoadPercent": "0.06"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58779,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 55,
+            "playingPlayers": 6,
+            "uptime": 2630994111,
+            "uptimeFormatted": "30d 10h 49m",
+            "memory": {
+              "used": 445531592,
+              "free": 1358019128,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "24.70"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.20303728653312061,
+              "lavalinkLoad": 0.07165711238501533,
+              "systemLoadPercent": "20.30",
+              "lavalinkLoadPercent": "7.17"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 27
     }
   },
   "database": {
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 5
+    "uptime": 65
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-06T06:54:22.670Z",
-    "saoPauloTime": "2026-04-06T03:54:22-03:00",
-    "readableTime": "06/04/2026, 03:54:22 BRT",
-    "current": "2026-04-06T06:54:22.671Z"
+    "utcTime": "2026-04-06T06:55:22.671Z",
+    "saoPauloTime": "2026-04-06T03:55:22-03:00",
+    "readableTime": "06/04/2026, 03:55:22 BRT",
+    "current": "2026-04-06T06:55:22.672Z"
   },
-  "lastUpdated": "2026-04-06T06:54:22.672Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-06T06:55:22.672Z",
+  "overallStatus": "operational"
 }
