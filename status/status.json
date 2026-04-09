@@ -1,52 +1,146 @@
 {
-  "timestamp": "2026-04-09T14:27:48.505Z",
-  "uptime": 4,
+  "timestamp": "2026-04-09T14:28:48.505Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 19,
+    "guilds": 564,
+    "users": 14812,
+    "membersTotal": 20347,
+    "uniqueUsersEstimated": 14812,
+    "botsTotal": 597,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-09T11:27:49-03:00"
   },
   "system": {
-    "uptime": 5.518793154,
+    "uptime": 65.52052812,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.13.0",
     "pid": 1498380,
     "memory": {
-      "rss": 239837184,
-      "heapUsed": 69990736,
-      "heapTotal": 202625024,
-      "external": 4320948,
-      "arrayBuffers": 343948
+      "rss": 347951104,
+      "heapUsed": 112061304,
+      "heapTotal": 116916224,
+      "external": 4809840,
+      "arrayBuffers": 1527170
     },
     "cpu": {
-      "user": 2060409,
-      "system": 335820
+      "user": 7425659,
+      "system": 954051
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 2,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 2,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "All G1 Fanfare - Umamusume: Pretty Derby (Global)",
+            "duration": 651000,
+            "author": "Sang Wind",
+            "isStream": false
+          }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "All G1 Fanfare - Umamusume: Pretty Derby (Global)",
+            "duration": 651000,
+            "author": "Sang Wind",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58903,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58587,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 69,
+            "playingPlayers": 3,
+            "uptime": 2917400136,
+            "uptimeFormatted": "33d 18h 23m",
+            "memory": {
+              "used": 1514406904,
+              "free": 289143816,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "83.97"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.2017136539524599,
+              "lavalinkLoad": 0.064178320530497,
+              "systemLoadPercent": "20.17",
+              "lavalinkLoadPercent": "6.42"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +162,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-09T14:27:48.510Z",
-    "saoPauloTime": "2026-04-09T11:27:48-03:00",
-    "readableTime": "09/04/2026, 11:27:48 BRT",
-    "current": "2026-04-09T14:27:48.512Z"
+    "utcTime": "2026-04-09T14:28:48.510Z",
+    "saoPauloTime": "2026-04-09T11:28:48-03:00",
+    "readableTime": "09/04/2026, 11:28:48 BRT",
+    "current": "2026-04-09T14:28:48.510Z"
   },
-  "lastUpdated": "2026-04-09T14:27:48.512Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-09T14:28:48.511Z",
+  "overallStatus": "operational"
 }
