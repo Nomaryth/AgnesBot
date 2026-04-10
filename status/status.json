@@ -1,52 +1,130 @@
 {
-  "timestamp": "2026-04-10T20:43:20.721Z",
-  "uptime": 4,
+  "timestamp": "2026-04-10T20:44:20.722Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": null,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 21,
+    "guilds": 566,
+    "users": 14978,
+    "membersTotal": 20569,
+    "uniqueUsersEstimated": 14978,
+    "botsTotal": 598,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-10T17:43:22-03:00"
   },
   "system": {
-    "uptime": 5.368683333,
+    "uptime": 65.370727063,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.14.1",
     "pid": 1641792,
     "memory": {
-      "rss": 242991104,
-      "heapUsed": 70552912,
-      "heapTotal": 205832192,
-      "external": 4329762,
-      "arrayBuffers": 338641
+      "rss": 270135296,
+      "heapUsed": 105637232,
+      "heapTotal": 114806784,
+      "external": 8511861,
+      "arrayBuffers": 9523794
     },
     "cpu": {
-      "user": 2082506,
-      "system": 206663
+      "user": 8686020,
+      "system": 751909
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Sam Smith, Kim Petras - Unholy (Official Music Vid",
+            "duration": 276000,
+            "author": "SAM SMITH",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 56156,
+          "lastStatsAgo": "56s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 55840,
+          "lastStatsAgo": "55s",
+          "stats": {
+            "players": 74,
+            "playingPlayers": 9,
+            "uptime": 3026335096,
+            "uptimeFormatted": "35d 0h 38m",
+            "memory": {
+              "used": 753101320,
+              "free": 1050449400,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "41.76"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.26820271570619053,
+              "lavalinkLoad": 0.058213530772380666,
+              "systemLoadPercent": "26.82",
+              "lavalinkLoadPercent": "5.82"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +132,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 9,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +146,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-10T20:43:20.734Z",
-    "saoPauloTime": "2026-04-10T17:43:20-03:00",
-    "readableTime": "10/04/2026, 17:43:20 BRT",
-    "current": "2026-04-10T20:43:20.736Z"
+    "utcTime": "2026-04-10T20:44:20.727Z",
+    "saoPauloTime": "2026-04-10T17:44:20-03:00",
+    "readableTime": "10/04/2026, 17:44:20 BRT",
+    "current": "2026-04-10T20:44:20.727Z"
   },
-  "lastUpdated": "2026-04-10T20:43:20.736Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-10T20:44:20.727Z",
+  "overallStatus": "operational"
 }
