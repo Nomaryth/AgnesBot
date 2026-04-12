@@ -1,52 +1,130 @@
 {
-  "timestamp": "2026-04-12T11:53:56.134Z",
-  "uptime": 4,
+  "timestamp": "2026-04-12T11:54:56.134Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 15,
+    "guilds": 583,
+    "users": 15366,
+    "membersTotal": 21098,
+    "uniqueUsersEstimated": 15366,
+    "botsTotal": 609,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-12T08:53:57-03:00"
   },
   "system": {
-    "uptime": 5.397184448,
+    "uptime": 65.398706664,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.14.1",
     "pid": 1794028,
     "memory": {
-      "rss": 247468032,
-      "heapUsed": 69877456,
-      "heapTotal": 206123008,
-      "external": 4346970,
-      "arrayBuffers": 353345
+      "rss": 339779584,
+      "heapUsed": 105943104,
+      "heapTotal": 110383104,
+      "external": 8212485,
+      "arrayBuffers": 6647352
     },
     "cpu": {
-      "user": 2088198,
-      "system": 273166
+      "user": 8198469,
+      "system": 900802
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Burn Slow Like a Memory",
+            "duration": 10801000,
+            "author": "Dark Desire Lofi",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 57790,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 57462,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 74,
+            "playingPlayers": 2,
+            "uptime": 3167368887,
+            "uptimeFormatted": "36d 15h 49m",
+            "memory": {
+              "used": 1587515912,
+              "free": 216034808,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "88.02"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.3085314685314685,
+              "lavalinkLoad": 0.06591650575937145,
+              "systemLoadPercent": "30.85",
+              "lavalinkLoadPercent": "6.59"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +146,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-12T11:53:56.139Z",
-    "saoPauloTime": "2026-04-12T08:53:56-03:00",
-    "readableTime": "12/04/2026, 08:53:56 BRT",
-    "current": "2026-04-12T11:53:56.141Z"
+    "utcTime": "2026-04-12T11:54:56.140Z",
+    "saoPauloTime": "2026-04-12T08:54:56-03:00",
+    "readableTime": "12/04/2026, 08:54:56 BRT",
+    "current": "2026-04-12T11:54:56.140Z"
   },
-  "lastUpdated": "2026-04-12T11:53:56.141Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-12T11:54:56.140Z",
+  "overallStatus": "operational"
 }
