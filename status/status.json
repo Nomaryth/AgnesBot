@@ -1,52 +1,178 @@
 {
-  "timestamp": "2026-04-12T00:04:58.296Z",
-  "uptime": 4,
+  "timestamp": "2026-04-12T00:05:58.296Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 17,
+    "guilds": 579,
+    "users": 15306,
+    "membersTotal": 21022,
+    "uniqueUsersEstimated": 15306,
+    "botsTotal": 614,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-11T21:04:59-03:00"
   },
   "system": {
-    "uptime": 5.301417124,
+    "uptime": 65.304448218,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.14.1",
     "pid": 1748874,
     "memory": {
-      "rss": 248524800,
-      "heapUsed": 89528600,
-      "heapTotal": 205930496,
-      "external": 4828726,
-      "arrayBuffers": 835101
+      "rss": 343089152,
+      "heapUsed": 109110752,
+      "heapTotal": 115736576,
+      "external": 6508984,
+      "arrayBuffers": 3689623
     },
     "cpu": {
-      "user": 1938469,
-      "system": 318104
+      "user": 9560356,
+      "system": 1298255
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 4,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 4,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "KSLV - Override",
+            "duration": 115000,
+            "author": "KSLV",
+            "isStream": false
+          }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 70,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Koi Wa Derby",
+            "duration": 289920,
+            "author": "Uma Radio",
+            "isStream": true
+          }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 70,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Umapyoi Legend",
+            "duration": 269978,
+            "author": "Uma Radio",
+            "isStream": true
+          }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 60,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Koi Wa Derby",
+            "duration": 289920,
+            "author": "Uma Radio",
+            "isStream": true
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 57188,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 56870,
+          "lastStatsAgo": "56s",
+          "stats": {
+            "players": 70,
+            "playingPlayers": 3,
+            "uptime": 3124831644,
+            "uptimeFormatted": "36d 4h 0m",
+            "memory": {
+              "used": 969478440,
+              "free": 834072280,
+              "allocated": 1803550720,
+              "reservable": 6304038912,
+              "usedPercent": "53.75"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.2737178076161127,
+              "lavalinkLoad": 0.05482930290833694,
+              "systemLoadPercent": "27.37",
+              "lavalinkLoadPercent": "5.48"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +180,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +194,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-12T00:04:58.300Z",
-    "saoPauloTime": "2026-04-11T21:04:58-03:00",
-    "readableTime": "11/04/2026, 21:04:58 BRT",
-    "current": "2026-04-12T00:04:58.302Z"
+    "utcTime": "2026-04-12T00:05:58.302Z",
+    "saoPauloTime": "2026-04-11T21:05:58-03:00",
+    "readableTime": "11/04/2026, 21:05:58 BRT",
+    "current": "2026-04-12T00:05:58.303Z"
   },
-  "lastUpdated": "2026-04-12T00:04:58.302Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-12T00:05:58.303Z",
+  "overallStatus": "operational"
 }
