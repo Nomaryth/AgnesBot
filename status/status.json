@@ -1,52 +1,130 @@
 {
-  "timestamp": "2026-04-18T08:19:51.046Z",
-  "uptime": 4,
+  "timestamp": "2026-04-18T08:20:51.046Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 15,
+    "guilds": 612,
+    "users": 16161,
+    "membersTotal": 22195,
+    "uniqueUsersEstimated": 16161,
+    "botsTotal": 647,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-18T05:19:52-03:00"
   },
   "system": {
-    "uptime": 5.309966181,
+    "uptime": 65.311259308,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.14.1",
     "pid": 2367287,
     "memory": {
-      "rss": 248012800,
-      "heapUsed": 70292032,
-      "heapTotal": 205889536,
-      "external": 4344169,
-      "arrayBuffers": 350544
+      "rss": 316014592,
+      "heapUsed": 109468312,
+      "heapTotal": 111915008,
+      "external": 4689648,
+      "arrayBuffers": 3339452
     },
     "cpu": {
-      "user": 2076048,
-      "system": 190101
+      "user": 7280843,
+      "system": 730319
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "The British Grenadiers fife and drum",
+            "duration": 151000,
+            "author": "Danny Stevenson",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "DISCONNECTED",
+          "connected": false,
+          "lastStatsAgoMs": 58331,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 0,
+            "uptimeFormatted": "0s",
+            "memory": {
+              "used": 0,
+              "free": 0,
+              "allocated": 0,
+              "reservable": 0,
+              "usedPercent": 0
+            },
+            "cpu": {
+              "cores": 0,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": {
+              "sent": 0,
+              "nulled": 0,
+              "deficit": 0
+            }
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 58066,
+          "lastStatsAgo": "58s",
+          "stats": {
+            "players": 58,
+            "playingPlayers": 1,
+            "uptime": 3672923194,
+            "uptimeFormatted": "42d 12h 15m",
+            "memory": {
+              "used": 713600968,
+              "free": 280449080,
+              "allocated": 994050048,
+              "reservable": 6304038912,
+              "usedPercent": "71.79"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.23760364614793256,
+              "lavalinkLoad": 0.04387701240432832,
+              "systemLoadPercent": "23.76",
+              "lavalinkLoadPercent": "4.39"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -54,7 +132,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 2,
+    "latency": 1,
     "type": "postgresql",
     "critical": false
   },
@@ -68,17 +146,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-18T08:19:51.052Z",
-    "saoPauloTime": "2026-04-18T05:19:51-03:00",
-    "readableTime": "18/04/2026, 05:19:51 BRT",
-    "current": "2026-04-18T08:19:51.054Z"
+    "utcTime": "2026-04-18T08:20:51.052Z",
+    "saoPauloTime": "2026-04-18T05:20:51-03:00",
+    "readableTime": "18/04/2026, 05:20:51 BRT",
+    "current": "2026-04-18T08:20:51.052Z"
   },
-  "lastUpdated": "2026-04-18T08:19:51.054Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-18T08:20:51.052Z",
+  "overallStatus": "operational"
 }
