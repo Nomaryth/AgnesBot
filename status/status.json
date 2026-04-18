@@ -1,52 +1,126 @@
 {
-  "timestamp": "2026-04-18T20:39:02.782Z",
-  "uptime": 4,
+  "timestamp": "2026-04-18T20:40:02.783Z",
+  "uptime": 64,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
-    "guilds": 0,
-    "users": 0,
-    "membersTotal": 0,
-    "uniqueUsersEstimated": 0,
-    "botsTotal": 0,
+    "status": "operational",
+    "ping": 20,
+    "guilds": 617,
+    "users": 16255,
+    "membersTotal": 22322,
+    "uniqueUsersEstimated": 16255,
+    "botsTotal": 648,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-04-18T17:39:04-03:00"
   },
   "system": {
-    "uptime": 5.338755024,
+    "uptime": 65.34167151,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v24.14.1",
     "pid": 2420582,
     "memory": {
-      "rss": 245141504,
-      "heapUsed": 69419952,
-      "heapTotal": 206163968,
-      "external": 4334650,
-      "arrayBuffers": 341025
+      "rss": 315543552,
+      "heapUsed": 109693864,
+      "heapTotal": 114655232,
+      "external": 4629705,
+      "arrayBuffers": 926698
     },
     "cpu": {
-      "user": 2034000,
-      "system": 231663
+      "user": 7923276,
+      "system": 840997
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Chrono - O FIM | Lich (Hora de Aventura)",
+            "duration": 225000,
+            "author": "Chrono",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 2,
+      "connected": 2,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 57378,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 0,
+            "playingPlayers": 0,
+            "uptime": 32467,
+            "uptimeFormatted": "32s",
+            "memory": {
+              "used": 50949120,
+              "free": 485921792,
+              "allocated": 536870912,
+              "reservable": 1610612736,
+              "usedPercent": "9.49"
+            },
+            "cpu": {
+              "cores": 4,
+              "systemLoad": 0,
+              "lavalinkLoad": 0,
+              "systemLoadPercent": "0.00",
+              "lavalinkLoadPercent": "0.00"
+            },
+            "frameStats": null
+          }
+        },
+        {
+          "name": "Node 2",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 57488,
+          "lastStatsAgo": "57s",
+          "stats": {
+            "players": 17,
+            "playingPlayers": 2,
+            "uptime": 3717275513,
+            "uptimeFormatted": "43d 0h 34m",
+            "memory": {
+              "used": 349568872,
+              "free": 699007128,
+              "allocated": 1048576000,
+              "reservable": 6304038912,
+              "usedPercent": "33.34"
+            },
+            "cpu": {
+              "cores": 6,
+              "systemLoad": 0.21934014663408133,
+              "lavalinkLoad": 0.03144550362282988,
+              "systemLoadPercent": "21.93",
+              "lavalinkLoadPercent": "3.14"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +142,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 4
+    "uptime": 64
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-04-18T20:39:02.787Z",
-    "saoPauloTime": "2026-04-18T17:39:02-03:00",
-    "readableTime": "18/04/2026, 17:39:02 BRT",
-    "current": "2026-04-18T20:39:02.789Z"
+    "utcTime": "2026-04-18T20:40:02.789Z",
+    "saoPauloTime": "2026-04-18T17:40:02-03:00",
+    "readableTime": "18/04/2026, 17:40:02 BRT",
+    "current": "2026-04-18T20:40:02.789Z"
   },
-  "lastUpdated": "2026-04-18T20:39:02.789Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-04-18T20:40:02.789Z",
+  "overallStatus": "operational"
 }
