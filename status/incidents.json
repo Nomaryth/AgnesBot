@@ -1,6 +1,29 @@
 {
   "incidents": [
     {
+      "id": "inc_downtime_momv9si3_acytxc",
+      "status": "resolved",
+      "impact": "critical",
+      "title": "Agnes was offline",
+      "startedAt": "2026-05-01T11:45:28.145Z",
+      "resolvedAt": "2026-05-01T12:06:06.898Z",
+      "duration": "20m 38s",
+      "lastUpdated": "2026-05-01T12:06:06.987Z",
+      "postMortem": true,
+      "updates": [
+        {
+          "timestamp": "2026-05-01T11:45:28.145Z",
+          "status": "investigating",
+          "message": "Agnes went offline (detected retroactively)"
+        },
+        {
+          "timestamp": "2026-05-01T12:06:06.898Z",
+          "status": "resolved",
+          "message": "Agnes came back online"
+        }
+      ]
+    },
+    {
       "id": "inc_mojiku4h_c3701015",
       "status": "resolved",
       "impact": "major",
@@ -838,24 +861,7 @@
       ],
       "resolvedAt": "2026-04-18T20:01:38.076Z",
       "duration": "1m"
-    },
-    {
-      "id": "inc_mo4qnjnl_5bb98a37",
-      "status": "resolved",
-      "impact": "major",
-      "title": "Agnes is offline",
-      "startedAt": "2026-04-18T19:36:59.457Z",
-      "lastUpdated": "2026-04-18T19:36:59.457Z",
-      "updates": [
-        {
-          "timestamp": "2026-04-18T19:36:59.457Z",
-          "status": "investigating",
-          "message": "Incident detected: Agnes is offline"
-        }
-      ],
-      "resolvedAt": "2026-04-18T19:38:00.048Z",
-      "duration": "1m"
     }
   ],
-  "lastUpdated": "2026-05-01T11:45:30.373Z"
+  "lastUpdated": "2026-05-01T12:06:06.987Z"
 }
