@@ -31,7 +31,6 @@
   <!-- Repo badges -->
   <img src="https://img.shields.io/github/stars/Nomaryth/AgnesBot?style=flat&labelColor=202123&color=7289DA" alt="Stars" />
   <img src="https://img.shields.io/github/forks/Nomaryth/AgnesBot?style=flat&labelColor=202123&color=7289DA" alt="Forks" />
-  <img src="https://img.shields.io/github/repo-size/Nomaryth/AgnesBot?style=flat&labelColor=202123&color=7289DA" alt="Repo size" />
   <img src="https://img.shields.io/github/commit-activity/m/Nomaryth/AgnesBot?style=flat&labelColor=202123&color=7289DA" alt="Commit activity" />
   
   <!-- Visitor counter -->
