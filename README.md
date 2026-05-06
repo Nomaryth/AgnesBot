@@ -44,69 +44,65 @@
 </p>
 
 ---
-
-<h2 align="center">🎉 What Makes Agnes Tachyon Special?</h2>
-
-<table align="center">
-  <tr>
-    <td align="center"><b>🎵 Advanced Music Player</b></td>
-    <td align="center"><b>🏇 Uma Musume Database</b></td>
-    <td align="center"><b>🎮 Minigames</b></td>
-    <td align="center"><b>📰 Automatic News Feed</b></td>
-  </tr>
-  <tr>
-    <td>Audio playback, playlists, smart search, DJ controls, queue system, real-time events</td>
-    <td>150+ characters, support cards, gallery/outfits, smart search (EN/JP), voice actress data</td>
-    <td>Guessing game, leaderboards, economy, hints, statistics</td>
-    <td>Smart cache, auto-news, history, interactive UI</td>
-    <td>Multi-language translation, emoji management, permissions, config, custom prefix</td>
-  </tr>
-</table>
-
+ 
+## Overview
+ 
+Agnes Tachyon is an independent Discord bot designed for Uma Musume: Pretty Derby communities. It brings together game content, music playback, moderation utilities, and interactive features into a single, focused tool.
+ 
+The bot is actively developed and maintained by [Nomaryth](https://github.com/Nomaryth) as an independent fan project, with no official affiliation to Cygames.
+ 
 ---
-
-<h2 align="center">🔧 Main Slash Commands</h2>
-
-<p align="center">
-  <kbd><b>/umalist</b></kbd> — View all Uma Musume characters with pagination<br>
-  <kbd><b>/umacards</b></kbd> — Browse support cards visuals<br>
-  <kbd><b>/news</b></kbd> — Official news, events & updates<br>
-  <kbd><b>/guess</b></kbd> — Play the guessing minigame & check stats<br>
-  <kbd><b>/music</b></kbd> — Music controls & config<br>
-  <kbd><b>/help</b></kbd> — Interactive help & tips
-</p>
-
+ 
+## Features
+ 
+**Uma Musume content**
+Access to 150+ characters, support cards, skills, outfits, and voice actress data. Search available in both English and Japanese.
+ 
+**Music player**
+Queue-based audio playback with playlist management, DJ controls, and real-time events.
+ 
+**Minigames & economy**
+Character guessing game with global leaderboards, hints, statistics, and a server coin economy.
+ 
+**News & updates**
+Automatic feed for official Uma Musume news and in-game events, with smart caching and interactive UI.
+ 
+**Server utilities**
+Moderation tools, auto-moderation, permission management, logs, filters, and fully configurable settings per server.
+ 
 ---
-
-<h2 align="center">🌟 Unique Features</h2>
-
-- **Analytical personality** inspired by Agnes Tachyon
-- Intuitive interface with rich embeds & buttons
-- Optimized performance with smart caching
-
+ 
+## Commands
+ 
+| Command | Description |
+|---|---|
+| `/umalist` | Browse all Uma Musume characters with pagination |
+| `/umacards` | View support card visuals |
+| `/news` | Official news, events, and updates |
+| `/guess` | Character guessing minigame |
+| `/music` | Music playback and controls |
+| `/help` | Interactive help and full command reference |
+| `/config` | Server configuration and preferences |
+ 
 ---
-
-<h2 align="center">📊 Platform Stats</h2>
-
-- **2800+** Uma Musume assets
-- **15+** slash commands
+ 
+## Stats
+ 
+- **2,800+** Uma Musume assets
+- **50+** slash commands
 - **10+** integrated systems
-- **Multi-language** support
-
+- Multi-language support (EN, PT, ES)
 ---
-
-> *Developed with passion for the Uma Musume community, providing a complete & professional Discord experience.*
-
+ 
+## Getting Started
+ 
+Add the bot to your server using the invite link above, then run `/help` for a full list of available commands, or `/config` to configure the bot for your server.
+ 
+For questions, bug reports, or feature requests, join the [support server](https://discord.gg/j7qJX3uVgF).
+ 
 ---
-
-<h3 align="center">📞 Support & Information</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nomaryth/AgnesBot/main/content/changelogs/index.json&label=Version&query=$.latest&color=7289DA&style=flat&labelColor=202123" alt="Bot Version" />
-  •
-  <b>Org:</b> Nomaryth, Inc •
-  <b>Developer:</b> linwaruyt •
-  <a href="https://discord.gg/j7qJX3uVgF">Support Server</a>
-</p>
-
-<p align="center"><b>🎯 Add Agnes Tachyon to your server and get the ultimate Uma Musume experience on Discord!</b></p>
+ 
+## Legal
+ 
+Uma Musume: Pretty Derby and all related assets © Cygames, Inc.
+Agnes Tachyon Bot is an independent fan project developed by Nomaryth. Not officially affiliated with or endorsed by Cygames.
