@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <a href="https://agnes.nomaryth.uk">
+  <a href="https://agnesbot.xyz">
     <img src="https://img.shields.io/badge/Website-online-blue?logo=google-chrome&labelColor=202123" alt="Website" />
   </a>
   <a href="https://discord.com/oauth2/authorize?client_id=833150369231536178">
