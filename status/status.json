@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-07T14:30:14.846Z",
-  "uptime": 67084,
+  "timestamp": "2026-05-07T14:31:14.847Z",
+  "uptime": 67144,
   "discord": {
     "status": "operational",
-    "ping": 21,
+    "ping": 33,
     "guilds": 701,
     "users": 18318,
     "membersTotal": 25616,
@@ -17,30 +17,63 @@
     "readyAt": "2026-05-06T16:52:18-03:00"
   },
   "system": {
-    "uptime": 67086.239550482,
+    "uptime": 67146.238867802,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v20.20.2",
     "pid": 555066,
     "memory": {
-      "rss": 831787008,
-      "heapUsed": 242786656,
-      "heapTotal": 278056960,
-      "external": 12138646,
-      "arrayBuffers": 627399
+      "rss": 835772416,
+      "heapUsed": 251337568,
+      "heapTotal": 281395200,
+      "external": 14251692,
+      "arrayBuffers": 2740445
     },
     "cpu": {
-      "user": 1367423454,
-      "system": 211724351
+      "user": 1368595931,
+      "system": 211960566
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 2,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 2,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 24,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "ambient music for places you shouldn't be.",
+            "duration": 3600000,
+            "author": "Odd Behavior",
+            "isStream": false
+          }
+        },
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Rojo Vivo",
+            "duration": 154000,
+            "author": "Octavio Mesa y su Conjunto - T",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 2,
@@ -51,25 +84,25 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 56610,
+          "lastStatsAgoMs": 56609,
           "lastStatsAgo": "56s",
           "stats": {
             "players": 0,
             "playingPlayers": 0,
-            "uptime": 164484000,
-            "uptimeFormatted": "1d 21h 41m",
+            "uptime": 164544000,
+            "uptimeFormatted": "1d 21h 42m",
             "memory": {
-              "used": 326925944,
-              "free": 209944968,
+              "used": 327069192,
+              "free": 209801720,
               "allocated": 536870912,
               "reservable": 1610612736,
-              "usedPercent": "60.89"
+              "usedPercent": "60.92"
             },
             "cpu": {
               "cores": 4,
-              "systemLoad": 0.02156018886056909,
-              "lavalinkLoad": 0.0005416666666666666,
-              "systemLoadPercent": "2.16",
+              "systemLoad": 0.021821671464930945,
+              "lavalinkLoad": 0.0004583333333333333,
+              "systemLoadPercent": "2.18",
               "lavalinkLoadPercent": "0.05"
             },
             "frameStats": null
@@ -79,38 +112,34 @@
           "name": "Node 2",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 56347,
+          "lastStatsAgoMs": 56346,
           "lastStatsAgo": "56s",
           "stats": {
             "players": 48,
-            "playingPlayers": 12,
-            "uptime": 241402602,
-            "uptimeFormatted": "2d 19h 3m",
+            "playingPlayers": 11,
+            "uptime": 241462602,
+            "uptimeFormatted": "2d 19h 4m",
             "memory": {
-              "used": 358276104,
-              "free": 82125816,
+              "used": 360377552,
+              "free": 80024368,
               "allocated": 440401920,
               "reservable": 6304038912,
-              "usedPercent": "81.35"
+              "usedPercent": "81.83"
             },
             "cpu": {
               "cores": 6,
-              "systemLoad": 0.31665036409085967,
-              "lavalinkLoad": 0.06092585241056856,
-              "systemLoadPercent": "31.67",
-              "lavalinkLoadPercent": "6.09"
+              "systemLoad": 0.38331524267328265,
+              "lavalinkLoad": 0.06623063455884783,
+              "systemLoadPercent": "38.33",
+              "lavalinkLoadPercent": "6.62"
             },
-            "frameStats": {
-              "sent": 3000,
-              "nulled": 0,
-              "deficit": 0
-            }
+            "frameStats": null
           }
         }
       ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 24
     }
   },
   "database": {
@@ -129,17 +158,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 67084
+    "uptime": 67144
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-05-07T14:30:14.858Z",
-    "saoPauloTime": "2026-05-07T11:30:14-03:00",
-    "readableTime": "07/05/2026, 11:30:14 BRT",
-    "current": "2026-05-07T14:30:14.858Z"
+    "utcTime": "2026-05-07T14:31:14.854Z",
+    "saoPauloTime": "2026-05-07T11:31:14-03:00",
+    "readableTime": "07/05/2026, 11:31:14 BRT",
+    "current": "2026-05-07T14:31:14.855Z"
   },
-  "lastUpdated": "2026-05-07T14:30:14.859Z",
+  "lastUpdated": "2026-05-07T14:31:14.857Z",
   "overallStatus": "operational"
 }
