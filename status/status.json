@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-17T19:10:14.043Z",
-  "uptime": 3005,
+  "timestamp": "2026-05-17T19:11:14.043Z",
+  "uptime": 3065,
   "discord": {
     "status": "operational",
-    "ping": 19,
+    "ping": 15,
     "guilds": 745,
     "users": 19790,
     "membersTotal": 27352,
@@ -17,30 +17,47 @@
     "readyAt": "2026-05-17T15:20:16-03:00"
   },
   "system": {
-    "uptime": 3006.307933833,
+    "uptime": 3066.308373257,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v20.20.2",
     "pid": 1352701,
     "memory": {
-      "rss": 518422528,
-      "heapUsed": 134370904,
-      "heapTotal": 142557184,
-      "external": 7461798,
-      "arrayBuffers": 7800763
+      "rss": 517771264,
+      "heapUsed": 135580384,
+      "heapTotal": 142819328,
+      "external": 6055584,
+      "arrayBuffers": 7279865
     },
     "cpu": {
-      "user": 64698424,
-      "system": 7858253
+      "user": 66573266,
+      "system": 8045510
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 2,
+          "volume": 100,
+          "loop": "none",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "meaningful love - instrumental",
+            "duration": 291144,
+            "author": "Silo, Steven Cranberry",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 1,
@@ -51,43 +68,39 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57386,
+          "lastStatsAgoMs": 57380,
           "lastStatsAgo": "57s",
           "stats": {
             "players": 908,
-            "playingPlayers": 55,
-            "uptime": 158099878,
-            "uptimeFormatted": "1d 19h 54m",
+            "playingPlayers": 56,
+            "uptime": 158159883,
+            "uptimeFormatted": "1d 19h 55m",
             "memory": {
-              "used": 371321800,
-              "free": 166597688,
+              "used": 347936680,
+              "free": 189982808,
               "allocated": 537919488,
               "reservable": 2147483648,
-              "usedPercent": "69.03"
+              "usedPercent": "64.68"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.3654245622959854,
-              "lavalinkLoad": 0.28562643353388956,
-              "systemLoadPercent": "36.54",
-              "lavalinkLoadPercent": "28.56"
+              "systemLoad": 0.4007688809887975,
+              "lavalinkLoad": 0.3038529333510709,
+              "systemLoadPercent": "40.08",
+              "lavalinkLoadPercent": "30.39"
             },
-            "frameStats": {
-              "sent": 2957,
-              "nulled": 44,
-              "deficit": -1
-            }
+            "frameStats": null
           }
         }
       ]
     },
     "queue": {
-      "totalTracks": 0
+      "totalTracks": 2
     }
   },
   "database": {
     "status": "connected",
-    "latency": 1,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -101,17 +114,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 3005
+    "uptime": 3065
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-05-17T19:10:14.047Z",
-    "saoPauloTime": "2026-05-17T16:10:14-03:00",
-    "readableTime": "17/05/2026, 16:10:14 BRT",
-    "current": "2026-05-17T19:10:14.048Z"
+    "utcTime": "2026-05-17T19:11:14.048Z",
+    "saoPauloTime": "2026-05-17T16:11:14-03:00",
+    "readableTime": "17/05/2026, 16:11:14 BRT",
+    "current": "2026-05-17T19:11:14.049Z"
   },
-  "lastUpdated": "2026-05-17T19:10:14.049Z",
+  "lastUpdated": "2026-05-17T19:11:14.049Z",
   "overallStatus": "operational"
 }
