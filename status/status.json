@@ -1,52 +1,98 @@
 {
-  "timestamp": "2026-05-17T18:03:56.890Z",
-  "uptime": 5,
+  "timestamp": "2026-05-17T18:04:56.891Z",
+  "uptime": 65,
   "discord": {
-    "status": "connecting",
-    "ping": -1,
+    "status": "operational",
+    "ping": 20,
     "guilds": 745,
-    "users": 371,
-    "membersTotal": 517,
-    "uniqueUsersEstimated": 371,
-    "botsTotal": 22,
+    "users": 19918,
+    "membersTotal": 27345,
+    "uniqueUsersEstimated": 19918,
+    "botsTotal": 787,
     "onlineUsers": null,
     "presenceSampled": false,
     "shards": 1,
     "currentShard": 0,
-    "ready": false,
-    "readyAt": null
+    "ready": true,
+    "readyAt": "2026-05-17T15:03:59-03:00"
   },
   "system": {
-    "uptime": 6.469992846,
+    "uptime": 66.47160097,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v20.20.2",
     "pid": 1351990,
     "memory": {
-      "rss": 193187840,
-      "heapUsed": 69242440,
-      "heapTotal": 102055936,
-      "external": 4247239,
-      "arrayBuffers": 453609
+      "rss": 256360448,
+      "heapUsed": 117445416,
+      "heapTotal": 121483264,
+      "external": 4454827,
+      "arrayBuffers": 929704
     },
     "cpu": {
-      "user": 2318685,
-      "system": 263256
+      "user": 8164803,
+      "system": 858962
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "track",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "1000x1000",
+            "duration": 260079,
+            "author": "Mili",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
-      "total": 0,
-      "connected": 0,
-      "healthy": false,
-      "nodes": []
+      "total": 1,
+      "connected": 1,
+      "healthy": true,
+      "nodes": [
+        {
+          "name": "Node 1",
+          "state": "CONNECTED",
+          "connected": true,
+          "lastStatsAgoMs": 56931,
+          "lastStatsAgo": "56s",
+          "stats": {
+            "players": 892,
+            "playingPlayers": 44,
+            "uptime": 154183188,
+            "uptimeFormatted": "1d 18h 49m",
+            "memory": {
+              "used": 319465080,
+              "free": 218454408,
+              "allocated": 537919488,
+              "reservable": 2147483648,
+              "usedPercent": "59.39"
+            },
+            "cpu": {
+              "cores": 8,
+              "systemLoad": 0.2842579628981449,
+              "lavalinkLoad": 0.2469588401933011,
+              "systemLoadPercent": "28.43",
+              "lavalinkLoadPercent": "24.70"
+            },
+            "frameStats": null
+          }
+        }
+      ]
     },
     "queue": {
       "totalTracks": 0
@@ -68,17 +114,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 5
+    "uptime": 65
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-05-17T18:03:56.894Z",
-    "saoPauloTime": "2026-05-17T15:03:56-03:00",
-    "readableTime": "17/05/2026, 15:03:56 BRT",
-    "current": "2026-05-17T18:03:56.896Z"
+    "utcTime": "2026-05-17T18:04:56.895Z",
+    "saoPauloTime": "2026-05-17T15:04:56-03:00",
+    "readableTime": "17/05/2026, 15:04:56 BRT",
+    "current": "2026-05-17T18:04:56.896Z"
   },
-  "lastUpdated": "2026-05-17T18:03:56.896Z",
-  "overallStatus": "offline"
+  "lastUpdated": "2026-05-17T18:04:56.896Z",
+  "overallStatus": "operational"
 }
