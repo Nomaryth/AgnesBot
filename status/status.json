@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-21T07:03:02.774Z",
-  "uptime": 115625,
+  "timestamp": "2026-05-21T07:04:02.774Z",
+  "uptime": 115685,
   "discord": {
     "status": "operational",
-    "ping": 18,
+    "ping": 16,
     "guilds": 760,
     "users": 19785,
     "membersTotal": 27810,
@@ -17,30 +17,47 @@
     "readyAt": "2026-05-19T19:56:04-03:00"
   },
   "system": {
-    "uptime": 115626.719418869,
+    "uptime": 115686.720009008,
     "platform": "linux",
     "arch": "x64",
     "nodeVersion": "v20.20.2",
     "pid": 1451063,
     "memory": {
-      "rss": 1005408256,
-      "heapUsed": 345852888,
-      "heapTotal": 387977216,
-      "external": 16236827,
-      "arrayBuffers": 8028751
+      "rss": 1007349760,
+      "heapUsed": 348508160,
+      "heapTotal": 388751360,
+      "external": 16698384,
+      "arrayBuffers": 9217244
     },
     "cpu": {
-      "user": 2217847344,
-      "system": 322512521
+      "user": 2219146648,
+      "system": 322703714
     }
   },
   "music": {
     "available": true,
     "players": {
-      "active": 0,
+      "active": 1,
       "paused": 0,
-      "total": 0,
-      "details": []
+      "total": 1,
+      "details": [
+        {
+          "playing": true,
+          "paused": false,
+          "queueSize": 0,
+          "volume": 100,
+          "loop": "track",
+          "connected": true,
+          "voiceChannel": true,
+          "textChannel": true,
+          "currentTrack": {
+            "title": "Pass on (Vocal. Sinclair)",
+            "duration": 178815,
+            "author": "ProjectMoon",
+            "isStream": false
+          }
+        }
+      ]
     },
     "nodes": {
       "total": 1,
@@ -51,32 +68,28 @@
           "name": "Node 1",
           "state": "CONNECTED",
           "connected": true,
-          "lastStatsAgoMs": 57832,
+          "lastStatsAgoMs": 57851,
           "lastStatsAgo": "57s",
           "stats": {
-            "players": 765,
-            "playingPlayers": 50,
-            "uptime": 460068166,
-            "uptimeFormatted": "5d 7h 47m",
+            "players": 764,
+            "playingPlayers": 47,
+            "uptime": 460128166,
+            "uptimeFormatted": "5d 7h 48m",
             "memory": {
-              "used": 452907760,
-              "free": 378613008,
+              "used": 684874528,
+              "free": 146646240,
               "allocated": 831520768,
               "reservable": 2147483648,
-              "usedPercent": "54.47"
+              "usedPercent": "82.36"
             },
             "cpu": {
               "cores": 8,
-              "systemLoad": 0.4159613059250302,
-              "lavalinkLoad": 0.2947215047354129,
-              "systemLoadPercent": "41.60",
-              "lavalinkLoadPercent": "29.47"
+              "systemLoad": 0.34148724001790876,
+              "lavalinkLoad": 0.252404646209146,
+              "systemLoadPercent": "34.15",
+              "lavalinkLoadPercent": "25.24"
             },
-            "frameStats": {
-              "sent": 2980,
-              "nulled": 0,
-              "deficit": 20
-            }
+            "frameStats": null
           }
         }
       ]
@@ -87,7 +100,7 @@
   },
   "database": {
     "status": "connected",
-    "latency": 2,
+    "latency": 0,
     "type": "postgresql",
     "critical": false
   },
@@ -101,17 +114,17 @@
     "messages": 0,
     "interactions": 0,
     "errors": 0,
-    "uptime": 115625
+    "uptime": 115685
   },
   "timezone": {
     "timezone": "America/Sao_Paulo",
     "utcOffset": -3,
     "enabled": false,
-    "utcTime": "2026-05-21T07:03:02.783Z",
-    "saoPauloTime": "2026-05-21T04:03:02-03:00",
-    "readableTime": "21/05/2026, 04:03:02 BRT",
-    "current": "2026-05-21T07:03:02.784Z"
+    "utcTime": "2026-05-21T07:04:02.783Z",
+    "saoPauloTime": "2026-05-21T04:04:02-03:00",
+    "readableTime": "21/05/2026, 04:04:02 BRT",
+    "current": "2026-05-21T07:04:02.783Z"
   },
-  "lastUpdated": "2026-05-21T07:03:02.784Z",
+  "lastUpdated": "2026-05-21T07:04:02.784Z",
   "overallStatus": "operational"
 }
