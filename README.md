@@ -20,7 +20,7 @@
   <a href="https://discord.com/oauth2/authorize?client_id=833150369231536178">
     <img src="https://img.shields.io/badge/Invite-Add%20the%20Bot-7289DA?logo=discord&labelColor=202123" alt="Invite" />
   </a>
-  <a href="https://discord.gg/j7qJX3uVgF">
+  <a href="https://discord.gg/QyTvmTaC9G">
     <img src="https://img.shields.io/badge/Support-Discord-blueviolet?logo=discord&labelColor=202123" alt="Support" />
   </a>
 </p>
