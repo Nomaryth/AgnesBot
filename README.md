@@ -37,7 +37,7 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Nomaryth.AgnesBot" alt="Visitors" />
   
   <!-- Discord members (com ID correto e clicável) -->
-  <a href="https://discord.gg/invite/j7qJX3uVgF">
+  <a href="https://discord.gg/invite/QyTvmTaC9G">
     <img src="https://img.shields.io/discord/1423729088052330650?label=Members%20Online&labelColor=202123&color=7289DA&logo=discord" alt="Discord members online" />
   </a>
 </p>
@@ -46,7 +46,7 @@
  
 ## Overview
  
-Agnes Tachyon is an independent Discord bot designed for Uma Musume: Pretty Derby communities. It brings together game content, music playback, moderation utilities, and interactive features into a single, focused tool.
+Agnes Tachyon is an independent Discord bot designed for Uma Musume: Pretty Derby communities. It brings together game content, moderation utilities, and interactive features into a single, focused tool.
  
 The bot is actively developed and maintained by [Nomaryth](https://github.com/Nomaryth) as an independent fan project, with no official affiliation to Cygames.
  
@@ -56,9 +56,6 @@ The bot is actively developed and maintained by [Nomaryth](https://github.com/No
  
 **Uma Musume content**
 Access to 150+ characters, support cards, skills, outfits, and voice actress data. Search available in both English and Japanese.
- 
-**Music player**
-Queue-based audio playback with playlist management, DJ controls, and real-time events.
  
 **Minigames & economy**
 Character guessing game with global leaderboards, hints, statistics, and a server coin economy.
@@ -79,7 +76,6 @@ Moderation tools, auto-moderation, permission management, logs, filters, and ful
 | `/umacards` | View support card visuals |
 | `/news` | Official news, events, and updates |
 | `/guess` | Character guessing minigame |
-| `/music` | Music playback and controls |
 | `/help` | Interactive help and full command reference |
 | `/config` | Server configuration and preferences |
  
