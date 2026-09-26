@@ -1,6 +1,29 @@
 {
   "incidents": [
     {
+      "id": "inc_downtime_muhttjca_g7nwvp",
+      "status": "resolved",
+      "impact": "critical",
+      "title": "Agnes was offline",
+      "startedAt": "2026-09-26T03:22:33.000Z",
+      "resolvedAt": "2026-09-26T03:24:51.019Z",
+      "duration": "2m 18s",
+      "lastUpdated": "2026-09-26T00:24:52-03:00",
+      "postMortem": true,
+      "updates": [
+        {
+          "timestamp": "2026-09-26T03:22:33.000Z",
+          "status": "investigating",
+          "message": "Agnes went offline (detected retroactively)"
+        },
+        {
+          "timestamp": "2026-09-26T03:24:51.019Z",
+          "status": "resolved",
+          "message": "Agnes came back online"
+        }
+      ]
+    },
+    {
       "id": "inc_muhghizb_a42d0cf2",
       "status": "resolved",
       "impact": "minor",
@@ -137,5 +160,5 @@
       "duration": "1m"
     }
   ],
-  "lastUpdated": "2026-09-25T18:12:37-03:00"
+  "lastUpdated": "2026-09-26T00:24:52-03:00"
 }
