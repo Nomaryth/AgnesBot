@@ -1,29 +1,40 @@
 {
-  "timestamp": "2026-10-03T14:01:02-03:00",
+  "timestamp": "2026-10-03T14:02:02-03:00",
   "discord": {
-    "status": "unknown",
-    "ping": null,
+    "status": "operational",
+    "ping": 25,
     "shards": 2,
-    "shardHealthComplete": false,
+    "shardHealthComplete": true,
     "shardHealth": [
       {
         "id": 0,
-        "status": "unknown",
-        "ping": null,
-        "ready": false,
-        "guilds": 0,
-        "membersTotal": 0,
-        "uptimeSeconds": 0
+        "status": "operational",
+        "ping": 25,
+        "ready": true,
+        "guilds": 677,
+        "membersTotal": 32360,
+        "uptimeSeconds": 57
+      },
+      {
+        "id": 1,
+        "status": "operational",
+        "ping": 16,
+        "ready": true,
+        "guilds": 652,
+        "membersTotal": 20536,
+        "uptimeSeconds": 50
       }
     ],
+    "guilds": 1329,
+    "membersTotal": 52896,
     "currentShard": 0,
-    "ready": false
+    "ready": true
   },
   "database": {
     "status": "operational",
     "latency": 0
   },
-  "lastUpdated": "2026-10-03T14:01:02-03:00",
-  "overallStatus": "offline",
-  "uptime": 5
+  "lastUpdated": "2026-10-03T14:02:02-03:00",
+  "overallStatus": "operational",
+  "uptime": 65
 }
