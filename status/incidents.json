@@ -1,6 +1,35 @@
 {
   "incidents": [
     {
+      "id": "inc_downtime_mwgbquci_l3wqfh",
+      "status": "resolved",
+      "impact": "minor",
+      "title": "Status heartbeat gap (availability unconfirmed)",
+      "startedAt": "2026-10-14T21:33:34.000Z",
+      "resolvedAt": "2026-11-14T11:30:30.590Z",
+      "duration": "30d 13h 56m",
+      "lastUpdated": "2026-11-14T08:30:31-03:00",
+      "postMortem": true,
+      "availabilityConfirmed": false,
+      "evidence": {
+        "type": "status_heartbeat_gap",
+        "source": "github_status_snapshot",
+        "gapMs": 2642216590
+      },
+      "updates": [
+        {
+          "timestamp": "2026-10-14T21:33:34.000Z",
+          "status": "investigating",
+          "message": "Last published status before a heartbeat gap; Discord availability is unconfirmed"
+        },
+        {
+          "timestamp": "2026-11-14T11:30:30.590Z",
+          "status": "resolved",
+          "message": "Runtime startup observed; heartbeat gap does not prove Discord downtime"
+        }
+      ]
+    },
+    {
       "id": "inc_mv65ft8k_274b217b",
       "status": "resolved",
       "impact": "minor",
@@ -205,5 +234,5 @@
       "duration": "1m"
     }
   ],
-  "lastUpdated": "2026-10-13T00:57:35-03:00"
+  "lastUpdated": "2026-11-14T08:30:31-03:00"
 }
