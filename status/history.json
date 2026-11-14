@@ -1,12 +1,25 @@
 {
   "entries": [
     {
+      "timestamp": "2026-11-14T08:37:09-03:00",
+      "status": "operational",
+      "ping": 24,
+      "uptime": 185,
+      "databaseLatency": 1,
+      "databaseStatus": "operational",
+      "_aggregated": {
+        "samples": 2,
+        "periodStart": "2026-11-14T08:36:09-03:00",
+        "periodEnd": "2026-11-14T08:37:09-03:00"
+      }
+    },
+    {
       "timestamp": "2026-11-14T08:35:09-03:00",
       "status": "operational",
       "ping": 24,
       "uptime": 65,
-      "databaseStatus": "operational",
       "databaseLatency": 6,
+      "databaseStatus": "operational",
       "_aggregated": {
         "samples": 2,
         "periodStart": "2026-11-14T08:34:09-03:00",
@@ -26,6 +39,12 @@
       }
     }
   ],
-  "lastUpdated": "2026-11-14T11:35:10.778Z",
-  "totalEntries": 2
+  "lastUpdated": "2026-11-14T11:37:10.990Z",
+  "totalEntries": 3,
+  "optimization": {
+    "maxEntries": 1440,
+    "maxAgeHours": 24,
+    "compressionEnabled": true,
+    "estimatedSizeKB": 1
+  }
 }
