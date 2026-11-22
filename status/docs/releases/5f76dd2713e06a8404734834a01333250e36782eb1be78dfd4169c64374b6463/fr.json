@@ -1,0 +1,1788 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "en-US",
+  "categories": [
+    {
+      "id": "config",
+      "order": 0,
+      "title": "Configuration du serveur",
+      "description": "Configurez les fonctionnalités du serveur et les canaux où Agnes fonctionne.",
+      "icon": "Settings"
+    },
+    {
+      "id": "economy",
+      "order": 1,
+      "title": "Économie",
+      "description": "Gérez votre solde, votre inventaire, vos outils, vos récompenses et vos activités Stable Crate .",
+      "icon": "Zap"
+    },
+    {
+      "id": "management",
+      "order": 2,
+      "title": "Gestion des serveurs",
+      "description": "Utilisez des outils interactifs pour créer et gérer le contenu des serveurs.",
+      "icon": "Wrench"
+    },
+    {
+      "id": "minigames",
+      "order": 3,
+      "title": "Mini-jeux",
+      "description": "Commencez par deviner les manches et consultez le classement du serveur.",
+      "icon": "Users"
+    },
+    {
+      "id": "uma",
+      "order": 4,
+      "title": "Uma Musume",
+      "description": "Parcourez les personnages, les cartes de soutien et les dernières actualités Uma Musume .",
+      "icon": "Book"
+    },
+    {
+      "id": "utility",
+      "order": 5,
+      "title": "Services publics",
+      "description": "Trouvez des informations, contactez le support et utilisez des outils bot quotidiens.",
+      "icon": "Bot"
+    }
+  ],
+  "commands": [
+    {
+      "id": "slash:config",
+      "name": "config",
+      "categoryId": "config",
+      "description": "Accès rapide au panneau de configuration serveur - gérer tous les paramètres du serveur",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:leveling",
+      "name": "leveling",
+      "categoryId": "config",
+      "description": "Configurez le système de nivellement pour votre serveur",
+      "details": "Ouvre la configuration de nivellement pour le serveur. Cette commande nécessite l’autorisation Gérer le serveur ; utilise le panneau pour configurer la fonction de nivellement.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leveling",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:minigames",
+      "name": "minigames",
+      "categoryId": "config",
+      "description": "Accès rapide à la configuration des mini-jeux - configuration des jeux de devinettes et plus encore",
+      "details": "Ouvre la configuration du serveur pour les mini-jeux, y compris le jeu de devinettes. Cette commande nécessite la permission Gérer le Serveur.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/minigames",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:notifications",
+      "name": "notifications",
+      "categoryId": "config",
+      "description": "Configurez les paramètres de notification pour votre serveur",
+      "details": "Ouvrez les paramètres de notification du serveur. Cette commande nécessite l’autorisation Gérer le serveur.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/notifications",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:badge",
+      "name": "badge",
+      "categoryId": "economy",
+      "description": "Ouvre ton hub de badges.",
+      "details": "Ouvrez le centre de badges pour gérer vos badges via le panneau interactif.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/badge",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "badge"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub das suas badges."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:balance",
+      "name": "balance",
+      "categoryId": "economy",
+      "description": "Vérifiez votre solde actuel.",
+      "details": "Affichez votre solde économique actuel. Cette commande permet une vérification rapide du solde sans nécessiter de montant ni d’autre utilisateur.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/balance",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saldo"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu saldo atual."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bank",
+      "name": "bank",
+      "categoryId": "economy",
+      "description": "Ouvre ton hub bancaire.",
+      "details": "Ouvrez le hub bancaire mondial. Utilisez ses contrôles de dépôt ou de retrait, puis entrez le montant dans le formulaire. Le panneau affiche les frais actuels et les limites quotidiennes restantes ; la vue Historique affiche les transactions.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bank",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "banco"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Operacoes do banco global."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:buy",
+      "name": "buy",
+      "categoryId": "economy",
+      "description": "Achetez un article au marché.",
+      "details": "Achetez un article sur le marché en sélectionnant son nom. Le montant optionnel vous permet de spécifier la quantité. Sélectionnez une suggestion d’autocomplétion pour identifier l’article.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/buy item:<item>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Nom de l’objet",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Quantité à acheter",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para comprar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "comprar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Compre um item do mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:chop",
+      "name": "chop",
+      "categoryId": "economy",
+      "description": "Coupez des arbres pour gagner de l’argent et des objets.",
+      "details": "Effectuez une action de coupe du bois pour gagner de la monnaie et des objets. Vérifiez la réponse pour le résultat de l’action et utilisez `/cooldowns` pour inspecter les temps de recharge économiques.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/chop",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cortar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Corte arvores para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cooldowns",
+      "name": "cooldowns",
+      "categoryId": "economy",
+      "description": "Consultez les temps de recharge pour les commandes d’économie de base.",
+      "details": "Affichez les informations de recharge pour les actions économiques de base. Consultez cette vue lorsqu’une action n’est pas disponible parce qu’elle a été utilisée récemment.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cooldowns",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cooldowns"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja os cooldowns basicos da economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cosmetics",
+      "name": "cosmetics",
+      "categoryId": "economy",
+      "description": "Parcourez et équipez vos cosmétiques débloqués.",
+      "details": "Ouvrez le panneau cosmétiques pour parcourir les cosmétiques débloqués et équipez une sélection.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cosmetics",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cosmeticos"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja e equipe seus cosmeticos desbloqueados."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:crates",
+      "name": "crates",
+      "categoryId": "economy",
+      "description": "Affiche l’inventaire de votre caisse et les boutons d’ouverture rapide.",
+      "details": "Affichez l’inventaire de votre caisse et les commandes à ouverture rapide. Pour sélectionner une caisse directement par nom, utilisez `/opencrate`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/crates",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:daily",
+      "name": "daily",
+      "categoryId": "economy",
+      "description": "Réclamez votre récompense quotidienne.",
+      "details": "Réclamez votre récompense économique quotidienne. Si la récompense est en temps de recharge, la réponse explique quand elle redevient disponible.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/daily",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "diario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Resgate sua recompensa diaria."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:equip",
+      "name": "equip",
+      "categoryId": "economy",
+      "description": "Équipez un outil.",
+      "details": "Équipez un outil en sélectionnant son nom. Utilisez l’autocomplétion pour choisir l’outil ; utilisez `/unequip` pour retirer un outil d’un emplacement.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/equip item:<item>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Nom de l’outil",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da ferramenta"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "equipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Equipe uma ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:fish",
+      "name": "fish",
+      "categoryId": "economy",
+      "description": "Pêchez pour gagner de l’argent et des objets.",
+      "details": "Effectuez une action de pêche pour gagner de la monnaie et des objets. Vérifiez la réponse pour le résultat de l’action et `/cooldowns` pour les informations sur le temps de recharge de l’économie.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/fish",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "pescar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Pesque para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:gacha",
+      "name": "gacha",
+      "categoryId": "economy",
+      "description": "Ouvre le Stable Crate hub.",
+      "details": "Ouvrez le hub Stable Crate . Cette commande lance un flux interactif plutôt que d’accepter une bannière ou un montant de piolage comme argument de commande oblique. `/scout` ouvre directement la bannière présentée.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/gacha",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "gacha"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub principal do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inventory",
+      "name": "inventory",
+      "categoryId": "economy",
+      "description": "Consultez votre inventaire.",
+      "details": "Affichez votre inventaire économique. Utilisez l’inventaire pour vérifier les objets disponibles avant de sélectionner une commande comme `/use`, `/equip` ou `/sell`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inventory",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "inventario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu inventario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:loot",
+      "name": "loot",
+      "categoryId": "economy",
+      "description": "Cherchez du butin et gagnez des objets ou de l’argent.",
+      "details": "Cherchez du butin pour gagner des objets ou de la monnaie. Consultez la réponse à l’action pour le résultat et `/cooldowns` pour les informations sur les temps de recharge.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/loot",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saquear"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Procure saque e ganhe itens ou moedas."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:mine",
+      "name": "mine",
+      "categoryId": "economy",
+      "description": "Mine pour gagner de l’argent et des objets.",
+      "details": "Effectuez une action de minage pour gagner de la monnaie et des objets. Consultez la réponse pour le résultat et `/cooldowns` pour obtenir des informations sur les temps de recharge de l’économie.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/mine",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "minerar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Minere para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:opencrate",
+      "name": "opencrate",
+      "categoryId": "economy",
+      "description": "Ouvrez une caisse avec des clés de caisse.",
+      "details": "Ouvrez une caisse sélectionnée par nom à l’aide de clés de caisse. Le montant par défaut est un et ne peut pas dépasser cinq caisses dans une seule requête. Utilisez l’autocomplétion pour sélectionner la caisse.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/opencrate crate:<crate>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "crate",
+          "type": 3,
+          "description": "Nom de la caisse",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "caixa"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da caixa"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Combien de caisses ouvrir (maximum 5)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantas caixas abrir (max 5)"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "abrircaixa"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra uma caixa usando chaves."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:profile",
+      "name": "profile",
+      "categoryId": "economy",
+      "description": "Consultez votre profil économique.",
+      "details": "Afficher un profil économique. L’argument utilisateur optionnel sélectionne le profil à consulter.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/profile",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Utilisateur à consulter",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para visualizar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "perfil"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu perfil de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:reputation",
+      "name": "reputation",
+      "categoryId": "economy",
+      "description": "Donner de la réputation à un autre utilisateur.",
+      "details": "Donner une réputation à l’utilisateur sélectionné dans l’argument requis.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/reputation user:<user>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Utilisateur à qui donner une réputation",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para receber reputacao"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "reputacao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Dê reputacao para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:scout",
+      "name": "scout",
+      "categoryId": "economy",
+      "description": "Ouvrez la bannière Stable Crate mise en avant.",
+      "details": "Ouvrez directement la bannière Stable Crate mise en avant. Pour le hub principal Stable Crate , utilisez `/gacha`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/scout",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "scout"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra diretamente o banner em destaque do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:sell",
+      "name": "sell",
+      "categoryId": "economy",
+      "description": "Vendre un objet au marché.",
+      "details": "Vendez un article du marché sélectionné par leur nom. Le montant optionnel spécifie la quantité à vendre ; utilisez l’autocomplétion pour sélectionner l’article.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/sell item:<item>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Nom de l’objet",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Quantité à vendre",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para vender"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "vender"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Venda um item no mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:shop",
+      "name": "shop",
+      "categoryId": "economy",
+      "description": "Parcourez les catégories et articles de la boutique.",
+      "details": "Ouvrez la boutique et parcourez ses catégories et articles. Pour un achat direct par nom, utilisez `/buy`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/shop",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "loja"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja categorias e itens da loja."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:stats",
+      "name": "stats",
+      "categoryId": "economy",
+      "description": "Consultez vos statistiques économiques.",
+      "details": "Affichez vos statistiques d’économie. Cette commande ne nécessite pas d’un argument utilisateur ou filtre supplémentaire.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/stats",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "estatisticas"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja suas estatisticas de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:transfer",
+      "name": "transfer",
+      "categoryId": "economy",
+      "description": "Transférez de l’argent à un autre utilisateur.",
+      "details": "Transférer la monnaie à un utilisateur sélectionné. Le destinataire et le montant sont requis ; vérifiez-les avant d’envoyer la commande.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/transfer user:<user> amount:<amount>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Utilisateur à transférer",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para transferir"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Montant à transférer",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para transferir"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "transferir"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Transfira moedas para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:unequip",
+      "name": "unequip",
+      "categoryId": "economy",
+      "description": "Déséquipez un emplacement d’outil.",
+      "details": "Retirez l’outil équipé d’une fente sélectionnée. L’argument de l’emplacement fait référence à une fente pour pioche, hache, tige ou clé à molette plutôt qu’à un objet d’inventaire arbitraire.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/unequip item:<item>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Emplacement pour outils : pic, hache, tige, clé à molette",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "slot"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Slot da ferramenta: picareta, machado, vara, chave"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "desequipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Desequipe um slot de ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:use",
+      "name": "use",
+      "categoryId": "economy",
+      "description": "Utilisez des objets consommables.",
+      "details": "Faites `/use item` avec un objet consommable sélectionné par son nom. Le montant optionnel s’applique lorsque l’objet supporte l’utilisation de plusieurs unités. L’objet doit être utilisable et disponible dans votre inventaire. Les bons de sélection de badges SR sont utilisés un par un et ouvrent un panneau de sélection de badges.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/use item item:<item>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 1,
+          "description": "Utilisez un objet consommable.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Use um item consumivel."
+          },
+          "choices": [],
+          "options": [
+            {
+              "name": "item",
+              "type": 3,
+              "description": "Nom de l’objet",
+              "required": true,
+              "autocomplete": true,
+              "nameLocalizations": {
+                "pt-BR": "item"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Nome do item"
+              },
+              "choices": [],
+              "options": []
+            },
+            {
+              "name": "amount",
+              "type": 4,
+              "description": "Quantité à utiliser (si supportée)",
+              "required": false,
+              "autocomplete": false,
+              "nameLocalizations": {
+                "pt-BR": "quantidade"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Quantidade para usar (se suportado)"
+              },
+              "choices": [],
+              "options": []
+            }
+          ]
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "usar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Use itens consumiveis."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:workbench",
+      "name": "workbench",
+      "categoryId": "economy",
+      "description": "Ouvre le hub de ton établi.",
+      "details": "Ouvrez le hub de l’établi et utilisez ses contrôles interactifs pour les activités de l’établi.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/workbench",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "workbench"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub da bancada de trabalho."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:create",
+      "name": "create",
+      "categoryId": "management",
+      "description": "Gestion : Accéder à des outils créatifs pour la gestion des serveurs",
+      "details": "Exécutez `/create menu` pour ouvrir les outils créatifs de gestion des serveurs. Le menu propose des flux tels que le Créateur d’Intégration, le Créateur de Forum et les rôles de réaction. La commande nécessite Gérer les messages ; les paramètres avancés peuvent nécessiter des autorisations supplémentaires.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/create menu",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "menu",
+          "type": 1,
+          "description": "Ouvrir le menu des créateurs",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [
+        "ManageMessages"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:guess",
+      "name": "guess",
+      "categoryId": "minigames",
+      "description": "Commencez une nouvelle partie de devinette dans le canal de devinettes configuré",
+      "details": "Commencez une manche de devinettes dans le canal de devinettes configuré. Configurez la partie via `/minigames` avant de commencer les manches.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/guess",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:leaderboard",
+      "name": "leaderboard",
+      "categoryId": "minigames",
+      "description": "Afficher le classement des serveurs",
+      "details": "Affichez le classement des serveurs. Pour la configuration du jeu et le début d’une manche, utilisez respectivement `/minigames` et `/guess` .",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leaderboard",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:news",
+      "name": "news",
+      "categoryId": "uma",
+      "description": "Obtenez les 10 dernières actualités Uma Musume",
+      "details": "Affichez les dix dernières actualités Uma Musume disponibles pour le robot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/news",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:newsupdate",
+      "name": "newsupdate",
+      "categoryId": "uma",
+      "description": "Rafraîchit Uma Musume cache d’actualités avec les derniers articles — vous pouvez aider à le tenir à jour !",
+      "details": "Rafraîchissez la cache des actualités Uma Musume avec les derniers articles. Utilisez `/news` pour lire les actualités après avoir rafraîchi.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/newsupdate",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umacards",
+      "name": "umacards",
+      "categoryId": "uma",
+      "description": "Voir Uma Musume cartes de soutien",
+      "details": "Parcourez Uma Musume cartes de support. La recherche optionnelle accepte un nom de personnage anglais ou japonais ou un identifiant de carte. Sans recherche, le bot ouvre le navigateur de cartes. Les niveaux vont de 1 à 50 ; le bot sélectionne le niveau supporté le plus proche lorsque nécessaire. Les niveaux pris en charge sont 1, 5, 10, 15, 20, 25, 30, 35, 40, 45 et 50.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umacards",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "search",
+          "type": 3,
+          "description": "Recherche par nom de personnage (EN/JP) ou par identifiant de carte",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "level",
+          "type": 4,
+          "description": "Niveau de carte (1-50)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": [],
+          "min_value": 1,
+          "max_value": 50
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaid",
+      "name": "umaid",
+      "categoryId": "uma",
+      "description": "Rechercher Uma Musume caractère par ID",
+      "details": "Recherchez un caractère Uma Musume en utilisant l’ID de caractère requis. Pour chercher par un nom anglais ou japonais, utilisez `/umaname`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaid character_id:<character_id>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_id",
+          "type": 4,
+          "description": "Identifiant du personnage",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umalist",
+      "name": "umalist",
+      "categoryId": "uma",
+      "description": "Liste de tous les personnages Uma Musume",
+      "details": "Listez les Uma Musume caractères disponibles pour le bot. Utilisez `/umaid` ou `/umaname` pour une recherche directe de personnages.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umalist",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaname",
+      "name": "umaname",
+      "categoryId": "uma",
+      "description": "Rechercher Uma Musume personnage par nom",
+      "details": "Recherchez un caractère Uma Musume utilisant un nom anglais ou japonais. Le nom est obligatoire ; utilisez `/umaid` lorsque vous connaissez l’ID du caractère.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaname character_name:<character_name>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_name",
+          "type": 3,
+          "description": "Nom du personnage (anglais ou japonais)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:afk",
+      "name": "afk",
+      "categoryId": "utility",
+      "description": "Définissez votre statut AFK avec une raison optionnelle.",
+      "details": "Définissez votre statut AFK sur un serveur. La raison est optionnelle et vous permet d’expliquer pourquoi vous êtes absent.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/afk",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "Pourquoi tu es parti.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "motivo"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Por que você vai ficar ausente."
+          },
+          "choices": [],
+          "options": [],
+          "max_length": 200
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "afk"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Ative seu AFK com um motivo opcional."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:avatar",
+      "name": "avatar",
+      "categoryId": "utility",
+      "description": "Obtenez un avatar utilisateur",
+      "details": "Afficher un avatar utilisateur Discord. L’argument utilisateur optionnel sélectionne l’utilisateur cible.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/avatar",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Utilisateur cible",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bug",
+      "name": "bug",
+      "categoryId": "utility",
+      "description": "Signalez un bug à l’équipe.",
+      "details": "Envoyez un rapport de bug à l’équipe en utilisant l’argument de message requis. Décrivez ce qui s’est passé et les étapes qui ont conduit au problème.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bug message:<message>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "Décrivez le bug.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Descreva o bug."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "bug"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Reporte um bug para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:clone",
+      "name": "clone",
+      "categoryId": "utility",
+      "description": "Cloner les emojis et autocollants vers un autre serveur (la source peut être modifiée)",
+      "details": "Ouvrez le flux de clonage d’emojis et d’autocollants depuis un serveur. Sélectionnez la source et la destination via le flux interactif ; la source peut être modifiée.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/clone",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:emoji",
+      "name": "emoji",
+      "categoryId": "utility",
+      "description": "Agrandir un emoji personnalisé et afficher ses détails",
+      "details": "Agrandir un emoji Discord personnalisé et afficher ses détails. Coller l’emoji personnalisé dans l’argument d’emoji requis.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/emoji emoji:<emoji>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "emoji",
+          "type": 3,
+          "description": "L’emoji personnalisé à agrandir (collez-le ici)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:help",
+      "name": "help",
+      "categoryId": "utility",
+      "description": "Afficher les informations d’aide",
+      "details": "Ouvrez les informations d’aide du bot pour découvrir les commandes et leurs catégories.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/help",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inbox",
+      "name": "inbox",
+      "categoryId": "utility",
+      "description": "Vérifiez votre boîte mail pour voir s’il y a des messages de mon propriétaire de cochon d’Inde",
+      "details": "Ouvrez votre boîte de réception pour lire les messages envoyés par le propriétaire du bot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inbox",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:launcher",
+      "name": "launcher",
+      "categoryId": "utility",
+      "description": "Obtenez un lien direct pour lancer l’activité Agnes .",
+      "details": "Obtenez un lien direct pour lancer l’activité Agnes Discord.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/launcher",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:ping",
+      "name": "ping",
+      "categoryId": "utility",
+      "description": "Vérifiez la latence et le temps de réponse des bots",
+      "details": "Afficher la latence du bot et les informations de temps de réponse. Cette commande n’accepte aucun argument supplémentaire.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/ping",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:serverinfo",
+      "name": "serverinfo",
+      "categoryId": "utility",
+      "description": "Obtenez des informations détaillées sur un serveur",
+      "details": "Afficher les informations sur un serveur. Les champs de recherche optionnels acceptent un identifiant serveur ou un nom partiel et peuvent rechercher au-delà du serveur actuel.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/serverinfo",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "server_id",
+          "type": 3,
+          "description": "ID serveur pour obtenir des informations (recherche globale)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "server_name",
+          "type": 3,
+          "description": "Nom du serveur à rechercher (recherche globale, correspondance partielle)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:status",
+      "name": "status",
+      "categoryId": "utility",
+      "description": "Obtenez l’état du bot et les informations système",
+      "details": "Afficher l’état du bot et les informations système disponibles via la commande.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/status",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:suggest",
+      "name": "suggest",
+      "categoryId": "utility",
+      "description": "Envoyez une suggestion à l’équipe.",
+      "details": "Envoyez une suggestion à l’équipe en utilisant l’argument du message requis. Expliquez le changement proposé et comment cela pourrait aider.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/suggest message:<message>",
+          "explanation": "Remplacez les valeurs entre crochets angulaires par vos propres sélections avant d’exécuter cette commande."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "C’est votre suggestion.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Sua sugestão."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "sugestao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Envie uma sugestão para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:support",
+      "name": "support",
+      "categoryId": "utility",
+      "description": "Obtenez le serveur d’assistance et les coordonnées",
+      "details": "Affichez le serveur de support et les coordonnées pour obtenir de l’aide avec Agnes.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/support",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:userinfo",
+      "name": "userinfo",
+      "categoryId": "utility",
+      "description": "Obtenez des informations détaillées sur un utilisateur",
+      "details": "Afficher des informations sur un utilisateur Discord. Sélectionner un membre du serveur actuel ou effectuer une recherche globale par identifiant utilisateur ou un nom d’utilisateur partiel en utilisant les arguments optionnels.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/userinfo",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Utilisateur cible (depuis le serveur actuel)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "user_id",
+          "type": 3,
+          "description": "ID utilisateur à rechercher (recherche globalement)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "username",
+          "type": 3,
+          "description": "Nom d’utilisateur à rechercher (recherches globales, correspondance partielle)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:vote",
+      "name": "vote",
+      "categoryId": "utility",
+      "description": "Vérifiez le statut de votre vote et réclamez les récompenses.",
+      "details": "Ouvrez votre panneau de statut de vote et de récompenses. Les plateformes de vote disponibles dépendent de la configuration du bot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/vote",
+          "explanation": "Exécutez cette commande pour ouvrir la vue ou effectuer l’action décrite ci-dessus."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    }
+  ],
+  "translationStatus": "complete",
+  "translationCoverage": 1,
+  "version": "5f76dd2713e06a8404734834a01333250e36782eb1be78dfd4169c64374b6463",
+  "generatedAt": "2026-10-06T16:31:03.519Z",
+  "locale": "fr"
+}

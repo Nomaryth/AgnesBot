@@ -1,0 +1,1773 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "en-US",
+  "categories": [
+    {
+      "id": "config",
+      "order": 0,
+      "title": "Server configuration",
+      "description": "Configure server features and the channels where Agnes runs.",
+      "icon": "Settings"
+    },
+    {
+      "id": "economy",
+      "order": 1,
+      "title": "Economy",
+      "description": "Manage your balance, inventory, tools, rewards and Stable Crate activities.",
+      "icon": "Zap"
+    },
+    {
+      "id": "management",
+      "order": 2,
+      "title": "Server management",
+      "description": "Use interactive tools to create and manage server content.",
+      "icon": "Wrench"
+    },
+    {
+      "id": "minigames",
+      "order": 3,
+      "title": "Minigames",
+      "description": "Start guessing rounds and view the server leaderboard.",
+      "icon": "Users"
+    },
+    {
+      "id": "uma",
+      "order": 4,
+      "title": "Uma Musume",
+      "description": "Browse characters, Support Cards and recent Uma Musume news.",
+      "icon": "Book"
+    },
+    {
+      "id": "utility",
+      "order": 5,
+      "title": "Utilities",
+      "description": "Find information, contact support and use everyday bot tools.",
+      "icon": "Bot"
+    }
+  ],
+  "commands": [
+    {
+      "id": "slash:config",
+      "name": "config",
+      "categoryId": "config",
+      "description": "Quick access to server configuration panel - manage all server settings",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:leveling",
+      "name": "leveling",
+      "categoryId": "config",
+      "description": "Configure the leveling system for your server",
+      "details": "Open the leveling configuration for the server. This command requires the Manage Server permission; use the panel to configure the leveling feature.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leveling",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:minigames",
+      "name": "minigames",
+      "categoryId": "config",
+      "description": "Quick access to minigames configuration - configure guess games and more",
+      "details": "Open the server configuration for minigames, including the guessing game. This command requires the Manage Server permission.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/minigames",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:notifications",
+      "name": "notifications",
+      "categoryId": "config",
+      "description": "Configure notification settings for your server",
+      "details": "Open notification settings for the server. This command requires the Manage Server permission.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/notifications",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:badge",
+      "name": "badge",
+      "categoryId": "economy",
+      "description": "Open your badge hub.",
+      "details": "Open the badge hub to manage your badges through the interactive panel.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/badge",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "badge"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub das suas badges."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:balance",
+      "name": "balance",
+      "categoryId": "economy",
+      "description": "Check your current balance.",
+      "details": "Display your current economy balance. This command provides a quick balance check without requiring an amount or another user.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/balance",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saldo"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu saldo atual."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bank",
+      "name": "bank",
+      "categoryId": "economy",
+      "description": "Open your bank hub.",
+      "details": "Open the global bank hub. Use its Deposit or Withdraw controls, then enter the amount in the form. The panel displays the current fees and remaining daily limits; the History view shows transactions.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bank",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "banco"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Operacoes do banco global."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:buy",
+      "name": "buy",
+      "categoryId": "economy",
+      "description": "Buy an item from the market.",
+      "details": "Buy an item from the market by selecting its name. The optional amount lets you specify the quantity. Select an autocomplete suggestion to identify the item.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/buy item:<item>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Item name",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Quantity to buy",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para comprar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "comprar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Compre um item do mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:chop",
+      "name": "chop",
+      "categoryId": "economy",
+      "description": "Chop trees to earn monies and items.",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cortar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Corte arvores para ganhar moedas e itens."
+      },
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:cooldowns",
+      "name": "cooldowns",
+      "categoryId": "economy",
+      "description": "View cooldowns for basic economy commands.",
+      "details": "Display cooldown information for basic economy actions. Consult this view when an action is unavailable because it was used recently.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cooldowns",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cooldowns"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja os cooldowns basicos da economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cosmetics",
+      "name": "cosmetics",
+      "categoryId": "economy",
+      "description": "Browse and equip your unlocked cosmetics.",
+      "details": "Open the cosmetics panel to browse unlocked cosmetics and equip a selection.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cosmetics",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cosmeticos"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja e equipe seus cosmeticos desbloqueados."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:crates",
+      "name": "crates",
+      "categoryId": "economy",
+      "description": "Shows your crate inventory and quick-open buttons.",
+      "details": "Display your crate inventory and the quick-open controls. To select a crate directly by name, use `/opencrate`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/crates",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:daily",
+      "name": "daily",
+      "categoryId": "economy",
+      "description": "Claim your daily reward.",
+      "details": "Claim your daily economy reward. If the reward is on cooldown, the response explains when it becomes available again.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/daily",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "diario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Resgate sua recompensa diaria."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:equip",
+      "name": "equip",
+      "categoryId": "economy",
+      "description": "Equip a tool.",
+      "details": "Equip a tool by selecting its name. Use autocomplete to choose the tool; use `/unequip` to remove a tool from a slot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/equip item:<item>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Tool name",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da ferramenta"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "equipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Equipe uma ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:fish",
+      "name": "fish",
+      "categoryId": "economy",
+      "description": "Fish to earn monies and items.",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "pescar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Pesque para ganhar moedas e itens."
+      },
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:gacha",
+      "name": "gacha",
+      "categoryId": "economy",
+      "description": "Open the Stable Crate hub.",
+      "details": "Open the Stable Crate hub. This command starts an interactive flow rather than accepting a banner or draw amount as a slash-command argument. `/scout` opens the featured banner directly.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/gacha",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "gacha"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub principal do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inventory",
+      "name": "inventory",
+      "categoryId": "economy",
+      "description": "View your inventory.",
+      "details": "Display your economy inventory. Use the inventory to check available items before selecting a command such as `/use`, `/equip` or `/sell`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inventory",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "inventario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu inventario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:loot",
+      "name": "loot",
+      "categoryId": "economy",
+      "description": "Search for loot and earn some items or monies.",
+      "details": "Search for loot to earn items or currency. Consult the action response for the result and `/cooldowns` for cooldown information.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/loot",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saquear"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Procure saque e ganhe itens ou moedas."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:mine",
+      "name": "mine",
+      "categoryId": "economy",
+      "description": "Mine to earn monies and items.",
+      "details": "Perform a mining action to earn currency and items. Consult the response for the result and `/cooldowns` for economy cooldown information.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/mine",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "minerar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Minere para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:opencrate",
+      "name": "opencrate",
+      "categoryId": "economy",
+      "description": "Open a crate using crate keys.",
+      "details": "Open a crate selected by name using crate keys. The amount defaults to one and cannot exceed five crates in a single request. Use autocomplete to select the crate.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/opencrate crate:<crate>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "crate",
+          "type": 3,
+          "description": "Crate name",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "caixa"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da caixa"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "How many crates to open (max 5)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantas caixas abrir (max 5)"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "abrircaixa"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra uma caixa usando chaves."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:profile",
+      "name": "profile",
+      "categoryId": "economy",
+      "description": "View your economy profile.",
+      "details": "Display an economy profile. The optional user argument selects the profile to view.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/profile",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "User to view",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para visualizar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "perfil"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu perfil de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:reputation",
+      "name": "reputation",
+      "categoryId": "economy",
+      "description": "Give reputation to another user.",
+      "details": "Give reputation to the user selected in the required user argument.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/reputation user:<user>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "User to give reputation to",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para receber reputacao"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "reputacao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Dê reputacao para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:scout",
+      "name": "scout",
+      "categoryId": "economy",
+      "description": "Open the featured Stable Crate banner.",
+      "details": "Open the featured Stable Crate banner directly. For the main Stable Crate hub, use `/gacha`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/scout",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "scout"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra diretamente o banner em destaque do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:sell",
+      "name": "sell",
+      "categoryId": "economy",
+      "description": "Sell an item to the market.",
+      "details": "Sell a market item selected by name. The optional amount specifies the quantity to sell; use autocomplete to select the item.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/sell item:<item>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Item name",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Quantity to sell",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para vender"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "vender"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Venda um item no mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:shop",
+      "name": "shop",
+      "categoryId": "economy",
+      "description": "Browse shop categories and items.",
+      "details": "Open the shop and browse its categories and items. For a direct item purchase by name, use `/buy`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/shop",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "loja"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja categorias e itens da loja."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:stats",
+      "name": "stats",
+      "categoryId": "economy",
+      "description": "View your economy statistics.",
+      "details": "Display your economy statistics. This command does not require an additional user or filter argument.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/stats",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "estatisticas"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja suas estatisticas de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:transfer",
+      "name": "transfer",
+      "categoryId": "economy",
+      "description": "Transfer monies to another user.",
+      "details": "Transfer currency to a selected user. Both the recipient and amount are required; check them before sending the command.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/transfer user:<user> amount:<amount>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "User to transfer to",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para transferir"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Amount to transfer",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para transferir"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "transferir"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Transfira moedas para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:unequip",
+      "name": "unequip",
+      "categoryId": "economy",
+      "description": "Unequip a tool slot.",
+      "details": "Remove the equipped tool from a selected slot. The slot argument refers to a pick, axe, rod or wrench slot rather than an arbitrary inventory item.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/unequip item:<item>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Tool slot: pick, axe, rod, wrench",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "slot"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Slot da ferramenta: picareta, machado, vara, chave"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "desequipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Desequipe um slot de ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:use",
+      "name": "use",
+      "categoryId": "economy",
+      "description": "Use consumable items.",
+      "details": "Run `/use item` with a consumable item selected by name. The optional amount applies when the item supports using multiple units. The item must be usable and available in your inventory. SR Badge Selector vouchers are used one at a time and open a badge selection panel.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/use item item:<item>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 1,
+          "description": "Use a consumable item.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Use um item consumivel."
+          },
+          "choices": [],
+          "options": [
+            {
+              "name": "item",
+              "type": 3,
+              "description": "Item name",
+              "required": true,
+              "autocomplete": true,
+              "nameLocalizations": {
+                "pt-BR": "item"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Nome do item"
+              },
+              "choices": [],
+              "options": []
+            },
+            {
+              "name": "amount",
+              "type": 4,
+              "description": "Amount to use (if supported)",
+              "required": false,
+              "autocomplete": false,
+              "nameLocalizations": {
+                "pt-BR": "quantidade"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Quantidade para usar (se suportado)"
+              },
+              "choices": [],
+              "options": []
+            }
+          ]
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "usar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Use itens consumiveis."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:workbench",
+      "name": "workbench",
+      "categoryId": "economy",
+      "description": "Open your workbench hub.",
+      "details": "Open the workbench hub and use its interactive controls for workbench activities.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/workbench",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "workbench"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub da bancada de trabalho."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:create",
+      "name": "create",
+      "categoryId": "management",
+      "description": "Management: Access creative tools for server management",
+      "details": "Run `/create menu` to open the creative tools for server management. The menu offers flows such as the Embed Creator, Forum Creator and reaction roles. The command requires Manage Messages; advanced settings can require additional permissions.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/create menu",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "menu",
+          "type": 1,
+          "description": "Open the creators menu",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [
+        "ManageMessages"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:guess",
+      "name": "guess",
+      "categoryId": "minigames",
+      "description": "Start a new guess game round in the configured guess channel",
+      "details": "Start a guessing-game round in the configured guess channel. Configure the game through `/minigames` before starting rounds.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/guess",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:leaderboard",
+      "name": "leaderboard",
+      "categoryId": "minigames",
+      "description": "Show the server leaderboard",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:news",
+      "name": "news",
+      "categoryId": "uma",
+      "description": "Get the 10 most recent Uma Musume news",
+      "details": "Display the ten most recent Uma Musume news items available to the bot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/news",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:newsupdate",
+      "name": "newsupdate",
+      "categoryId": "uma",
+      "description": "Refreshes Uma Musume news cache with the latest posts — you can help keep it updated!",
+      "details": "Refresh the Uma Musume news cache with the latest posts. Use `/news` to read the news after refreshing.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/newsupdate",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umacards",
+      "name": "umacards",
+      "categoryId": "uma",
+      "description": "View Uma Musume Support Cards",
+      "details": "Browse Uma Musume Support Cards. The optional search accepts an English or Japanese character name or a card ID. Without a search, the bot opens the card browser. Levels range from 1 to 50; the bot selects the nearest supported level when needed. Supported levels are 1, 5, 10, 15, 20, 25, 30, 35, 40, 45 and 50.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umacards",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "search",
+          "type": 3,
+          "description": "Search by character name (EN/JP) or card ID",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "level",
+          "type": 4,
+          "description": "Card level (1-50)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": [],
+          "min_value": 1,
+          "max_value": 50
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaid",
+      "name": "umaid",
+      "categoryId": "uma",
+      "description": "Search Uma Musume character by ID",
+      "details": "Search for an Uma Musume character using the required character ID. To search by an English or Japanese name instead, use `/umaname`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaid character_id:<character_id>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_id",
+          "type": 4,
+          "description": "Character ID",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umalist",
+      "name": "umalist",
+      "categoryId": "uma",
+      "description": "List all Uma Musume characters",
+      "details": "List the Uma Musume characters available to the bot. Use `/umaid` or `/umaname` for a direct character search.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umalist",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaname",
+      "name": "umaname",
+      "categoryId": "uma",
+      "description": "Search Uma Musume character by name",
+      "details": "Search for an Uma Musume character using an English or Japanese name. The name is required; use `/umaid` when you know the character ID.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaname character_name:<character_name>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_name",
+          "type": 3,
+          "description": "Character name (English or Japanese)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:afk",
+      "name": "afk",
+      "categoryId": "utility",
+      "description": "Set your AFK status with an optional reason.",
+      "details": "Set your AFK status in a server. The reason is optional and lets you explain why you are away.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/afk",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "Why you are away.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "motivo"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Por que você vai ficar ausente."
+          },
+          "choices": [],
+          "options": [],
+          "max_length": 200
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "afk"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Ative seu AFK com um motivo opcional."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:avatar",
+      "name": "avatar",
+      "categoryId": "utility",
+      "description": "Get a user's avatar",
+      "details": "Display a Discord user avatar. The optional user argument selects the target user.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/avatar",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Target user",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bug",
+      "name": "bug",
+      "categoryId": "utility",
+      "description": "Report a bug to the team.",
+      "details": "Send a bug report to the team using the required message argument. Describe what happened and the steps that led to the issue.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bug message:<message>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "Describe the bug.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Descreva o bug."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "bug"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Reporte um bug para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:clone",
+      "name": "clone",
+      "categoryId": "utility",
+      "description": "Clone emojis and stickers into another server (source can be changed)",
+      "details": "Open the emoji and sticker cloning flow from a server. Select the source and destination through the interactive flow; the source can be changed.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/clone",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:emoji",
+      "name": "emoji",
+      "categoryId": "utility",
+      "description": "Enlarge a custom emoji and view its details",
+      "details": "Enlarge a custom Discord emoji and display its details. Paste the custom emoji into the required emoji argument.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/emoji emoji:<emoji>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "emoji",
+          "type": 3,
+          "description": "The custom emoji to enlarge (paste it here)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:help",
+      "name": "help",
+      "categoryId": "utility",
+      "description": "Show help information",
+      "details": "Open the bot help information to discover commands and their categories.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/help",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inbox",
+      "name": "inbox",
+      "categoryId": "utility",
+      "description": "Check your inbox for messages from my guinea pig owner",
+      "details": "Open your inbox to read messages sent by the bot owner.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inbox",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:launcher",
+      "name": "launcher",
+      "categoryId": "utility",
+      "description": "Get a direct link to start the Agnes activity.",
+      "details": "Get a direct link to start the Agnes Discord activity.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/launcher",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:ping",
+      "name": "ping",
+      "categoryId": "utility",
+      "description": "Check bot latency and response time",
+      "details": "Display bot latency and response-time information. This command takes no additional arguments.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/ping",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:serverinfo",
+      "name": "serverinfo",
+      "categoryId": "utility",
+      "description": "Get detailed information about a server",
+      "details": "Display information about a server. Optional search fields accept a server ID or a partial server name and can search beyond the current server.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/serverinfo",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "server_id",
+          "type": 3,
+          "description": "Server ID to get info about (searches globally)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "server_name",
+          "type": 3,
+          "description": "Server name to search for (searches globally, partial match)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:status",
+      "name": "status",
+      "categoryId": "utility",
+      "description": "Get bot status and system information",
+      "details": "Display bot status and system information available through the command.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/status",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:suggest",
+      "name": "suggest",
+      "categoryId": "utility",
+      "description": "Send a suggestion to the team.",
+      "details": "Send a suggestion to the team using the required message argument. Explain the proposed change and how it would help.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/suggest message:<message>",
+          "explanation": "Replace the values in angle brackets with your own selections before running this command."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "Your suggestion.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Sua sugestão."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "sugestao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Envie uma sugestão para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:support",
+      "name": "support",
+      "categoryId": "utility",
+      "description": "Get support server and contact information",
+      "details": "Display the support server and contact information to get help with Agnes.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/support",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:userinfo",
+      "name": "userinfo",
+      "categoryId": "utility",
+      "description": "Get detailed information about a user",
+      "details": "Display information about a Discord user. Select a member of the current server or search globally by user ID or a partial username using the optional arguments.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/userinfo",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Target user (from current server)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "user_id",
+          "type": 3,
+          "description": "User ID to search for (searches globally)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "username",
+          "type": 3,
+          "description": "Username to search for (searches globally, partial match)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:vote",
+      "name": "vote",
+      "categoryId": "utility",
+      "description": "Check your vote status and claim rewards.",
+      "details": "Open your vote status and reward panel. The available voting platforms depend on the bot configuration.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/vote",
+          "explanation": "Run this command to open the view or perform the action described above."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    }
+  ],
+  "translationStatus": "original",
+  "translationCoverage": 1,
+  "version": "f456952b76538a0e187857d9c04c9c7ff29a081ea9b6dcdbe5a16ec260c50873",
+  "generatedAt": "2026-10-06T23:07:43.454Z",
+  "locale": "en-US"
+}

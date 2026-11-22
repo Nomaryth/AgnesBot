@@ -1,0 +1,1773 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "en-US",
+  "categories": [
+    {
+      "id": "config",
+      "order": 0,
+      "title": "服务器配置",
+      "description": "配置服务器功能和 Agnes 运行的频道。",
+      "icon": "Settings"
+    },
+    {
+      "id": "economy",
+      "order": 1,
+      "title": "经济",
+      "description": "管理你的余额、物品栏、工具、奖励和 Stable Crate 活动。",
+      "icon": "Zap"
+    },
+    {
+      "id": "management",
+      "order": 2,
+      "title": "服务器管理",
+      "description": "使用交互式工具来创建和管理服务器内容。",
+      "icon": "Wrench"
+    },
+    {
+      "id": "minigames",
+      "order": 3,
+      "title": "小游戏",
+      "description": "开始猜测回合，查看服务器排行榜。",
+      "icon": "Users"
+    },
+    {
+      "id": "uma",
+      "order": 4,
+      "title": "Uma Musume",
+      "description": "浏览角色、支援卡和最新 Uma Musume 新闻。",
+      "icon": "Book"
+    },
+    {
+      "id": "utility",
+      "order": 5,
+      "title": "公用事业",
+      "description": "查找信息，联系客服，并使用日常机器人工具。",
+      "icon": "Bot"
+    }
+  ],
+  "commands": [
+    {
+      "id": "slash:config",
+      "name": "config",
+      "categoryId": "config",
+      "description": "快速访问服务器配置面板——管理所有服务器设置",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:leveling",
+      "name": "leveling",
+      "categoryId": "config",
+      "description": "为你的服务器配置升级系统",
+      "details": "打开服务器的分级配置。此命令需要管理服务器权限;使用面板配置分级功能。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leveling",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:minigames",
+      "name": "minigames",
+      "categoryId": "config",
+      "description": "快速访问小游戏配置——配置猜谜游戏等",
+      "details": "打开小游戏服务器配置，包括猜谜游戏。此命令需要管理服务器权限。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/minigames",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:notifications",
+      "name": "notifications",
+      "categoryId": "config",
+      "description": "为你的服务器配置通知设置",
+      "details": "打开服务器的通知设置。此命令需要管理服务器权限。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/notifications",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:badge",
+      "name": "badge",
+      "categoryId": "economy",
+      "description": "打开你的徽章中心。",
+      "details": "打开徽章中心，通过互动面板管理你的徽章。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/badge",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "badge"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub das suas badges."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:balance",
+      "name": "balance",
+      "categoryId": "economy",
+      "description": "检查你当前的余额。",
+      "details": "显示您当前的经济余额。该命令提供快速余额检查，无需金额或其他用户。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/balance",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saldo"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu saldo atual."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bank",
+      "name": "bank",
+      "categoryId": "economy",
+      "description": "打开你的银行中心。",
+      "details": "打开全球银行中心。使用其存款或取款控制，然后在表格中输入金额。面板显示当前费用和剩余每日限额;历史视图显示交易。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bank",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "banco"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Operacoes do banco global."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:buy",
+      "name": "buy",
+      "categoryId": "economy",
+      "description": "从市场购买物品。",
+      "details": "通过选择商品名称在市场上购买。可选数量允许你指定数量。选择自动补全建议以识别该物品。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/buy item:<item>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "物品名称",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "购买数量",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para comprar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "comprar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Compre um item do mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:chop",
+      "name": "chop",
+      "categoryId": "economy",
+      "description": "砍树赚取金钱和物品。",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cortar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Corte arvores para ganhar moedas e itens."
+      },
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:cooldowns",
+      "name": "cooldowns",
+      "categoryId": "economy",
+      "description": "查看基础经济指令的冷却时间。",
+      "details": "显示基础经济行动的冷却时间信息。当某个行动因最近使用而不可用时，请查看此视图。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cooldowns",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cooldowns"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja os cooldowns basicos da economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cosmetics",
+      "name": "cosmetics",
+      "categoryId": "economy",
+      "description": "浏览并装备你已解锁的装饰品。",
+      "details": "打开装饰面板浏览已解锁的装饰品并装备相应的装饰品。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cosmetics",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cosmeticos"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja e equipe seus cosmeticos desbloqueados."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:crates",
+      "name": "crates",
+      "categoryId": "economy",
+      "description": "显示你的箱子库存和快速打开按钮。",
+      "details": "显示你的箱子库存和快速打开的控制。要直接按箱子名称选择，请使用 `/opencrate`。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/crates",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:daily",
+      "name": "daily",
+      "categoryId": "economy",
+      "description": "领取你的每日奖励。",
+      "details": "领取你的每日经济奖励。如果奖励处于冷却状态，回复会说明它何时再次可用。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/daily",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "diario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Resgate sua recompensa diaria."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:equip",
+      "name": "equip",
+      "categoryId": "economy",
+      "description": "装备一个工具。",
+      "details": "通过选择工具名称来装备工具。使用自动补全选择工具;使用 `/unequip` 从槽中移除工具。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/equip item:<item>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "工具名称",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da ferramenta"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "equipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Equipe uma ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:fish",
+      "name": "fish",
+      "categoryId": "economy",
+      "description": "钓鱼以赚取金钱和物品。",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "pescar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Pesque para ganhar moedas e itens."
+      },
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:gacha",
+      "name": "gacha",
+      "categoryId": "economy",
+      "description": "打开 Stable Crate 中心。",
+      "details": "打开 Stable Crate 中心。该命令启动交互流程，而不是接受横幅或抽取金额作为斜线命令参数。 `/scout` 直接打开精选横幅。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/gacha",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "gacha"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub principal do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inventory",
+      "name": "inventory",
+      "categoryId": "economy",
+      "description": "查看你的库存。",
+      "details": "显示你的经济库存。在选择 `/use`、 `/equip` 或 `/sell`等命令前，先用库存检查可用物品。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inventory",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "inventario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu inventario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:loot",
+      "name": "loot",
+      "categoryId": "economy",
+      "description": "寻找战利品并获得一些物品或金钱。",
+      "details": "搜索战利品以获得物品或货币。查看行动响应以获取结果，并 `/cooldowns` 冷却时间信息。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/loot",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saquear"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Procure saque e ganhe itens ou moedas."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:mine",
+      "name": "mine",
+      "categoryId": "economy",
+      "description": "开采用来赚取金钱和物品。",
+      "details": "执行采矿行动以获得货币和物品。查看回复以获取结果和 `/cooldowns` 经济冷却信息。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/mine",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "minerar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Minere para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:opencrate",
+      "name": "opencrate",
+      "categoryId": "economy",
+      "description": "用笼子钥匙打开笼子。",
+      "details": "用箱子键按名字选择一个箱子。数量默认为一箱，单次请求最多五箱。使用自动补全选择箱子。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/opencrate crate:<crate>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "crate",
+          "type": 3,
+          "description": "笼子名称",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "caixa"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da caixa"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "开多少箱子（最多5个）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantas caixas abrir (max 5)"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "abrircaixa"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra uma caixa usando chaves."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:profile",
+      "name": "profile",
+      "categoryId": "economy",
+      "description": "查看您的经济体档案。",
+      "details": "显示经济型配置文件。可选用户参数选择查看配置文件。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/profile",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "用户查看",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para visualizar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "perfil"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu perfil de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:reputation",
+      "name": "reputation",
+      "categoryId": "economy",
+      "description": "把声望给另一个用户。",
+      "details": "在所需用户参数中选择的用户获得声誉。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/reputation user:<user>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "用户",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para receber reputacao"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "reputacao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Dê reputacao para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:scout",
+      "name": "scout",
+      "categoryId": "economy",
+      "description": "打开精选 Stable Crate 横幅。",
+      "details": "直接打开精选 Stable Crate 横幅。主 Stable Crate 中心请使用 `/gacha`。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/scout",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "scout"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra diretamente o banner em destaque do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:sell",
+      "name": "sell",
+      "categoryId": "economy",
+      "description": "把一件商品卖给市场。",
+      "details": "按名称出售市场商品。可选金额指定要卖的数量;使用自动补全选择商品。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/sell item:<item>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "物品名称",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "待售数量",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para vender"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "vender"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Venda um item no mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:shop",
+      "name": "shop",
+      "categoryId": "economy",
+      "description": "浏览商店分类和商品。",
+      "details": "打开商店，浏览其分类和商品。如需按姓名直接购买商品，请使用 `/buy`。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/shop",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "loja"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja categorias e itens da loja."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:stats",
+      "name": "stats",
+      "categoryId": "economy",
+      "description": "查看您的经济统计数据。",
+      "details": "显示你的经济统计数据。此命令不需要额外的用户或过滤器参数。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/stats",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "estatisticas"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja suas estatisticas de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:transfer",
+      "name": "transfer",
+      "categoryId": "economy",
+      "description": "将资金转给其他用户。",
+      "details": "将货币转给选定的用户。需要同时提供接收者和金额;发送命令前请检查。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/transfer user:<user> amount:<amount>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "用户转移至",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para transferir"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "转移金额",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para transferir"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "transferir"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Transfira moedas para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:unequip",
+      "name": "unequip",
+      "categoryId": "economy",
+      "description": "卸下一个工具槽。",
+      "details": "将装备工具从选中的槽位中移除。槽位参数指的是镐、斧、杆或扳手槽，而非任意的库存物品。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/unequip item:<item>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "工具槽：镐、斧、杆、扳手",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "slot"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Slot da ferramenta: picareta, machado, vara, chave"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "desequipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Desequipe um slot de ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:use",
+      "name": "use",
+      "categoryId": "economy",
+      "description": "使用消耗品。",
+      "details": "用一个按名称选择的消耗品进行 `/use item` 。可选数量适用于该物品支持多个单位使用。该物品必须可用且可在你的库存中使用。SR徽章选择器代金券可逐个使用，并打开徽章选择面板。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/use item item:<item>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 1,
+          "description": "使用消耗品。",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Use um item consumivel."
+          },
+          "choices": [],
+          "options": [
+            {
+              "name": "item",
+              "type": 3,
+              "description": "物品名称",
+              "required": true,
+              "autocomplete": true,
+              "nameLocalizations": {
+                "pt-BR": "item"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Nome do item"
+              },
+              "choices": [],
+              "options": []
+            },
+            {
+              "name": "amount",
+              "type": 4,
+              "description": "使用量（如支持）",
+              "required": false,
+              "autocomplete": false,
+              "nameLocalizations": {
+                "pt-BR": "quantidade"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Quantidade para usar (se suportado)"
+              },
+              "choices": [],
+              "options": []
+            }
+          ]
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "usar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Use itens consumiveis."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:workbench",
+      "name": "workbench",
+      "categoryId": "economy",
+      "description": "打开你的工作台中枢。",
+      "details": "打开工作台中心，使用其交互式控件进行工作台活动。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/workbench",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "workbench"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub da bancada de trabalho."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:create",
+      "name": "create",
+      "categoryId": "management",
+      "description": "管理：访问服务器管理的创意工具",
+      "details": "运行 `/create menu` 以打开服务器管理的创意工具。菜单中提供了诸如嵌入创建器、论坛创建器和反应角色等流程。该命令需要“管理消息”;高级设置可能需要额外权限。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/create menu",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "menu",
+          "type": 1,
+          "description": "打开创作者菜单",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [
+        "ManageMessages"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:guess",
+      "name": "guess",
+      "categoryId": "minigames",
+      "description": "在配置好的猜测频道里重新开始一个猜测游戏回合",
+      "details": "在配置好的猜测频道中开始猜谜游戏。在开始回合前通过 `/minigames` 配置游戏。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/guess",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:leaderboard",
+      "name": "leaderboard",
+      "categoryId": "minigames",
+      "description": "显示服务器排行榜",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:news",
+      "name": "news",
+      "categoryId": "uma",
+      "description": "获取最新的10条 Uma Musume 新闻",
+      "details": "显示机器人可用的最新十条 Uma Musume 新闻。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/news",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:newsupdate",
+      "name": "newsupdate",
+      "categoryId": "uma",
+      "description": "刷新 Uma Musume 新闻缓存，更新最新帖子——你还能帮忙保持更新！",
+      "details": "刷新 Uma Musume 新闻缓存，更新最新帖子。刷新后使用 `/news` 阅读新闻。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/newsupdate",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umacards",
+      "name": "umacards",
+      "categoryId": "uma",
+      "description": "查看 Uma Musume 支持卡",
+      "details": "浏览 Uma Musume 支持卡。可选搜索可接受英文或日文字符名或卡牌ID。无需搜索，机器人会打开卡片浏览器。等级范围为1到50;机器人在需要时选择最近的支持等级。支持的等级包括1、5、10、15、20、25、30、35、40、45和50。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umacards",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "search",
+          "type": 3,
+          "description": "通过角色名（EN/JP）或卡牌ID搜索",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "level",
+          "type": 4,
+          "description": "牌面等级（1-50）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": [],
+          "min_value": 1,
+          "max_value": 50
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaid",
+      "name": "umaid",
+      "categoryId": "uma",
+      "description": "通过ID搜索 Uma Musume 字符",
+      "details": "使用所需的字符ID搜索 Uma Musume 字符。如需通过英文或日文名称搜索，请使用“ `/umaname`”。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaid character_id:<character_id>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "character_id",
+          "type": 4,
+          "description": "字符识别",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umalist",
+      "name": "umalist",
+      "categoryId": "uma",
+      "description": "列出所有 Uma Musume 角色",
+      "details": "列出机器人可用的 Uma Musume 角色。使用 `/umaid` 或 `/umaname` 进行直接角色搜索。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umalist",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaname",
+      "name": "umaname",
+      "categoryId": "uma",
+      "description": "按名字搜索角色Uma Musume",
+      "details": "使用英文或日文名字搜索 Uma Musume 角色。名字是必填的;知道角色ID时使用 `/umaid` 。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaname character_name:<character_name>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "character_name",
+          "type": 3,
+          "description": "角色名（英文或日文）",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:afk",
+      "name": "afk",
+      "categoryId": "utility",
+      "description": "设置你的挂机状态时，可以选择一个可选的原因。",
+      "details": "在服务器上设置你的挂机状态。原因是可选的，可以让你解释为什么离开。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/afk",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "你为什么不在。",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "motivo"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Por que você vai ficar ausente."
+          },
+          "choices": [],
+          "options": [],
+          "max_length": 200
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "afk"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Ative seu AFK com um motivo opcional."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:avatar",
+      "name": "avatar",
+      "categoryId": "utility",
+      "description": "获取用户的头像",
+      "details": "显示一个Discord用户头像。可选的用户参数选择目标用户。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/avatar",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "目标用户",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bug",
+      "name": "bug",
+      "categoryId": "utility",
+      "description": "向团队报告一个bug。",
+      "details": "使用所需的消息参数向团队发送错误报告。描述发生了什么以及导致问题的步骤。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bug message:<message>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "描述一下这个bug。",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Descreva o bug."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "bug"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Reporte um bug para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:clone",
+      "name": "clone",
+      "categoryId": "utility",
+      "description": "将表情符号和贴纸复制到另一个服务器（来源可以更改）",
+      "details": "从服务器打开表情符号和贴纸克隆流程。通过交互式流程选择源和目的地;源代码可以更改。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/clone",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:emoji",
+      "name": "emoji",
+      "categoryId": "utility",
+      "description": "放大自定义表情并查看其详细信息",
+      "details": "放大自定义Discord表情并展示其详细信息。将自定义表情包粘贴到所需的表情符号论元中。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/emoji emoji:<emoji>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "emoji",
+          "type": 3,
+          "description": "自定义表情符号放大（粘贴在这里）",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:help",
+      "name": "help",
+      "categoryId": "utility",
+      "description": "显示帮助信息",
+      "details": "打开机器人帮助信息，发现命令及其分类。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/help",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inbox",
+      "name": "inbox",
+      "categoryId": "utility",
+      "description": "请查看您的收件箱，收到我这只豚鼠主人的消息",
+      "details": "打开收件箱阅读机器人拥有者发送的消息。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inbox",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:launcher",
+      "name": "launcher",
+      "categoryId": "utility",
+      "description": "获取直接链接以开始 Agnes 活动。",
+      "details": "获取直接链接以开始 Agnes Discord活动。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/launcher",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:ping",
+      "name": "ping",
+      "categoryId": "utility",
+      "description": "检查机器人延迟和响应时间",
+      "details": "显示机器人延迟和响应时间信息。此命令不接受额外参数。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/ping",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:serverinfo",
+      "name": "serverinfo",
+      "categoryId": "utility",
+      "description": "获取服务器的详细信息",
+      "details": "显示关于服务器的信息。可选的搜索字段可接受服务器ID或部分服务器名称，并可搜索超出当前服务器范围。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/serverinfo",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "server_id",
+          "type": 3,
+          "description": "服务器ID获取信息（全球搜索）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "server_name",
+          "type": 3,
+          "description": "服务器名称可搜索（全局搜索，部分匹配）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:status",
+      "name": "status",
+      "categoryId": "utility",
+      "description": "获取机器人状态和系统信息",
+      "details": "通过命令显示机器人状态和系统信息。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/status",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:suggest",
+      "name": "suggest",
+      "categoryId": "utility",
+      "description": "向团队发送建议。",
+      "details": "使用必要消息参数向团队发送建议。解释拟议的变更及其帮助。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/suggest message:<message>",
+          "explanation": "在执行这个命令之前，用你自己的选项替换角括号中的数值。"
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "你的建议。",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Sua sugestão."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "sugestao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Envie uma sugestão para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:support",
+      "name": "support",
+      "categoryId": "utility",
+      "description": "获取支持服务和联系方式",
+      "details": "请显示支持服务器和联系方式，以便获得 Agnes帮助。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/support",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:userinfo",
+      "name": "userinfo",
+      "categoryId": "utility",
+      "description": "获取用户的详细信息",
+      "details": "显示关于 Discord 用户的信息。选择当前服务器的成员，或通过用户 ID 或部分用户名使用可选参数进行全球搜索。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/userinfo",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "目标用户（来自当前服务器）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "user_id",
+          "type": 3,
+          "description": "用户ID可搜索（全局搜索）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "username",
+          "type": 3,
+          "description": "用户名搜索（全球搜索，部分匹配）",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:vote",
+      "name": "vote",
+      "categoryId": "utility",
+      "description": "检查你的投票状态并领取奖励。",
+      "details": "打开你的投票状态和奖励面板。可用的投票平台取决于机器人配置。",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/vote",
+          "explanation": "执行此命令以打开视图或执行上述操作。"
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    }
+  ],
+  "translationStatus": "complete",
+  "translationCoverage": 1,
+  "version": "f456952b76538a0e187857d9c04c9c7ff29a081ea9b6dcdbe5a16ec260c50873",
+  "generatedAt": "2026-10-06T23:07:43.454Z",
+  "locale": "zh"
+}

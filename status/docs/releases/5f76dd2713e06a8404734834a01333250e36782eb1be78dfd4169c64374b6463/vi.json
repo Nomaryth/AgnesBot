@@ -1,0 +1,1788 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "en-US",
+  "categories": [
+    {
+      "id": "config",
+      "order": 0,
+      "title": "Cấu hình máy chủ",
+      "description": "Cấu hình các tính năng máy chủ và kênh nơi Agnes chạy.",
+      "icon": "Settings"
+    },
+    {
+      "id": "economy",
+      "order": 1,
+      "title": "Kinh tế",
+      "description": "Quản lý cân bằng, kho đồ, công cụ, phần thưởng và các hoạt động Stable Crate của bạn.",
+      "icon": "Zap"
+    },
+    {
+      "id": "management",
+      "order": 2,
+      "title": "Quản lý máy chủ",
+      "description": "Sử dụng các công cụ tương tác để tạo và quản lý nội dung trên máy chủ.",
+      "icon": "Wrench"
+    },
+    {
+      "id": "minigames",
+      "order": 3,
+      "title": "Trò chơi nhỏ",
+      "description": "Bắt đầu đoán các vòng và xem bảng xếp hạng trên máy chủ.",
+      "icon": "Users"
+    },
+    {
+      "id": "uma",
+      "order": 4,
+      "title": "Uma Musume",
+      "description": "Duyệt nhân vật, thẻ Hỗ trợ và tin tức Uma Musume mới nhất.",
+      "icon": "Book"
+    },
+    {
+      "id": "utility",
+      "order": 5,
+      "title": "Tiện ích",
+      "description": "Tìm thông tin, liên hệ hỗ trợ và sử dụng các công cụ bot hàng ngày.",
+      "icon": "Bot"
+    }
+  ],
+  "commands": [
+    {
+      "id": "slash:config",
+      "name": "config",
+      "categoryId": "config",
+      "description": "Truy cập nhanh vào bảng cấu hình máy chủ - quản lý tất cả cài đặt máy chủ",
+      "details": "",
+      "requirements": [],
+      "notes": [],
+      "examples": [],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "summary"
+    },
+    {
+      "id": "slash:leveling",
+      "name": "leveling",
+      "categoryId": "config",
+      "description": "Cấu hình hệ thống cân bằng cho máy chủ của bạn",
+      "details": "Mở cấu hình cân bằng cho máy chủ. Lệnh này yêu cầu quyền Quản lý Máy chủ; sử dụng bảng điều khiển để cấu hình tính năng cân ứng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leveling",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:minigames",
+      "name": "minigames",
+      "categoryId": "config",
+      "description": "Truy cập nhanh vào cấu hình minigame - cấu hình trò chơi đoán và nhiều hơn nữa",
+      "details": "Mở cấu hình máy chủ cho các trò chơi nhỏ, bao gồm cả trò chơi đoán. Lệnh này yêu cầu quyền Quản lý Máy chủ.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/minigames",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:notifications",
+      "name": "notifications",
+      "categoryId": "config",
+      "description": "Cấu hình cài đặt thông báo cho máy chủ của bạn",
+      "details": "Mở cài đặt thông báo cho máy chủ. Lệnh này yêu cầu quyền Quản lý Máy chủ.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/notifications",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [
+        "ManageGuild"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:badge",
+      "name": "badge",
+      "categoryId": "economy",
+      "description": "Mở hub huy hiệu của bạn.",
+      "details": "Mở trung tâm huy hiệu để quản lý huy hiệu của bạn thông qua bảng tương tác.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/badge",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "badge"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub das suas badges."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:balance",
+      "name": "balance",
+      "categoryId": "economy",
+      "description": "Kiểm tra số dư hiện tại của bạn.",
+      "details": "Hiển thị số dư kinh tế hiện tại của bạn. Lệnh này cung cấp kiểm tra nhanh số dư mà không cần số tiền hoặc người dùng khác.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/balance",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saldo"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu saldo atual."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bank",
+      "name": "bank",
+      "categoryId": "economy",
+      "description": "Mở trung tâm ngân hàng của bạn.",
+      "details": "Mở trung tâm ngân hàng toàn cầu. Sử dụng các nút Nạp hoặc Rút của nó, sau đó nhập số tiền vào biểu mẫu. Bảng điều khiển hiển thị phí hiện tại và giới hạn hàng ngày còn lại; Chế độ xem Lịch sử hiển thị các giao dịch.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bank",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "banco"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Operacoes do banco global."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:buy",
+      "name": "buy",
+      "categoryId": "economy",
+      "description": "Mua một món đồ ở chợ.",
+      "details": "Mua một mặt hàng từ chợ bằng cách chọn tên của nó. Số lượng tùy chọn cho phép bạn chỉ định số lượng. Chọn gợi ý tự động hoàn thành để xác định mặt hàng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/buy item:<item>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Tên sản phẩm",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Số lượng cần mua",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para comprar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "comprar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Compre um item do mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:chop",
+      "name": "chop",
+      "categoryId": "economy",
+      "description": "Chặt cây để kiếm tiền và vật phẩm.",
+      "details": "Thực hiện hành động chặt gỗ để kiếm tiền và vật phẩm. Kiểm tra phản hồi để biết kết quả hành động và dùng `/cooldowns` để kiểm tra thời gian hồi kinh tế.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/chop",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cortar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Corte arvores para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cooldowns",
+      "name": "cooldowns",
+      "categoryId": "economy",
+      "description": "Xem thời gian hồi chiêu cho các lệnh kinh tế cơ bản.",
+      "details": "Hiển thị thông tin thời gian hồi chiêu cho các hành động kinh tế cơ bản. Tham khảo chế độ xem này khi một hành động không khả dụng vì nó vừa được sử dụng gần đây.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cooldowns",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cooldowns"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja os cooldowns basicos da economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:cosmetics",
+      "name": "cosmetics",
+      "categoryId": "economy",
+      "description": "Duyệt và trang bị các vật phẩm trang trí đã mở khóa của bạn.",
+      "details": "Mở bảng trang trí để duyệt các vật phẩm đã mở khóa và trang bị một lựa chọn.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/cosmetics",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "cosmeticos"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja e equipe seus cosmeticos desbloqueados."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:crates",
+      "name": "crates",
+      "categoryId": "economy",
+      "description": "Hiển thị kho đồ trong thùng và các nút mở nhanh.",
+      "details": "Hiển thị kho thùng và các nút điều khiển mở nhanh. Để chọn thùng trực tiếp theo tên, hãy sử dụng `/opencrate`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/crates",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:daily",
+      "name": "daily",
+      "categoryId": "economy",
+      "description": "Nhận phần thưởng hàng ngày của bạn.",
+      "details": "Nhận phần thưởng kinh tế hàng ngày của bạn. Nếu phần thưởng đang trong thời gian hồi chiêu, phản hồi sẽ giải thích khi nào phần thưởng trở lại.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/daily",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "diario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Resgate sua recompensa diaria."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:equip",
+      "name": "equip",
+      "categoryId": "economy",
+      "description": "Trang bị một công cụ.",
+      "details": "Trang bị công cụ bằng cách chọn tên của nó. Sử dụng tự động hoàn thành để chọn công cụ; sử dụng `/unequip` để gỡ công cụ ra khỏi khe.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/equip item:<item>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Tên công cụ",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da ferramenta"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "equipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Equipe uma ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:fish",
+      "name": "fish",
+      "categoryId": "economy",
+      "description": "Câu cá để kiếm tiền và vật phẩm.",
+      "details": "Thực hiện một hành động câu cá để kiếm tiền tệ và vật phẩm. Kiểm tra phản hồi để biết kết quả hành động và `/cooldowns` thông tin thời gian hồi kinh tế.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/fish",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "pescar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Pesque para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:gacha",
+      "name": "gacha",
+      "categoryId": "economy",
+      "description": "Mở Stable Crate hub đi.",
+      "details": "Mở trung tâm Stable Crate . Lệnh này khởi động luồng tương tác thay vì chấp nhận biểu ngữ hoặc số lượng vẽ như một đối số lệnh gạch chéo. `/scout` mở trực tiếp biểu ngữ nổi bật.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/gacha",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "gacha"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub principal do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inventory",
+      "name": "inventory",
+      "categoryId": "economy",
+      "description": "Xem kho hàng của bạn.",
+      "details": "Hiển thị kho kinh tế của bạn. Sử dụng kho để kiểm tra các mặt hàng có sẵn trước khi chọn lệnh như `/use`, `/equip` hoặc `/sell`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inventory",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "inventario"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu inventario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:loot",
+      "name": "loot",
+      "categoryId": "economy",
+      "description": "Tìm kiếm chiến lợi phẩm và kiếm một số vật phẩm hoặc tiền bạc.",
+      "details": "Tìm kiếm vật phẩm để kiếm vật phẩm hoặc tiền tệ. Tham khảo phản hồi hành động để biết kết quả và `/cooldowns` thông tin thời gian hồi chiêu.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/loot",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "saquear"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Procure saque e ganhe itens ou moedas."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:mine",
+      "name": "mine",
+      "categoryId": "economy",
+      "description": "Khai thác để kiếm tiền và vật phẩm.",
+      "details": "Thực hiện hành động khai thác để kiếm tiền tệ và vật phẩm. Tham khảo phản hồi để biết kết quả và `/cooldowns` để biết thông tin thời gian hồi kinh tế.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/mine",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "minerar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Minere para ganhar moedas e itens."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:opencrate",
+      "name": "opencrate",
+      "categoryId": "economy",
+      "description": "Mở chuồng bằng phím chuồng.",
+      "details": "Mở một thùng được chọn theo tên bằng phím thùng hàng. Số lượng mặc định là một và không được vượt quá năm thùng trong một yêu cầu. Sử dụng tự động hoàn thành để chọn thùng hàng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/opencrate crate:<crate>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "crate",
+          "type": 3,
+          "description": "Tên thùng",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "caixa"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome da caixa"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Mở bao nhiêu thùng (tối đa 5)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantas caixas abrir (max 5)"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "abrircaixa"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra uma caixa usando chaves."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:profile",
+      "name": "profile",
+      "categoryId": "economy",
+      "description": "Xem hồ sơ kinh tế của bạn.",
+      "details": "Hiển thị hồ sơ kinh tế. Tham số người dùng tùy chọn chọn hồ sơ để xem.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/profile",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Người dùng để xem",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para visualizar"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "perfil"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja seu perfil de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:reputation",
+      "name": "reputation",
+      "categoryId": "economy",
+      "description": "Trao danh tiếng cho người dùng khác.",
+      "details": "Gán danh tiếng cho người dùng được chọn trong đối số người dùng cần thiết.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/reputation user:<user>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Người dùng để tạo uy tín",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para receber reputacao"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "reputacao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Dê reputacao para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:scout",
+      "name": "scout",
+      "categoryId": "economy",
+      "description": "Mở banner nổi bật Stable Crate .",
+      "details": "Mở trực tiếp banner Stable Crate nổi bật. Đối với trung tâm chính Stable Crate , hãy sử dụng `/gacha`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/scout",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "scout"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra diretamente o banner em destaque do Stable Crate."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:sell",
+      "name": "sell",
+      "categoryId": "economy",
+      "description": "Bán một món hàng ra thị trường.",
+      "details": "Bán một mặt hàng thị trường được chọn theo tên. Số tiền tùy chọn chỉ định số lượng bán; sử dụng tự động hoàn thành để chọn mặt hàng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/sell item:<item>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Tên sản phẩm",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Nome do item"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Số lượng cần bán",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para vender"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "vender"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Venda um item no mercado."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:shop",
+      "name": "shop",
+      "categoryId": "economy",
+      "description": "Duyệt các danh mục và mặt hàng trong cửa hàng.",
+      "details": "Mở cửa hàng và duyệt các danh mục, mặt hàng của nó. Để mua trực tiếp mặt hàng theo tên, hãy sử dụng `/buy`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/shop",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "loja"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja categorias e itens da loja."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:stats",
+      "name": "stats",
+      "categoryId": "economy",
+      "description": "Xem thống kê kinh tế của bạn.",
+      "details": "Hiển thị thống kê kinh tế của bạn. Lệnh này không yêu cầu thêm đối số người dùng hoặc bộ lọc.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/stats",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "estatisticas"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Veja suas estatisticas de economia."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:transfer",
+      "name": "transfer",
+      "categoryId": "economy",
+      "description": "Chuyển tiền cho người dùng khác.",
+      "details": "Chuyển tiền tệ đến người dùng đã chọn. Cả người nhận và số tiền đều bắt buộc; kiểm tra chúng trước khi gửi lệnh.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/transfer user:<user> amount:<amount>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Người dùng để chuyển đến",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "usuario"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Usuario para transferir"
+          },
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "Số tiền cần chuyển",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "quantidade"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Quantidade para transferir"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "transferir"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Transfira moedas para outro usuario."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:unequip",
+      "name": "unequip",
+      "categoryId": "economy",
+      "description": "Tháo bỏ khe dụng cụ.",
+      "details": "Loại bỏ công cụ đã trang bị khỏi một khe đã chọn. Tham số khe đề cập đến khe cuốc, rìu, thanh hoặc cờ lê thay vì một vật phẩm kho tùy ý.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/unequip item:<item>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 3,
+          "description": "Khe dụng cụ: cuốc, rìu, thanh gỗ, cờ lê",
+          "required": true,
+          "autocomplete": true,
+          "nameLocalizations": {
+            "pt-BR": "slot"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Slot da ferramenta: picareta, machado, vara, chave"
+          },
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "desequipar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Desequipe um slot de ferramenta."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:use",
+      "name": "use",
+      "categoryId": "economy",
+      "description": "Sử dụng vật phẩm tiêu hao.",
+      "details": "Chạy `/use item` với vật phẩm tiêu hao được chọn theo tên. Số lượng tùy chọn áp dụng khi vật phẩm hỗ trợ sử dụng nhiều đơn vị. Vật phẩm phải có thể sử dụng và có trong kho của bạn. Phiếu chọn Huy hiệu SR được sử dụng từng cái một và mở bảng chọn huy hiệu.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/use item item:<item>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "item",
+          "type": 1,
+          "description": "Sử dụng vật phẩm tiêu hao.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "item"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Use um item consumivel."
+          },
+          "choices": [],
+          "options": [
+            {
+              "name": "item",
+              "type": 3,
+              "description": "Tên sản phẩm",
+              "required": true,
+              "autocomplete": true,
+              "nameLocalizations": {
+                "pt-BR": "item"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Nome do item"
+              },
+              "choices": [],
+              "options": []
+            },
+            {
+              "name": "amount",
+              "type": 4,
+              "description": "Số lượng cần sử dụng (nếu được hỗ trợ)",
+              "required": false,
+              "autocomplete": false,
+              "nameLocalizations": {
+                "pt-BR": "quantidade"
+              },
+              "descriptionLocalizations": {
+                "pt-BR": "Quantidade para usar (se suportado)"
+              },
+              "choices": [],
+              "options": []
+            }
+          ]
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "usar"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Use itens consumiveis."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:workbench",
+      "name": "workbench",
+      "categoryId": "economy",
+      "description": "Mở hub bàn làm việc của bạn.",
+      "details": "Mở trung tâm bàn làm việc và sử dụng các điều khiển tương tác của nó cho các hoạt động trên bàn làm việc.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/workbench",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "workbench"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Abra o hub da bancada de trabalho."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:create",
+      "name": "create",
+      "categoryId": "management",
+      "description": "Quản lý: Truy cập các công cụ sáng tạo để quản lý máy chủ",
+      "details": "Chạy `/create menu` để mở các công cụ sáng tạo cho quản lý máy chủ. Menu cung cấp các luồng như Embed Creator, Forum Creator và vai trò phản ứng. Lệnh yêu cầu Quản lý Tin nhắn; cài đặt nâng cao có thể yêu cầu quyền bổ sung.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/create menu",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "menu",
+          "type": 1,
+          "description": "Mở menu của người sáng tạo",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [
+        "ManageMessages"
+      ],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:guess",
+      "name": "guess",
+      "categoryId": "minigames",
+      "description": "Bắt đầu một vòng chơi đoán mới trong kênh đoán đã cấu hình",
+      "details": "Bắt đầu vòng đoán trò chơi trong kênh đoán đã cấu hình. Cấu hình trò chơi qua `/minigames` trước khi bắt đầu vòng chơi.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/guess",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:leaderboard",
+      "name": "leaderboard",
+      "categoryId": "minigames",
+      "description": "Hiển thị bảng xếp hạng máy chủ",
+      "details": "Hiển thị bảng xếp hạng máy chủ. Để cấu hình trò chơi và bắt đầu một vòng, hãy sử dụng `/minigames` và `/guess` tương ứng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/leaderboard",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:news",
+      "name": "news",
+      "categoryId": "uma",
+      "description": "Nhận 10 tin tức Uma Musume mới nhất",
+      "details": "Hiển thị mười tin tức Uma Musume mới nhất có sẵn cho bot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/news",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:newsupdate",
+      "name": "newsupdate",
+      "categoryId": "uma",
+      "description": "Làm mới bộ nhớ Uma Musume tin tức với các bài viết mới nhất — bạn có thể giúp giữ cho nó luôn được cập nhật!",
+      "details": "Làm mới bộ nhớ đệm tin tức Uma Musume với các bài đăng mới nhất. Sử dụng `/news` để đọc tin tức sau khi làm mới.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/newsupdate",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umacards",
+      "name": "umacards",
+      "categoryId": "uma",
+      "description": "Xem Uma Musume Thẻ Hỗ Trợ",
+      "details": "Duyệt Uma Musume Thẻ Hỗ Trợ. Tìm kiếm tùy chọn chấp nhận tên ký tự tiếng Anh hoặc tiếng Nhật hoặc ID thẻ. Không tìm kiếm, bot sẽ mở trình duyệt thẻ. Các cấp độ dao động từ 1 đến 50; bot sẽ chọn cấp độ được hỗ trợ gần nhất khi cần. Các cấp độ được hỗ trợ là 1, 5, 10, 15, 20, 25, 30, 35, 40, 45 và 50.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umacards",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "search",
+          "type": 3,
+          "description": "Tìm kiếm theo tên nhân vật (EN/JP) hoặc ID thẻ",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "level",
+          "type": 4,
+          "description": "Cấp độ thẻ (1-50)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": [],
+          "min_value": 1,
+          "max_value": 50
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaid",
+      "name": "umaid",
+      "categoryId": "uma",
+      "description": "Tìm kiếm Uma Musume ký tự theo ID",
+      "details": "Tìm kiếm ký tự Uma Musume bằng ID ký tự yêu cầu. Để tìm kiếm bằng tên tiếng Anh hoặc tiếng Nhật, hãy sử dụng `/umaname`.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaid character_id:<character_id>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_id",
+          "type": 4,
+          "description": "ID ký tự",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umalist",
+      "name": "umalist",
+      "categoryId": "uma",
+      "description": "Liệt kê tất cả các nhân vật Uma Musume",
+      "details": "Liệt kê các Uma Musume nhân vật có sẵn cho bot. Sử dụng `/umaid` hoặc `/umaname` để tìm kiếm nhân vật trực tiếp.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umalist",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:umaname",
+      "name": "umaname",
+      "categoryId": "uma",
+      "description": "Tìm kiếm Uma Musume nhân vật theo tên",
+      "details": "Tìm kiếm ký tự Uma Musume bằng tên tiếng Anh hoặc tiếng Nhật. Tên là bắt buộc; sử dụng `/umaid` khi bạn biết ID ký tự.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/umaname character_name:<character_name>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "character_name",
+          "type": 3,
+          "description": "Tên nhân vật (tiếng Anh hoặc tiếng Nhật)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": true,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:afk",
+      "name": "afk",
+      "categoryId": "utility",
+      "description": "Đặt trạng thái AFK với lý do tùy chọn.",
+      "details": "Đặt trạng thái AFK của bạn trên máy chủ. Lý do là tùy chọn và cho phép bạn giải thích lý do bạn vắng mặt.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/afk",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "Tại sao bạn lại đi xa.",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "motivo"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Por que você vai ficar ausente."
+          },
+          "choices": [],
+          "options": [],
+          "max_length": 200
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "afk"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Ative seu AFK com um motivo opcional."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:avatar",
+      "name": "avatar",
+      "categoryId": "utility",
+      "description": "Lấy avatar của người dùng",
+      "details": "Hiển thị avatar người dùng Discord. Tham số user tùy chọn chọn người dùng mục tiêu.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/avatar",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Người dùng mục tiêu",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:bug",
+      "name": "bug",
+      "categoryId": "utility",
+      "description": "Báo cáo lỗi cho nhóm.",
+      "details": "Gửi báo cáo lỗi cho nhóm bằng cách sử dụng đối số thông điệp cần thiết. Mô tả những gì đã xảy ra và các bước dẫn đến sự cố.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/bug message:<message>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "Mô tả lỗi.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Descreva o bug."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "bug"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Reporte um bug para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:clone",
+      "name": "clone",
+      "categoryId": "utility",
+      "description": "Nhân bản emoji và sticker sang máy chủ khác (nguồn có thể thay đổi)",
+      "details": "Mở luồng sao chép emoji và sticker từ máy chủ. Chọn nguồn và đích thông qua luồng tương tác; nguồn có thể được thay đổi.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/clone",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:emoji",
+      "name": "emoji",
+      "categoryId": "utility",
+      "description": "Phóng to emoji tùy chỉnh và xem chi tiết của nó",
+      "details": "Phóng to emoji Discord tùy chỉnh và hiển thị chi tiết của nó. Dán emoji tùy chỉnh vào đối số emoji cần thiết.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/emoji emoji:<emoji>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "emoji",
+          "type": 3,
+          "description": "Biểu tượng cảm xúc tùy chỉnh để phóng to (dán tại đây)",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:help",
+      "name": "help",
+      "categoryId": "utility",
+      "description": "Hiển thị thông tin trợ giúp",
+      "details": "Mở thông tin trợ giúp của bot để khám phá các lệnh và danh mục của chúng.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/help",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:inbox",
+      "name": "inbox",
+      "categoryId": "utility",
+      "description": "Kiểm tra hộp thư của bạn để xem tin nhắn từ chủ chuột lang của tôi",
+      "details": "Mở hộp thư đến để đọc các tin nhắn do chủ bot gửi.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/inbox",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:launcher",
+      "name": "launcher",
+      "categoryId": "utility",
+      "description": "Nhận liên kết trực tiếp để bắt đầu hoạt động Agnes .",
+      "details": "Nhận liên kết trực tiếp để bắt đầu hoạt động Agnes Discord.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/launcher",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:ping",
+      "name": "ping",
+      "categoryId": "utility",
+      "description": "Kiểm tra độ trễ và thời gian phản hồi của bot",
+      "details": "Hiển thị thông tin độ trễ và thời gian phản hồi của bot. Lệnh này không nhận thêm đối số.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/ping",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:serverinfo",
+      "name": "serverinfo",
+      "categoryId": "utility",
+      "description": "Nhận thông tin chi tiết về một máy chủ",
+      "details": "Hiển thị thông tin về một máy chủ. Các trường tìm kiếm tùy chọn chấp nhận ID máy chủ hoặc tên máy chủ một phần và có thể tìm kiếm vượt ra ngoài máy chủ hiện tại.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/serverinfo",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "server_id",
+          "type": 3,
+          "description": "ID máy chủ để lấy thông tin (tìm kiếm toàn cầu)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "server_name",
+          "type": 3,
+          "description": "Tên máy chủ cần tìm kiếm (tìm kiếm toàn cục, khớp một phần)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:status",
+      "name": "status",
+      "categoryId": "utility",
+      "description": "Lấy trạng thái bot và thông tin hệ thống",
+      "details": "Hiển thị trạng thái bot và thông tin hệ thống có sẵn qua lệnh.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/status",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:suggest",
+      "name": "suggest",
+      "categoryId": "utility",
+      "description": "Gửi đề xuất đến nhóm.",
+      "details": "Gửi đề xuất đến nhóm bằng cách sử dụng đối số thông điệp cần thiết. Giải thích thay đổi đề xuất và cách nó sẽ giúp ích.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/suggest message:<message>",
+          "explanation": "Thay thế các giá trị trong dấu ngoặc vuông bằng các lựa chọn của bạn trước khi chạy lệnh này."
+        }
+      ],
+      "options": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "Đề xuất của bạn.",
+          "required": true,
+          "autocomplete": false,
+          "nameLocalizations": {
+            "pt-BR": "mensagem"
+          },
+          "descriptionLocalizations": {
+            "pt-BR": "Sua sugestão."
+          },
+          "choices": [],
+          "options": [],
+          "min_length": 1,
+          "max_length": 1000
+        }
+      ],
+      "permissions": [],
+      "dmPermission": false,
+      "contexts": null,
+      "nameLocalizations": {
+        "pt-BR": "sugestao"
+      },
+      "descriptionLocalizations": {
+        "pt-BR": "Envie uma sugestão para a equipe."
+      },
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:support",
+      "name": "support",
+      "categoryId": "utility",
+      "description": "Nhận thông tin máy chủ hỗ trợ và liên hệ",
+      "details": "Hiển thị máy chủ hỗ trợ và thông tin liên hệ để nhận trợ giúp với Agnes.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/support",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:userinfo",
+      "name": "userinfo",
+      "categoryId": "utility",
+      "description": "Nhận thông tin chi tiết về người dùng",
+      "details": "Hiển thị thông tin về người dùng Discord. Chọn một thành viên của máy chủ hiện tại hoặc tìm kiếm toàn cục theo ID người dùng hoặc tên người dùng một phần sử dụng các đối số tùy chọn.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/userinfo",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "Người dùng mục tiêu (từ máy chủ hiện tại)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "user_id",
+          "type": 3,
+          "description": "ID người dùng cần tìm kiếm (tìm kiếm toàn cầu)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        },
+        {
+          "name": "username",
+          "type": 3,
+          "description": "Tên người dùng cần tìm kiếm (tìm kiếm toàn cục, khớp một phần)",
+          "required": false,
+          "autocomplete": false,
+          "nameLocalizations": {},
+          "descriptionLocalizations": {},
+          "choices": [],
+          "options": []
+        }
+      ],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    },
+    {
+      "id": "slash:vote",
+      "name": "vote",
+      "categoryId": "utility",
+      "description": "Kiểm tra trạng thái bình chọn và nhận phần thưởng.",
+      "details": "Mở bảng trạng thái bình chọn và phần thưởng của bạn. Các nền tảng bình chọn có sẵn phụ thuộc vào cấu hình bot.",
+      "requirements": [],
+      "notes": [],
+      "examples": [
+        {
+          "command": "/vote",
+          "explanation": "Chạy lệnh này để mở chế độ xem hoặc thực hiện hành động đã mô tả ở trên."
+        }
+      ],
+      "options": [],
+      "permissions": [],
+      "dmPermission": null,
+      "contexts": null,
+      "nameLocalizations": {},
+      "descriptionLocalizations": {},
+      "documentationStatus": "reviewed"
+    }
+  ],
+  "translationStatus": "complete",
+  "translationCoverage": 1,
+  "version": "5f76dd2713e06a8404734834a01333250e36782eb1be78dfd4169c64374b6463",
+  "generatedAt": "2026-10-06T16:31:03.519Z",
+  "locale": "vi"
+}
